@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareLoop · Community Canteen Preview</title>
+  <style>
+    :root {
+      --paper: #f8f5ed;
+      --paper-2: #fffdf8;
+      --ink: #193b3b;
+      --muted: #6f7f7a;
+      --teal: #0f6864;
+      --teal-dark: #084d4d;
+      --coral: #dd5b47;
+      --yellow: #f2c45a;
+      --mint: #dceee5;
+      --line: #d9e2da;
+      --shadow: 0 18px 50px rgba(28, 60, 57, .10);
+      --radius-xl: 30px;
+      --radius-lg: 22px;
+      --radius-md: 16px;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-width: 320px;
+      color: var(--ink);
+      background: radial-gradient(circle at 80% 0%, #fff8e4 0, transparent 34%), var(--paper);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+      font-size: 18px;
+    }
+    button, input { font: inherit; }
+    button { cursor: pointer; border: 0; }
+    .app-shell { max-width: 1500px; margin: auto; padding: 22px 28px 42px; }
+    .topbar { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 24px; }
+    .brand { display: flex; align-items: center; gap: 14px; }
+    .brand-mark { display: grid; place-items: center; width: 54px; height: 54px; border-radius: 18px; background: var(--teal); color: white; font-size: 28px; box-shadow: 0 8px 20px rgba(15, 104, 100, .25); }
+    .brand h1 { margin: 0; font-size: 30px; letter-spacing: -.03em; }
+    .brand p { margin: 2px 0 0; color: var(--muted); font-size: 15px; }
+    .top-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+    .mode-switch { display: flex; gap: 4px; padding: 5px; border: 1px solid var(--line); border-radius: 99px; background: var(--paper-2); box-shadow: var(--shadow); }
+    .mode-switch button { padding: 11px 18px; border-radius: 99px; color: var(--muted); background: transparent; font-weight: 750; font-size: 16px; }
+    .mode-switch button.active { color: white; background: var(--teal); }
+    .icon-btn, .help-btn { min-height: 48px; padding: 0 15px; border-radius: 14px; color: var(--ink); background: var(--paper-2); border: 1px solid var(--line); }
+
+    .hero { display: grid; grid-template-columns: 1.25fr .75fr; gap: 20px; margin-bottom: 20px; }
+    .hero-card { min-height: 180px; padding: 28px; border-radius: var(--radius-xl); color: white; background: linear-gradient(135deg, var(--teal-dark), var(--teal)); box-shadow: var(--shadow); overflow: hidden; position: relative; }
+    .hero-card::after { content: ""; position: absolute; width: 280px; height: 280px; right: -80px; top: -120px; border-radius: 50%; border: 22px solid rgba(255,255,255,.08); }
+    .eyebrow { font-size: 14px; letter-spacing: .08em; text-transform: uppercase; opacity: .76; font-weight: 800; }
+    .hero-card h2 { margin: 12px 0 8px; font-size: clamp(30px, 4vw, 46px); line-height: 1.08; letter-spacing: -.04em; max-width: 690px; }
+    .hero-card p { margin: 0; color: rgba(255,255,255,.78); max-width: 680px; }
+    .mini-status { display: grid; gap: 12px; padding: 24px; border: 1px solid var(--line); border-radius: var(--radius-xl); background: var(--paper-2); box-shadow: var(--shadow); }
+    .mini-status strong { font-size: 26px; }
+    .status-row { display: flex; justify-content: space-between; gap: 14px; color: var(--muted); }
+    .status-row b { color: var(--ink); }
+
+    .dashboard { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(330px, .65fr); gap: 20px; }
+    .left-stack, .right-stack { display: grid; gap: 20px; align-content: start; }
+    .card { padding: 22px; border: 1px solid var(--line); border-radius: var(--radius-xl); background: rgba(255,253,248,.9); box-shadow: var(--shadow); }
+    .card-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 15px; margin-bottom: 18px; }
+    .card h3 { margin: 0; font-size: 24px; letter-spacing: -.025em; }
+    .card-subtitle { margin: 5px 0 0; color: var(--muted); font-size: 16px; }
+    .pill { display: inline-flex; align-items: center; gap: 6px; min-height: 34px; padding: 5px 12px; border-radius: 99px; color: var(--teal-dark); background: var(--mint); font-size: 14px; font-weight: 800; white-space: nowrap; }
+    .pill.coral { color: #9c3428; background: #fde1d9; }
+    .pill.yellow { color: #79580b; background: #fff0bb; }
+    .health-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 11px; }
+    .health-chip { padding: 16px 11px; border: 2px solid transparent; border-radius: 18px; color: var(--ink); background: #f2f6ef; text-align: left; transition: .2s ease; }
+    .health-chip:hover, .health-chip.selected { border-color: var(--teal); background: var(--mint); transform: translateY(-2px); }
+    .health-chip .emoji { display: block; font-size: 27px; margin-bottom: 7px; }
+    .health-chip b { display: block; font-size: 16px; }
+    .health-chip span { color: var(--muted); font-size: 13px; }
+    .recommendation { display: grid; grid-template-columns: 1fr auto; gap: 14px; align-items: center; margin-top: 16px; padding: 18px; border-radius: 18px; background: linear-gradient(115deg, #fff1bf, #fffaf0); }
+    .recommendation h4 { margin: 0 0 5px; font-size: 20px; }
+    .recommendation p { margin: 0; color: var(--muted); font-size: 15px; }
+    .primary-btn, .secondary-btn, .danger-btn { min-height: 52px; padding: 0 20px; border-radius: 15px; font-weight: 800; transition: transform .2s ease, box-shadow .2s ease, background .2s ease; }
+    .primary-btn { color: white; background: var(--teal); box-shadow: 0 10px 20px rgba(15,104,100,.2); }
+    .primary-btn:hover, .voice-btn:hover { transform: translateY(-2px); box-shadow: 0 14px 26px rgba(15,104,100,.28); }
+    .secondary-btn { color: var(--teal-dark); background: #e7f1e9; }
+    .danger-btn { color: white; background: var(--coral); }
+    .btn-row { display: flex; flex-wrap: wrap; gap: 10px; }
+
+    .voice-card { position: relative; min-height: 250px; display: grid; place-items: center; text-align: center; overflow: hidden; background: linear-gradient(145deg, #fffdf8, #e8f3e9); }
+    .voice-card.listening { background: linear-gradient(145deg, #fff5ef, #dceee5); }
+    .voice-orbit { position: absolute; width: 220px; height: 220px; border: 1px solid rgba(15,104,100,.2); border-radius: 50%; }
+    .voice-orbit::before, .voice-orbit::after { content: ""; position: absolute; inset: 18px; border: 1px dashed rgba(15,104,100,.2); border-radius: 50%; }
+    .voice-orbit::after { inset: 42px; }
+    .voice-btn { position: relative; z-index: 1; display: grid; place-items: center; width: 135px; height: 135px; border-radius: 50%; color: white; background: var(--teal); box-shadow: 0 0 0 0 rgba(15,104,100,.36); transition: .2s ease; }
+    .voice-btn::before { content: ""; position: absolute; inset: -14px; border: 2px solid rgba(15,104,100,.38); border-radius: 50%; animation: breathe 2.6s infinite; }
+    .voice-btn.listening { background: var(--coral); box-shadow: 0 0 0 14px rgba(221,91,71,.12); }
+    .voice-btn.listening::before { border-color: rgba(221,91,71,.45); }
+    .voice-icon { font-size: 38px; line-height: 1; }
+    .voice-label { display: block; margin-top: 4px; font-size: 15px; font-weight: 800; }
+    .voice-copy { position: absolute; left: 22px; right: 22px; bottom: 16px; color: var(--muted); font-size: 15px; }
+    @keyframes breathe { 0%,100% { transform: scale(.92); opacity: .45; } 50% { transform: scale(1.15); opacity: .05; } }
+
+    .timeline { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; margin: 6px 0 3px; }
+    .timeline-step { position: relative; text-align: center; color: #9aa7a0; font-size: 13px; }
+    .timeline-step:not(:last-child)::after { content: ""; position: absolute; top: 16px; left: calc(50% + 18px); width: calc(100% - 36px); height: 3px; background: var(--line); }
+    .timeline-step.done:not(:last-child)::after { background: var(--teal); }
+    .timeline-dot { position: relative; z-index: 1; display: grid; place-items: center; width: 32px; height: 32px; margin: 0 auto 8px; border-radius: 50%; color: white; background: #b7c3bb; font-size: 14px; font-weight: 900; }
+    .timeline-step.done, .timeline-step.current { color: var(--teal-dark); font-weight: 800; }
+    .timeline-step.done .timeline-dot, .timeline-step.current .timeline-dot { background: var(--teal); }
+    .timeline-step.current .timeline-dot { box-shadow: 0 0 0 7px rgba(15,104,100,.13); }
+
+    .map-card { min-height: 390px; background: #f2f7ef; overflow: hidden; }
+    .map { position: relative; min-height: 282px; margin: 4px -5px 0; border-radius: 20px; background: repeating-linear-gradient(25deg, transparent 0 38px, rgba(15,104,100,.05) 39px 41px), linear-gradient(135deg, #eef4e9, #e6eee3); overflow: hidden; }
+    .map::before { content: "OPEN KITCHEN"; position: absolute; top: 18px; left: 18px; padding: 10px 12px; border-radius: 10px; color: #88681a; background: #fff0ba; font-size: 12px; font-weight: 900; letter-spacing: .08em; }
+    .map::after { content: "TABLE ZONE"; position: absolute; bottom: 18px; right: 18px; padding: 10px 12px; border-radius: 10px; color: var(--teal-dark); background: var(--mint); font-size: 12px; font-weight: 900; letter-spacing: .08em; }
+    .belt { position: absolute; top: 50%; left: 11%; width: 78%; height: 38px; border: 6px solid var(--teal); border-radius: 99px; transform: rotate(-9deg); background: repeating-linear-gradient(90deg, rgba(255,255,255,.05) 0 24px, rgba(255,255,255,.2) 25px 28px), #286e68; box-shadow: 0 9px 0 rgba(8,77,77,.12); }
+    .belt::before { content: ""; position: absolute; left: 6%; right: 6%; top: 12px; height: 3px; background: repeating-linear-gradient(90deg, #f7d873 0 22px, transparent 23px 36px); animation: beltMove 1s linear infinite; }
+    @keyframes beltMove { to { background-position: 36px 0; } }
+    .kitchen-node, .table-node { position: absolute; z-index: 2; display: grid; place-items: center; width: 58px; height: 58px; border-radius: 17px; font-size: 24px; box-shadow: 0 8px 16px rgba(28,60,57,.14); }
+    .kitchen-node { top: 28%; left: 8%; background: var(--yellow); }
+    .table-node { right: 8%; bottom: 19%; color: white; background: var(--coral); }
+    .table-node span { position: absolute; top: 62px; font-size: 14px; color: var(--ink); font-weight: 900; white-space: nowrap; }
+    .tray { position: absolute; z-index: 3; top: calc(50% - 18px); left: calc(50% - 19px); display: grid; place-items: center; width: 38px; height: 38px; border-radius: 12px; background: white; box-shadow: 0 4px 12px rgba(28,60,57,.25); animation: trayTravel 4.8s ease-in-out infinite; }
+    @keyframes trayTravel { 0% { transform: translate(-130px,-25px) rotate(-10deg); } 50% { transform: translate(0,0) rotate(0); } 100% { transform: translate(125px,25px) rotate(10deg); } }
+    .eta { display: flex; justify-content: space-between; align-items: center; margin-top: 15px; padding: 14px 16px; border-radius: 16px; background: white; }
+    .eta strong { color: var(--coral); font-size: 25px; }
+
+    .order-card { display: grid; gap: 15px; }
+    .order-top { display: flex; justify-content: space-between; gap: 10px; align-items: center; }
+    .order-items { display: grid; gap: 9px; }
+    .order-item { display: flex; justify-content: space-between; gap: 14px; padding-bottom: 9px; border-bottom: 1px dashed var(--line); }
+    .order-item span { color: var(--muted); }
+    .notice { display: flex; gap: 12px; align-items: flex-start; padding: 15px; border-radius: 17px; color: #79580b; background: #fff4cc; font-size: 15px; }
+    .notice strong { display: block; color: var(--ink); margin-bottom: 3px; }
+    .tts { display: inline-flex; align-items: center; gap: 7px; color: var(--teal); font-size: 14px; font-weight: 800; }
+    .pulse-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--coral); box-shadow: 0 0 0 5px rgba(221,91,71,.13); }
+    .done-panel { display: grid; gap: 12px; text-align: center; padding: 20px; border: 2px dashed #cbded0; border-radius: 20px; background: #f3faf3; }
+    .done-panel h4 { margin: 0; font-size: 22px; }
+    .done-panel p { margin: 0; color: var(--muted); font-size: 15px; }
+
+    .mode-child .elder-only { display: none; }
+    .mode-elder .child-only { display: none; }
+    .toast { position: fixed; right: 22px; bottom: 22px; z-index: 20; max-width: 360px; padding: 16px 18px; border-radius: 16px; color: white; background: var(--teal-dark); box-shadow: var(--shadow); transform: translateY(150%); opacity: 0; transition: .35s ease; }
+    .toast.show { transform: translateY(0); opacity: 1; }
+
+    @media (max-width: 1050px) {
+      .dashboard { grid-template-columns: 1fr; }
+      .right-stack { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .map-card { grid-column: span 2; }
+    }
+    @media (max-width: 760px) {
+      body { font-size: 18px; }
+      .app-shell { padding: 16px 14px 30px; }
+      .topbar, .card-header { align-items: flex-start; flex-direction: column; }
+      .top-actions { width: 100%; justify-content: flex-start; }
+      .mode-switch { width: 100%; }
+      .mode-switch button { flex: 1; padding-inline: 8px; }
+      .hero { grid-template-columns: 1fr; }
+      .hero-card { min-height: 210px; padding: 23px; }
+      .health-grid { grid-template-columns: repeat(2, 1fr); }
+      .right-stack { grid-template-columns: 1fr; }
+      .map-card { grid-column: auto; }
+      .timeline { gap: 2px; }
+      .timeline-step { font-size: 11px; }
+      .timeline-step:not(:last-child)::after { left: calc(50% + 15px); width: calc(100% - 30px); }
+      .timeline-dot { width: 29px; height: 29px; }
+      .recommendation { grid-template-columns: 1fr; }
+      .recommendation button { width: 100%; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body class="mode-elder">
+  <main class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">🍲</div>
+        <div><h1>CareLoop</h1><p>社区食堂 · 智能点餐与暖心送餐</p></div>
+      </div>
+      <div class="top-actions">
+        <div class="mode-switch" aria-label="切换使用模式">
+          <button class="active" data-mode="elder">👵 老人自用模式</button>
+          <button data-mode="child">👨‍👩‍👧 子女代点模式</button>
+        </div>
+        <button class="help-btn" id="helpBtn">🤝 工作人员帮助</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-card">
+        <div class="eyebrow">Good afternoon · 2026.08.12</div>
+        <h2 class="elder-only">李阿姨，今天想吃点什么？</h2>
+        <h2 class="child-only">为家人，搭配一份安心好餐</h2>
+        <p class="elder-only">您可以直接说出想吃的菜，也可以请工作人员帮忙。</p>
+        <p class="child-only">选择健康档案，CareLoop 会帮您生成适合长辈的配餐建议。</p>
+      </div>
+      <div class="mini-status">
+        <div class="status-row"><span>当前食堂</span><b>幸福里社区食堂</b></div>
+        <div class="status-row"><span>今日营业</span><b>11:00 — 14:00</b></div>
+        <div class="status-row"><span>当前餐桌</span><b id="currentTable">A12 桌</b></div>
+        <div class="tts"><span class="pulse-dot"></span> 语音播报已开启 · 普通话</div>
+      </div>
+    </section>
+
+    <section class="dashboard">
+      <div class="left-stack">
+        <section class="card child-only">
+          <div class="card-header"><div><h3>健康档案 & AI 配餐</h3><p class="card-subtitle">选择长辈的健康标签，生成专属 Set Menu</p></div><span class="pill">AI 推荐</span></div>
+          <div class="health-grid">
+            <button class="health-chip selected"><span class="emoji">🫀</span><b>高血压</b><span>低盐友好</span></button>
+            <button class="health-chip"><span class="emoji">🌾</span><b>高血糖</b><span>粗粮无糖</span></button>
+            <button class="health-chip"><span class="emoji">🌿</span><b>需要减脂</b><span>低脂均衡</span></button>
+            <button class="health-chip"><span class="emoji">🦷</span><b>牙口不好</b><span>软烂易嚼</span></button>
+          </div>
+          <div class="recommendation"><div><h4>今日推荐 · 清润低盐套餐</h4><p>清蒸鲈鱼 · 山药小米粥 · 时蔬 · 约 520 kcal</p></div><button class="primary-btn" id="addSetMenu">加入套餐 · ¥28</button></div>
+        </section>
+
+        <section class="card voice-card elder-only" id="voiceCard">
+          <div class="voice-orbit"></div>
+          <button class="voice-btn" id="voiceBtn" aria-label="语音点餐"><span class="voice-icon">🎙</span><span class="voice-label">语音点餐</span></button>
+          <div class="voice-copy" id="voiceCopy">点击后请说： “我要一份少盐的红烧肉，送到 A12 桌”</div>
+        </section>
+
+        <section class="card">
+          <div class="card-header"><div><h3>我的订单 · #CL1024</h3><p class="card-subtitle">李阿姨 · A12 桌 · 到店就餐</p></div><span class="pill coral" id="orderPill">制作中</span></div>
+          <div class="timeline" id="timeline">
+            <div class="timeline-step done"><div class="timeline-dot">✓</div>点餐成功</div>
+            <div class="timeline-step current"><div class="timeline-dot">🍳</div>AI 烹饪中</div>
+            <div class="timeline-step"><div class="timeline-dot">▰</div>传送带运输</div>
+            <div class="timeline-step"><div class="timeline-dot">⌂</div>抵达桌面</div>
+            <div class="timeline-step"><div class="timeline-dot">↻</div>自动回收</div>
+          </div>
+        </section>
+
+        <section class="card map-card">
+          <div class="card-header"><div><h3>全自动送餐路线</h3><p class="card-subtitle">开放式厨房 → 传送带 → A12 桌</p></div><span class="pill yellow">ETA <span id="eta">08:32</span></span></div>
+          <div class="map" aria-label="开放式厨房到A12桌的传送带地图">
+            <div class="kitchen-node" title="开放式厨房">🍳</div>
+            <div class="belt"></div>
+            <div class="tray">🍱</div>
+            <div class="table-node">A12<span>您的餐桌</span></div>
+          </div>
+          <div class="eta"><span><span class="pulse-dot"></span> 菜品正在稳稳送来</span><strong id="etaLarge">约 8 分钟</strong></div>
+        </section>
+      </div>
+
+      <aside class="right-stack">
+        <section class="card order-card">
+          <div class="order-top"><h3>本次餐点</h3><span class="pill">2 件</span></div>
+          <div class="order-items">
+            <div class="order-item"><span>红烧肉 × 1<br><small>不加姜 · 少盐</small></span><b>¥18</b></div>
+            <div class="order-item"><span>小米粥 × 1<br><small>温热 · 易咀嚼</small></span><b>¥6</b></div>
+          </div>
+          <div class="status-row"><span>合计</span><b>¥24</b></div>
+          <div class="notice"><span>⚠</span><div><strong>健康提示</strong>已根据“高血压”档案自动应用少盐偏好。</div></div>
+        </section>
+
+        <section class="card">
+          <div class="card-header"><div><h3>听觉反馈</h3><p class="card-subtitle">让您知道系统正在听、正在做</p></div><span class="tts"><span class="pulse-dot"></span> TTS</span></div>
+          <div class="btn-row"><button class="secondary-btn" id="replayBtn">🔊 再播报一次</button><button class="secondary-btn" id="languageBtn">普通话⌄</button></div>
+        </section>
+
+        <section class="card done-panel">
+          <h4>吃完了吗？</h4><p>按一下，系统会自动回收托盘并安排桌面洗消。</p>
+          <button class="danger-btn" id="finishBtn">✓ 用餐完毕 · 回收餐盘</button>
+        </section>
+      </aside>
+    </section>
+  </main>
+  <div class="toast" id="toast" role="status"></div>
+
+  <script>
+    const body = document.body;
+    const toast = document.getElementById('toast');
+    const voiceBtn = document.getElementById('voiceBtn');
+    const voiceCard = document.getElementById('voiceCard');
+    const voiceCopy = document.getElementById('voiceCopy');
+    let toastTimer;
+    function showToast(message) {
+      toast.textContent = message;
+      toast.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => toast.classList.remove('show'), 3200);
+    }
+
+    document.querySelectorAll('[data-mode]').forEach((button) => {
+      button.addEventListener('click', () => {
+        document.querySelectorAll('[data-mode]').forEach((item) => item.classList.remove('active'));
+        button.classList.add('active');
+        const childMode = button.dataset.mode === 'child';
+        body.classList.toggle('mode-child', childMode);
+        body.classList.toggle('mode-elder', !childMode);
+        showToast(childMode ? '已切换到子女代点模式 · 正在为李阿姨配餐' : '已切换到老人自用模式 · 可以开始语音点餐');
+      });
+    });
+
+    document.querySelectorAll('.health-chip').forEach((chip) => chip.addEventListener('click', () => {
+      document.querySelectorAll('.health-chip').forEach((item) => item.classList.remove('selected'));
+      chip.classList.add('selected');
+      showToast(`已更新健康标签：${chip.querySelector('b').textContent}`);
+    }));
+
+    voiceBtn.addEventListener('click', () => {
+      const listening = voiceBtn.classList.toggle('listening');
+      voiceCard.classList.toggle('listening', listening);
+      voiceCopy.textContent = listening ? '正在听，请慢慢说完；再次点击即可完成识别' : '已识别：一份少盐红烧肉，送到 A12 桌 · 请确认';
+      voiceBtn.querySelector('.voice-icon').textContent = listening ? '◼' : '🎙';
+      voiceBtn.querySelector('.voice-label').textContent = listening ? '正在聆听' : '确认语音';
+      if (!listening) showToast('已识别您的需求，请确认订单内容');
+    });
+
+    document.getElementById('addSetMenu').addEventListener('click', () => showToast('清润低盐套餐已加入订单 · 当前桌号 A12'));
+    document.getElementById('helpBtn').addEventListener('click', () => showToast('工作人员已收到请求，马上来帮助您')); 
+    document.getElementById('replayBtn').addEventListener('click', () => showToast('正在播报：您的餐点预计 8 分钟后送达 A12 桌'));
+    document.getElementById('languageBtn').addEventListener('click', (event) => {
+      const languages = ['普通话⌄', '粤语⌄', 'English⌄'];
+      const current = languages.indexOf(event.currentTarget.textContent);
+      event.currentTarget.textContent = languages[(current + 1) % languages.length];
+      showToast(`语音语言已切换为 ${event.currentTarget.textContent.replace('⌄', '')}`);
+    });
+
+    document.getElementById('finishBtn').addEventListener('click', () => {
+      document.getElementById('orderPill').textContent = '回收中';
+      document.getElementById('orderPill').className = 'pill yellow';
+      document.getElementById('eta').textContent = '完成';
+      document.getElementById('etaLarge').textContent = '正在回收';
+      document.querySelector('.belt').style.animation = 'none';
+      showToast('用餐完成 · 传送带正在回收餐盘，桌面洗消已安排');
+    });
+  </script>
+</body>
+</html>
