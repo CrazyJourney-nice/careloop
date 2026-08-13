@@ -1,0 +1,56 @@
+{
+  "name": "careloop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:unit": "vitest run",
+    "test:integration": "vitest run src/integration",
+    "test:e2e": "playwright test",
+    "test:ui": "playwright test --ui",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "start": "ts-node src/api/index.ts",
+    "dev:api": "ts-node-dev src/api/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrazyJourney-nice/careloop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/CrazyJourney-nice/careloop/issues"
+  },
+  "homepage": "https://github.com/CrazyJourney-nice/careloop#readme",
+  "dependencies": {
+    "@playwright/test": "^1.62.1",
+    "vitest": "^4.1.10",
+    "zod": "^3.23.8",
+    "uuid": "^10.0.0",
+    "dayjs": "^1.11.13",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vite": "^6.0.0",
+    "vite-tsconfig-paths": "^5.0.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "@types/node": "^22.0.0",
+    "@types/uuid": "^10.0.0",
+    "@types/ws": "^8.5.12",
+    "@types/dayjs": "^1.6.0"
+  }
+}
