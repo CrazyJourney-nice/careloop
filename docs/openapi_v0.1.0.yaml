@@ -1,0 +1,18 @@
+openapi: 3.0.3
+info:
+  title: CareLoop Demo API
+  version: 0.1.0
+servers:
+  - url: http://localhost:3000/api
+paths:
+  /health: { get: { responses: { '200': { description: OK } } } }
+  /canteens/CAN001/menu: { get: { responses: { '200': { description: Menu } } } }
+  /canteens/CAN001/tables: { get: { responses: { '200': { description: Tables } } } }
+  /orders/preview: { post: { responses: { '200': { description: Validated order preview }, '400': { description: Validation error } } } }
+  /orders: { get: { responses: { '200': { description: Orders } } }, post: { responses: { '201': { description: Created order }, '400': { description: Validation error } } } }
+  /orders/{id}/confirm: { post: { parameters: [{ in: path, name: id, required: true, schema: { type: string } }], responses: { '200': { description: Confirmed order } } } }
+  /orders/{id}/reject: { post: { responses: { '200': { description: Rejected order } } } }
+  /orders/{id}/cancel: { post: { responses: { '200': { description: Cancelled order } } } }
+  /orders/voice-preview: { post: { responses: { '200': { description: Structured intent preview } } } }
+  /kitchen/tasks: { get: { responses: { '200': { description: Kitchen tasks } } } }
+  /conveyor/tasks: { get: { responses: { '200': { description: Conveyor tasks } } } }

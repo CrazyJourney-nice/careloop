@@ -1,308 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CareLoop - 智能社区食堂点餐系统</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>CareLoop v0.1.0</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap');
-    body { font-family: 'Noto Sans SC', sans-serif; }
-    .order-card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
-    .order-card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1); }
-    .status-dot { animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite; }
-    @keyframes ping { 75%, 100% { transform: scale(2); opacity: 0; } }
+    :root{--ink:#193b3b;--muted:#60736e;--paper:#f7f4ec;--card:#fffdf8;--teal:#0f6864;--mint:#dceee5;--coral:#d85b49;--yellow:#f2c45a;--line:#d8e3dc}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.5 system-ui,-apple-system,"Noto Sans SC",sans-serif}button,input,select{font:inherit}button{min-height:56px;border:0;border-radius:16px;padding:0 20px;cursor:pointer;font-weight:700}.app{max-width:1500px;margin:auto;padding:24px}.top{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:20px}.brand{display:flex;gap:14px;align-items:center}.logo{display:grid;place-items:center;width:60px;height:60px;border-radius:20px;background:var(--teal);color:white;font-size:32px}.brand h1{margin:0;font-size:32px}.brand p{margin:0;color:var(--muted)}.modes{display:flex;gap:8px;flex-wrap:wrap}.modes button{background:white;border:2px solid var(--line)}.modes button.active{background:var(--teal);color:white}.grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:0 8px 22px #193b3b0d}.card h2,.card h3{margin-top:0}.menu{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.dish{display:flex;justify-content:space-between;align-items:center;gap:12px;border:2px solid var(--line);background:white;padding:16px;border-radius:18px}.dish button,.primary{background:var(--teal);color:white}.secondary{background:var(--mint);color:var(--ink)}.danger{background:#ffe1da;color:#8d2e22}.table-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.table{background:white;border:2px solid var(--line);padding:12px;border-radius:14px;text-align:center;min-height:72px}.table.selected{border-color:var(--teal);background:var(--mint)}.order-line,.task{display:flex;justify-content:space-between;gap:12px;align-items:center;border-bottom:1px solid var(--line);padding:12px 0}.total{font-size:28px;font-weight:800;color:var(--teal)}.voice{display:grid;gap:12px}.voice textarea{width:100%;min-height:90px;border:2px solid var(--line);border-radius:16px;padding:14px}.voice button{background:var(--coral);color:white}.notice{padding:14px;border-radius:16px;background:#fff4cc;color:#74550d}.status{display:inline-block;padding:7px 12px;border-radius:999px;background:var(--mint);font-weight:700}.hidden{display:none}.wide{grid-column:1/-1}.muted{color:var(--muted)}.route{height:100px;border-radius:20px;background:repeating-linear-gradient(90deg,#286e68 0 26px,#3f8980 27px 34px);position:relative;margin:12px 0}.tray{position:absolute;top:25px;left:45%;background:white;padding:10px 14px;border-radius:12px;animation:move 4s infinite alternate ease-in-out}@keyframes move{to{left:78%}}@media(max-width:900px){.app{padding:14px}.grid{grid-template-columns:1fr}.wide{grid-column:auto}.menu{grid-template-columns:1fr}.top{align-items:flex-start;flex-direction:column}.table-grid{grid-template-columns:repeat(3,1fr)}button{min-height:60px}}
   </style>
 </head>
-<body class="bg-gray-50">
-  <div class="flex h-screen">
-    <!-- Sidebar -->
-    <div class="w-72 bg-white border-r border-gray-200 flex flex-col">
-      <div class="p-6 border-b">
-        <div class="flex items-center gap-3">
-          <div class="w-10 h-10 bg-emerald-600 rounded-2xl flex items-center justify-center text-white text-2xl">🍲</div>
-          <div>
-            <h1 class="text-2xl font-bold text-gray-900">CareLoop</h1>
-            <p class="text-xs text-gray-500">试点食堂 v0.1.0</p>
-          </div>
-        </div>
-      </div>
-
-      <nav class="flex-1 p-4 space-y-1">
-        <a href="#" onclick="switchTab(0)" class="nav-link flex items-center gap-3 px-4 py-3 rounded-2xl bg-emerald-50 text-emerald-700 font-medium">
-          <i class="fa-solid fa-house w-5"></i>
-          <span>我的订单</span>
-        </a>
-        <a href="#" onclick="switchTab(1)" class="nav-link flex items-center gap-3 px-4 py-3 rounded-2xl text-gray-600 hover:bg-gray-50">
-          <i class="fa-solid fa-utensils w-5"></i>
-          <span>点餐菜单</span>
-        </a>
-        <a href="#" onclick="switchTab(2)" class="nav-link flex items-center gap-3 px-4 py-3 rounded-2xl text-gray-600 hover:bg-gray-50">
-          <i class="fa-solid fa-table w-5"></i>
-          <span>餐桌管理</span>
-        </a>
-        <a href="#" onclick="switchTab(3)" class="nav-link flex items-center gap-3 px-4 py-3 rounded-2xl text-gray-600 hover:bg-gray-50">
-          <i class="fa-solid fa-kitchen-cabinet w-5"></i>
-          <span>后厨看板</span>
-        </a>
-        <a href="#" onclick="switchTab(4)" class="nav-link flex items-center gap-3 px-4 py-3 rounded-2xl text-gray-600 hover:bg-gray-50">
-          <i class="fa-solid fa-robot w-5"></i>
-          <span>AICAN 模拟</span>
-        </a>
-      </nav>
-
-      <div class="p-4 border-t">
-        <div class="flex items-center gap-3">
-          <div class="w-9 h-9 bg-gray-200 rounded-2xl flex items-center justify-center text-2xl">👴</div>
-          <div class="flex-1">
-            <div class="font-medium text-sm">李阿姨</div>
-            <div class="text-xs text-gray-500">13800139000</div>
-          </div>
-          <button onclick="logout()" class="text-red-500 hover:text-red-600">
-            <i class="fa-solid fa-right-from-bracket"></i>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Main Content -->
-    <div class="flex-1 flex flex-col">
-      <!-- Header -->
-      <header class="h-16 bg-white border-b px-8 flex items-center justify-between">
-        <div class="flex items-center gap-8">
-          <h2 id="page-title" class="text-xl font-semibold text-gray-800">我的订单</h2>
-          <div class="flex gap-6 text-sm">
-            <a onclick="switchTab(0)" class="cursor-pointer text-emerald-600 font-medium">订单详情</a>
-            <a onclick="switchTab(0)" class="cursor-pointer text-gray-400">历史订单</a>
-          </div>
-        </div>
-        
-        <div class="flex items-center gap-6">
-          <div onclick="showVoiceDemo()" class="flex items-center gap-2 bg-emerald-100 hover:bg-emerald-200 px-5 py-2 rounded-2xl cursor-pointer transition-colors">
-            <i class="fa-solid fa-microphone text-emerald-600"></i>
-            <span class="text-sm font-medium text-emerald-700">语音点餐</span>
-          </div>
-          <div class="flex items-center gap-2 bg-blue-100 hover:bg-blue-200 px-5 py-2 rounded-2xl cursor-pointer transition-colors" onclick="openTableMap()">
-            <i class="fa-solid fa-map-location-dot text-blue-600"></i>
-            <span class="text-sm font-medium text-blue-700">实时餐桌地图</span>
-          </div>
-        </div>
-      </header>
-
-      <!-- Content Area -->
-      <div class="flex-1 overflow-auto p-8" id="content-area">
-        <!-- Will be loaded by JS -->
-      </div>
-    </div>
-
-    <!-- Right Sidebar - Order Summary -->
-    <div class="w-80 bg-white border-l border-gray-200 flex flex-col">
-      <div class="p-6 border-b">
-        <div class="flex justify-between items-center">
-          <h3 class="font-semibold text-gray-700">本单总价</h3>
-          <div id="total-price" class="text-3xl font-bold text-emerald-600">¥0.00</div>
-        </div>
-      </div>
-
-      <div class="flex-1 p-6 overflow-auto" id="order-items-list">
-        <!-- Dynamic -->
-      </div>
-
-      <div class="p-6 border-t mt-auto">
-        <button onclick="confirmOrder()" 
-                class="w-full py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-3xl text-lg transition-all active:scale-95">
-          确认订单并付款
-        </button>
-        <div class="text-center text-xs text-gray-400 mt-4">支持微信/支付宝/现金</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Voice Demo Modal -->
-  <div id="voice-modal" class="hidden fixed inset-0 bg-black/70 flex items-center justify-center z-50">
-    <div class="bg-white rounded-3xl max-w-md w-full mx-4 overflow-hidden">
-      <div class="p-8 text-center">
-        <div class="mx-auto w-20 h-20 bg-amber-100 rounded-full flex items-center justify-center text-5xl mb-6">🎤</div>
-        <h3 class="text-2xl font-semibold mb-2">语音点餐</h3>
-        <p class="text-gray-500 mb-8">请说出您的需求...</p>
-        
-        <div onclick="startVoiceRecognition()" 
-             class="w-32 h-32 mx-auto bg-red-500 hover:bg-red-600 rounded-full flex items-center justify-center cursor-pointer transition-all active:scale-95 shadow-xl">
-          <i class="fa-solid fa-microphone text-white text-6xl"></i>
-        </div>
-        
-        <div id="voice-result" class="mt-10 text-lg font-medium min-h-[60px] text-gray-600"></div>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    // Tailwind script already loaded via CDN
-    function switchTab(tab) {
-      const titles = ['我的订单', '点餐菜单', '餐桌管理', '后厨看板', 'AICAN 模拟'];
-      document.getElementById('page-title').textContent = titles[tab];
-      loadContent(tab);
-    }
-
-    function loadContent(tab) {
-      const area = document.getElementById('content-area');
-      let html = '';
-      
-      if (tab === 0) { // My Orders
-        html = `
-          <div class="max-w-2xl mx-auto">
-            <div class="bg-white rounded-3xl overflow-hidden shadow">
-              <div class="p-6 border-b flex items-center justify-between">
-                <div>
-                  <div class="font-medium">订单 #CL001-2026-08-14-ABC123</div>
-                  <div class="text-xs text-gray-500">李阿姨 • A12 桌</div>
-                </div>
-                <div class="px-4 py-1 bg-emerald-100 text-emerald-700 text-xs font-medium rounded-2xl">已确认</div>
-              </div>
-              
-              <div class="p-6">
-                <div class="flex gap-6">
-                  <div>
-                    <div class="text-xs text-gray-500">宫保鸡丁 x1</div>
-                    <div class="text-xs text-gray-500">可乐 x2</div>
-                  </div>
-                  <div class="ml-auto text-right">
-                    <div class="font-semibold">¥1,428.00</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        `;
-      } else if (tab === 1) { // Menu
-        html = `
-          <div class="grid grid-cols-2 gap-4">
-            ${['宫保鸡丁','清蒸鱼','红烧肉','酸辣土豆丝','可乐','番茄炒蛋','西兰花炒虾仁','凉拌木耳','椰子水','芒果冰'].map(name => `
-              <div onclick="addToOrder('${name}')" 
-                   class="bg-white rounded-3xl p-6 cursor-pointer hover:shadow-xl transition-all">
-                <div class="h-32 bg-gradient-to-br from-emerald-100 to-teal-100 rounded-2xl flex items-center justify-center text-6xl mb-4">🍛</div>
-                <div class="font-medium">${name}</div>
-                <div class="text-emerald-600 font-semibold">¥5.2</div>
-              </div>
-            `).join('')}
-          </div>
-        `;
-      } else if (tab === 2) { // Tables
-        html = `
-          <div class="grid grid-cols-5 gap-4">
-            ${Array(20).fill(0).map((_, i) => `
-              <div onclick="selectTable(${i+1})" 
-                   class="bg-white rounded-3xl p-6 text-center cursor-pointer hover:border-emerald-300 border border-transparent">
-                <div class="text-4xl mb-3">🪑</div>
-                <div class="font-mono font-bold text-xl">A0${i+1}</div>
-                <div class="text-xs text-emerald-600">空桌</div>
-              </div>
-            `).join('')}
-          </div>
-        `;
-      } else if (tab === 3) { // Kitchen
-        html = `
-          <div class="space-y-4">
-            <div class="bg-white rounded-3xl p-6 flex items-center gap-6">
-              <div class="w-12 h-12 bg-orange-100 rounded-2xl flex items-center justify-center text-3xl">🍛</div>
-              <div class="flex-1">
-                <div class="font-medium">宫保鸡丁 x1</div>
-                <div class="text-sm text-gray-500">订单 #CL001-2026-08-14-ABC123</div>
-              </div>
-              <div class="px-6 py-2 bg-emerald-100 text-emerald-700 text-xs font-medium rounded-2xl">已上菜</div>
-            </div>
-            <div class="bg-white rounded-3xl p-6 flex items-center gap-6">
-              <div class="w-12 h-12 bg-blue-100 rounded-2xl flex items-center justify-center text-3xl">🥢</div>
-              <div class="flex-1">
-                <div class="font-medium">清蒸鱼 x1</div>
-                <div class="text-sm text-gray-500">订单 #CL002-2026-08-14-DEF456</div>
-              </div>
-              <div class="px-6 py-2 bg-emerald-100 text-emerald-700 text-xs font-medium rounded-2xl">制作中</div>
-            </div>
-          </div>
-        `;
-      } else if (tab === 4) { // AICAN
-        html = `
-          <div class="text-center py-20">
-            <div class="inline-flex items-center justify-center w-40 h-40 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full text-white text-7xl mb-8">🤖</div>
-            <h3 class="text-2xl font-semibold mb-2">AICAN 机器人模拟</h3>
-            <p class="text-gray-500">餐桌 A12 订单已分配托盘 12345</p>
-            <div class="mt-12 inline-flex items-center gap-2 bg-white shadow rounded-3xl px-8 py-4">
-              <div class="w-4 h-4 bg-green-500 rounded-full animate-ping"></div>
-              <span class="text-sm font-medium">配送中 → 桌号 A12</span>
-            </div>
-          </div>
-        `;
-      }
-      
-      area.innerHTML = html;
-    }
-
-    let currentOrder = {
-      items: [],
-      total: 0
-    };
-
-    function addToOrder(name) {
-      const prices = { '宫保鸡丁': 6.8, '清蒸鱼': 9.2, '红烧肉': 7.5, '酸辣土豆丝': 4.2, '可乐': 3.8, '番茄炒蛋': 5.2, '西兰花炒虾仁': 8.9, '凉拌木耳': 3.5, '椰子水': 4.2, '芒果冰': 5.2 };
-      const price = prices[name];
-      currentOrder.items.push({ name, price });
-      currentOrder.total = currentOrder.items.reduce((sum, item) => sum + item.price, 0);
-      
-      document.getElementById('total-price').textContent = `¥${currentOrder.total.toFixed(2)}`;
-      const area = document.getElementById('order-items-list');
-      area.innerHTML = currentOrder.items.map(item => `
-        <div class="flex justify-between py-3 border-b last:border-0">
-          <div>${item.name}</div>
-          <div class="font-medium">¥${item.price}</div>
-        </div>
-      `).join('');
-    }
-
-    function confirmOrder() {
-      if (currentOrder.items.length === 0) return alert('请先添加菜品');
-      alert('✅ 订单已提交！支付成功（Demo模式）\n\n订单已进入后厨制作流程');
-      currentOrder = { items: [], total: 0 };
-      document.getElementById('total-price').textContent = '¥0.00';
-      document.getElementById('order-items-list').innerHTML = '';
-    }
-
-    function showVoiceDemo() {
-      document.getElementById('voice-modal').classList.remove('hidden');
-      document.getElementById('voice-result').textContent = '正在聆听...';
-      setTimeout(() => {
-        document.getElementById('voice-result').innerHTML = `
-          <span class="text-emerald-600">宫保鸡丁 x1 + 可乐 x2</span>
-          <div class="text-xs text-gray-400 mt-2">语音识别成功 ✓</div>
-        `;
-        setTimeout(() => {
-          document.getElementById('voice-modal').classList.add('hidden');
-          addToOrder('宫保鸡丁');
-          addToOrder('可乐');
-        }, 800);
-      }, 1800);
-    }
-
-    function openTableMap() {
-      alert('📍 实时餐桌地图已打开\n\n所有餐桌状态已更新\nA12 桌：已占用（您）\nB05 桌：空桌 3 张');
-    }
-
-    function selectTable(num) {
-      alert(`✅ 选中餐桌 A0${num}\n\n订单已分配至此桌号`);
-    }
-
-    function logout() {
-      if (confirm('确定退出系统？')) {
-        window.location.reload();
-      }
-    }
-
-    // Init
-    window.onload = () => {
-      switchTab(0);
-      loadContent(0);
-    };
-  </script>
-</body>
-</html>
+<body><main class="app">
+  <header class="top"><div class="brand"><div class="logo">🍲</div><div><h1>CareLoop</h1><p>社区食堂智能点餐 · v0.1.0 Demo</p></div></div><div class="modes" role="tablist"><button class="active" data-mode="customer">顾客点餐</button><button data-mode="proxy">为他人点餐</button><button data-mode="staff">工作人员</button><button data-mode="kitchen">后厨 / 传送带</button></div></header>
+  <section id="customerView" class="grid">
+    <div class="card"><h2 id="greeting">李阿姨，今天想吃什么？</h2><p class="muted">选择菜品，或使用语音生成订单预览。语音结果必须确认后才会提交。</p><div id="menu" class="menu"></div><h3>选择固定餐桌</h3><div id="tables" class="table-grid"></div></div>
+    <aside class="card"><h2>订单预览</h2><div id="orderLines"><p class="muted">还没有选择菜品</p></div><p>总计 <span id="total" class="total">¥0.00</span></p><label>支付方式 <select id="payment"><option value="CASH">线下现金</option><option value="WECHAT">微信（模拟）</option><option value="ALIPAY">支付宝（模拟）</option></select></label><button id="submit" class="primary" style="width:100%;margin-top:16px">预览并确认订单</button><div id="orderStatus" class="notice hidden" style="margin-top:12px"></div></aside>
+    <div class="card voice wide"><h2>语音点餐</h2><textarea id="voiceText" placeholder="例如：我要一份少盐的红烧肉，送到 A12 桌"></textarea><div><button id="voicePreview">🎙 识别并生成预览</button> <button id="staffHelp" class="secondary">需要工作人员帮助</button></div><div id="voiceResult" class="notice hidden"></div></div>
+  </section>
+  <section id="staffView" class="grid hidden"><div class="card"><h2>工作人员协助台</h2><p>查看识别失败的文本，修正菜品、口味和桌号后提交。</p><div class="notice">当前会话：<b id="staffSession">等待接管</b></div><button id="claim" class="primary" style="margin-top:16px">认领会话</button></div><div class="card"><h2>协助说明</h2><p>工作人员修改后的订单仍需用户确认；未确认的代点订单不会进入后厨。</p><button class="secondary" data-mode="customer">返回顾客端</button></div></section>
+  <section id="kitchenView" class="grid hidden"><div class="card"><h2>后厨任务</h2><div id="kitchenTasks"></div><button id="refreshKitchen" class="secondary">刷新任务</button></div><div class="card"><h2>传送带模拟器</h2><div id="conveyorTasks"></div><div class="route"><div class="tray">🍱 TRAY · A12</div></div><p class="muted">状态由服务端任务推进，配送目标必须是合法桌号。</p></div></section>
+  <section class="card" style="margin-top:18px"><h2>当前订单状态</h2><div id="currentOrder"><p class="muted">尚未创建订单</p></div></section>
+</main><script>
+const state={menu:[],tables:[],items:[],tableId:'TBL-A12',order:null};
+const $=id=>document.getElementById(id); const money=v=>'¥'+(v/100).toFixed(2);
+async function api(path,options={}){const r=await fetch('/api'+path,{headers:{'Content-Type':'application/json'},...options});const d=await r.json();if(!r.ok)throw Error(d.error||'请求失败');return d}
+function renderMenu(){ $('menu').innerHTML=state.menu.map(d=>`<div class="dish"><span><b>${d.name}</b><br><small>${money(d.priceCents)} · ${d.supportedModifiers?.slice(0,3).join('、')||'可选口味'}</small></span><button data-add="${d.id}">加入</button></div>`).join('');document.querySelectorAll('[data-add]').forEach(b=>b.onclick=()=>{const d=state.menu.find(x=>x.id===b.dataset.add);state.items.push({dishId:d.id,dishName:d.name,quantity:1,modifiers:[]});renderOrder()})}
+function renderTables(){ $('tables').innerHTML=state.tables.map(t=>`<button class="table ${state.tableId===t.id?'selected':''}" data-table="${t.id}">${t.tableNumber}<br><small>${t.status==='AVAILABLE'?'空桌':'占用'}</small></button>`).join('');document.querySelectorAll('[data-table]').forEach(b=>b.onclick=()=>{state.tableId=b.dataset.table;renderTables()})}
+function renderOrder(){const total=state.items.reduce((s,i)=>s+(state.menu.find(d=>d.id===i.dishId)?.priceCents||0)*i.quantity,0);$('total').textContent=money(total);$('orderLines').innerHTML=state.items.length?state.items.map((i,n)=>`<div class="order-line"><span>${i.dishName} × ${i.quantity}<br><small>${i.modifiers.join('、')||'默认口味'}</small></span><button class="danger" data-remove="${n}">移除</button></div>`).join(''):'<p class="muted">还没有选择菜品</p>';document.querySelectorAll('[data-remove]').forEach(b=>b.onclick=()=>{state.items.splice(Number(b.dataset.remove),1);renderOrder()})}
+function renderOrderStatus(o){$('currentOrder').innerHTML=`<div class="order-line"><span><b>${o.orderNumber}</b><br>桌号：${state.tables.find(t=>t.id===o.tableId)?.tableNumber||'A12'}</span><span class="status">${o.status}</span></div><p>${o.items.map(i=>`${i.dishNameSnapshot} × ${i.quantity} ${i.modifiers?.join('、')||''}`).join(' · ')}</p>`}
+async function load(){state.menu=await api('/canteens/CAN001/menu');state.tables=await api('/canteens/CAN001/tables');renderMenu();renderTables();renderOrder();const existing=await api('/orders');if(existing.length){state.order=existing[existing.length-1];renderOrderStatus(state.order)}}
+$('voicePreview').onclick=async()=>{try{const d=await api('/orders/voice-preview',{method:'POST',body:JSON.stringify({text:$('voiceText').value,language:'zh-CN'})});$('voiceResult').classList.remove('hidden');$('voiceResult').textContent=`识别结果：${d.intent.intent}，置信度 ${(d.intent.confidence*100).toFixed(0)}%。请检查并点击确认，系统不会自动下单。`;if(d.intent.intent==='ADD_ITEM'){d.intent.items.forEach(i=>{const dish=state.menu.find(x=>x.name===i.dishQuery);if(dish)state.items.push({dishId:dish.id,dishName:dish.name,quantity:i.quantity,modifiers:i.modifiers})});renderOrder()}if('speechSynthesis'in window)speechSynthesis.speak(new SpeechSynthesisUtterance('请检查订单内容后确认'));}catch(e){$('voiceResult').classList.remove('hidden');$('voiceResult').textContent=e.message}}
+$('staffHelp').onclick=async()=>{const d=await api('/staff/sessions',{method:'POST',body:JSON.stringify({transcript:$('voiceText').value})});$('voiceResult').classList.remove('hidden');$('voiceResult').textContent='已提交工作人员协助请求：'+d.id;document.querySelector('[data-mode="staff"]').click()};
+$('claim').onclick=()=>{$('staffSession').textContent='已认领 · 可修改订单';};
+$('submit').onclick=async()=>{try{const preview=await api('/orders/preview',{method:'POST',body:JSON.stringify({items:state.items,tableId:state.tableId})});const ok=confirm(`请确认订单：${preview.items.map(i=>i.dishNameSnapshot+' × '+i.quantity).join('、')}，共 ${money(preview.totalCents)}，${preview.tableNumber}桌`);if(!ok)return;const o=await api('/orders',{method:'POST',body:JSON.stringify({items:state.items,tableId:state.tableId,paymentMethod:$('payment').value,source:'SELF'})});const confirmed=await api('/orders/'+o.id+'/confirm',{method:'POST',body:JSON.stringify({paymentMethod:$('payment').value})});state.order=confirmed;localStorage.setItem('careloop:lastOrder',JSON.stringify(confirmed));renderOrderStatus(confirmed);$('orderStatus').classList.remove('hidden');$('orderStatus').textContent='订单已确认并进入后厨制作。';}catch(e){$('orderStatus').classList.remove('hidden');$('orderStatus').textContent=e.message}};
+async function refreshTasks(){const ks=await api('/kitchen/tasks');$('kitchenTasks').innerHTML=ks.length?ks.map(t=>`<div class="task"><span>${t.id}<br><small>${t.status}</small></span><span>${t.status==='QUEUED'?`<button data-start="${t.id}" class="primary">开始制作</button>`:t.status==='COOKING'?`<button data-complete="${t.id}" class="secondary">制作完成</button>`:t.status}</span></div>`).join(''):'<p class="muted">暂无任务</p>';document.querySelectorAll('[data-start]').forEach(b=>b.onclick=async()=>{await api('/kitchen/tasks/'+b.dataset.start+'/start',{method:'POST'});refreshTasks()});document.querySelectorAll('[data-complete]').forEach(b=>b.onclick=async()=>{await api('/kitchen/tasks/'+b.dataset.complete+'/complete',{method:'POST'});refreshTasks()});const cs=await api('/conveyor/tasks');$('conveyorTasks').innerHTML=cs.length?cs.map(t=>`<div class="task"><span>${t.trayCode} → ${t.tableNumber}<br><small>${t.status}</small></span><span>${t.status==='READY'?`<button class="primary" data-dispatch="${t.id}">开始配送</button>`:t.status==='IN_PROGRESS'?`<button class="secondary" data-deliver="${t.id}">已送达</button>`:t.status}</span></div>`).join(''):'<p class="muted">暂无传送带任务</p>';document.querySelectorAll('[data-dispatch]').forEach(b=>b.onclick=async()=>{await api('/conveyor/tasks/'+b.dataset.dispatch+'/dispatch',{method:'POST'});refreshTasks()});document.querySelectorAll('[data-deliver]').forEach(b=>b.onclick=async()=>{await api('/conveyor/tasks/'+b.dataset.deliver+'/deliver',{method:'POST'});refreshTasks()})}
+document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{document.querySelectorAll('.modes button').forEach(x=>x.classList.remove('active'));b.classList.add('active');const mode=b.dataset.mode;$('customerView').classList.toggle('hidden',mode==='staff'||mode==='kitchen');$('staffView').classList.toggle('hidden',mode!=='staff');$('kitchenView').classList.toggle('hidden',mode!=='kitchen');if(mode==='kitchen')refreshTasks()});load();
+</script></body></html>

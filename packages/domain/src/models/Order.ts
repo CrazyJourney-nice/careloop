@@ -1,9 +1,4 @@
-import { z } from 'zod';
 import { OrderStatus } from './OrderStatus';
-import { User } from './User';
-import { Table } from './Table';
-import { Dish } from './Dish';
-import { Canteen } from './Canteen';
 
 export class Order {
   id: string;
@@ -25,9 +20,9 @@ export class Order {
   statusHistory: OrderStatusHistory[];
 
   constructor(data: Partial<Order> & { items?: OrderItem[] }) {
+    this.canteenId = data.canteenId!;
     this.id = data.id || this.generateOrderId();
     this.orderNumber = data.orderNumber || this.generateOrderNumber();
-    this.canteenId = data.canteenId!;
     this.createdByUserId = data.createdByUserId!;
     this.customerUserId = data.customerUserId!;
     this.payerUserId = data.payerUserId;
@@ -40,7 +35,7 @@ export class Order {
     this.specialInstructions = data.specialInstructions;
     this.createdAt = data.createdAt || new Date();
     this.updatedAt = data.updatedAt || new Date();
-    this.items = data.items || [];
+    this.items = (data.items || []).map(item => item instanceof OrderItem ? item : new OrderItem(item as Partial<OrderItem>));
     this.statusHistory = data.statusHistory || [];
 
     this.validate();
@@ -69,6 +64,10 @@ export class Order {
   }
 
   updateStatus(newStatus: OrderStatus, notes?: string) {
+    const allowed = ALLOWED_TRANSITIONS[this.status] || [];
+    if (!allowed.includes(newStatus)) {
+      throw new Error(`Invalid order transition: ${this.status} -> ${newStatus}`);
+    }
     this.status = newStatus;
     this.updatedAt = new Date();
     this.statusHistory.push({
@@ -157,25 +156,25 @@ export class OrderItem {
 }
 
 export class OrderStatusHistory {
-  status: OrderStatus;
-  timestamp: Date;
-  notes: string;
+  status!: OrderStatus;
+  timestamp!: Date;
+  notes!: string;
 }
 
-export enum OrderStatus {
-  DRAFT = 'DRAFT',
-  PENDING_CONFIRMATION = 'PENDING_CONFIRMATION',
-  CONFIRMED = 'CONFIRMED',
-  PAYMENT_PENDING = 'PAYMENT_PENDING',
-  PAID = 'PAID',
-  PAY_AT_COUNTER = 'PAY_AT_COUNTER',
-  SENT_TO_KITCHEN = 'SENT_TO_KITCHEN',
-  COOKING = 'COOKING',
-  READY_FOR_DELIVERY = 'READY_FOR_DELIVERY',
-  DELIVERING = 'DELIVERING',
-  DELIVERED = 'DELIVERED',
-  COMPLETED = 'COMPLETED',
-  CANCELLED = 'CANCELLED',
-  REJECTED = 'REJECTED',
-  NEEDS_STAFF = 'NEEDS_STAFF'
-}
+const ALLOWED_TRANSITIONS: Record<OrderStatus, OrderStatus[]> = {
+  [OrderStatus.DRAFT]: [OrderStatus.PENDING_CONFIRMATION, OrderStatus.CONFIRMED, OrderStatus.CANCELLED, OrderStatus.NEEDS_STAFF],
+  [OrderStatus.PENDING_CONFIRMATION]: [OrderStatus.CONFIRMED, OrderStatus.REJECTED, OrderStatus.CANCELLED, OrderStatus.NEEDS_STAFF],
+  [OrderStatus.CONFIRMED]: [OrderStatus.PAYMENT_PENDING, OrderStatus.PAID, OrderStatus.PAY_AT_COUNTER, OrderStatus.CANCELLED],
+  [OrderStatus.PAYMENT_PENDING]: [OrderStatus.PAID, OrderStatus.PAY_AT_COUNTER, OrderStatus.CANCELLED],
+  [OrderStatus.PAID]: [OrderStatus.SENT_TO_KITCHEN],
+  [OrderStatus.PAY_AT_COUNTER]: [OrderStatus.SENT_TO_KITCHEN],
+  [OrderStatus.SENT_TO_KITCHEN]: [OrderStatus.COOKING],
+  [OrderStatus.COOKING]: [OrderStatus.READY_FOR_DELIVERY],
+  [OrderStatus.READY_FOR_DELIVERY]: [OrderStatus.DELIVERING],
+  [OrderStatus.DELIVERING]: [OrderStatus.DELIVERED],
+  [OrderStatus.DELIVERED]: [OrderStatus.COMPLETED],
+  [OrderStatus.COMPLETED]: [],
+  [OrderStatus.CANCELLED]: [],
+  [OrderStatus.REJECTED]: [],
+  [OrderStatus.NEEDS_STAFF]: [OrderStatus.DRAFT, OrderStatus.CONFIRMED, OrderStatus.CANCELLED]
+};
