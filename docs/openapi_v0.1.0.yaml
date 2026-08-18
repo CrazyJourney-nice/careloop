@@ -3,7 +3,7 @@ info:
   title: CareLoop Demo API
   version: 0.1.0
 servers:
-  - url: http://localhost:3000/api
+  - url: http://localhost:3100/api
 paths:
   /health: { get: { responses: { '200': { description: OK } } } }
   /canteens/CAN001/menu: { get: { responses: { '200': { description: Menu } } } }

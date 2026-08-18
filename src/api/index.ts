@@ -13,6 +13,7 @@ if (process.env.NODE_ENV !== 'test') {
   const server=http.createServer(app);
   const wss=new WebSocketServer({server,path:'/ws'});
   wss.on('connection',socket=>{addClient(socket);socket.send(JSON.stringify({type:'connected',payload:{version:'0.1.0'}}));});
-  server.listen(Number(process.env.PORT||3000),()=>console.log('CareLoop API running on http://localhost:3000'));
+  const port = Number(process.env.PORT || 3100);
+  server.listen(port,()=>console.log(`CareLoop API running on http://localhost:${port}`));
 }
 export default app;

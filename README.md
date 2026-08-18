@@ -10,7 +10,7 @@ npm run build
 npm run start
 ```
 
-打开 <http://localhost:3000>。后端 API 位于 `/api`，WebSocket 位于 `/ws`。
+打开 <http://localhost:3100>。后端 API 位于 `/api`，WebSocket 位于 `/ws`。
 
 ## 验证
 
@@ -20,5 +20,7 @@ npm run test
 npm run test:integration
 npm run test:e2e
 ```
+
+默认运行端口为 `3100`，也可以通过 `PORT` 环境变量覆盖。
 
 支付、AICAN 和传送带均为 Demo 适配器，不接入真实扣款或物理设备。
