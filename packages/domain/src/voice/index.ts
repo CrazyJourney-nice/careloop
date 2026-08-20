@@ -60,6 +60,32 @@ export function matchDishes(query: string, menu = defaultDishes): MenuCandidate[
   }).filter(candidate => candidate.confidence > 0).sort((a, b) => b.confidence - a.confidence).slice(0, 3);
 }
 
+type DishMention = MenuCandidate & { index: number; end: number };
+function findDishMentions(query: string, menu: string[]): DishMention[] {
+  const mentions: DishMention[] = [];
+  for (const name of menu) {
+    let from = 0;
+    while (from < query.length) {
+      const index = query.indexOf(name, from);
+      if (index < 0) break;
+      mentions.push({ name, confidence: .98, index, end: index + name.length });
+      from = index + name.length;
+    }
+  }
+  for (const [alias, name] of Object.entries(aliases)) {
+    if (!menu.includes(name) || mentions.some(mention => mention.name === name)) continue;
+    let from = 0;
+    while (from < query.length) {
+      const index = query.indexOf(alias, from);
+      if (index < 0) break;
+      const end = index + alias.length;
+      if (!mentions.some(mention => index < mention.end && end > mention.index)) mentions.push({ name, confidence: .72, index, end });
+      from = end;
+    }
+  }
+  return mentions.sort((a, b) => a.index - b.index || b.confidence - a.confidence);
+}
+
 function quantityOf(segment: string) {
   const digit = segment.match(/\d+/)?.[0];
   if (digit) return Math.max(1, Number(digit));
@@ -106,19 +132,24 @@ export class IntentParser {
     const items: OrderIntent['items'] = [];
     const allCandidates: MenuCandidate[] = [];
     for (const segment of segments) {
-      const candidates = matchDishes(segment, menu);
-      allCandidates.push(...candidates);
-      const best = candidates.find(candidate => candidate.confidence >= .65);
-      if (!best) continue;
-      const names = modifierNames(segment);
-      const previous = [...items].reverse().find(item => item.dishQuery === best.name);
-      const isFollowUpModifier = names.length > 0 && !/份|碗|个|来|要一|要两|再/.test(segment) && Boolean(previous);
-      if (isFollowUpModifier) {
-        previous!.modifiers = [...new Set([...previous!.modifiers, ...names])];
-        previous!.modifierProfile = modifiersToProfile(previous!.modifiers);
-        continue;
+      const mentions = findDishMentions(segment, menu);
+      const matches = mentions.length ? mentions : matchDishes(segment, menu).filter(candidate => candidate.confidence >= .65).slice(0, 1).map(candidate => ({ ...candidate, index: 0, end: segment.length }));
+      allCandidates.push(...matches.map(({ name, confidence }) => ({ name, confidence })));
+      let previousEnd = 0;
+      for (const match of matches) {
+        const contextEnd = match === matches[matches.length - 1] ? segment.length : match.end;
+        const context = mentions.length ? segment.slice(previousEnd, contextEnd) : segment;
+        previousEnd = match.end;
+        const names = modifierNames(context);
+        const previous = [...items].reverse().find(item => item.dishQuery === match.name);
+        const isFollowUpModifier = names.length > 0 && !/份|碗|个|来|要一|要两|再/.test(context) && Boolean(previous);
+        if (isFollowUpModifier) {
+          previous!.modifiers = [...new Set([...previous!.modifiers, ...names])];
+          previous!.modifierProfile = modifiersToProfile(previous!.modifiers);
+          continue;
+        }
+        items.push({ dishQuery: match.name, dishName: match.name, quantity: quantityOf(context), modifiers: names, modifierProfile: modifiersToProfile(names) });
       }
-      items.push({ dishQuery: best.name, dishName: best.name, quantity: quantityOf(segment), modifiers: names, modifierProfile: modifiersToProfile(names) });
     }
     const candidates = [...new Map(allCandidates.map(candidate => [candidate.name, candidate])).values()].sort((a, b) => b.confidence - a.confidence).slice(0, 3);
     if (items.length) {
