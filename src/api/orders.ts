@@ -26,7 +26,7 @@ export const voiceSessions = new Map<string, VoiceSession>();
 const idempotentOrders = new Map<string, Order>();
 const parser = new IntentParser();
 
-function emit(type:string,payload:unknown){events.push({type,payload,at:new Date().toISOString()});broadcast(type,payload);}
+export function emit(type:string,payload:unknown){events.push({type,payload,at:new Date().toISOString()});broadcast(type,payload);}
 function seed(){
   const zhang = new User({id:'USR-001',name:'张三',phone:'13800138000',isElder:false});
   const li = new User({id:'USR-002',name:'李阿姨',phone:'13900139000',isElder:true});
@@ -34,8 +34,8 @@ function seed(){
   [zhang,li,staff].forEach(u=>users.set(u.id,u));
   const tableSeed: Array<[string,string]> = [['TBL-A01','A01'],['TBL-A02','A02'],['TBL-A12','A12'],['TBL-B01','B01'],['TBL-B05','B05']];
   tableSeed.forEach(([id,n],i)=>tables.set(id,new Table({id, canteenId:'CAN001',tableNumber:n,capacity:i%2?4:6,area:n[0]})));
-  const data:Array<[string,string,number,string]>=[['DISH-001','宫保鸡丁',680,'MAIN'],['DISH-002','清蒸鱼',920,'MAIN'],['DISH-003','红烧肉',750,'MAIN'],['DISH-004','酸辣土豆丝',420,'SIDE'],['DISH-005','番茄炒蛋',520,'MAIN'],['DISH-006','西兰花炒虾仁',890,'MAIN'],['DISH-007','小米粥',300,'DRINK'],['DISH-008','可乐',380,'DRINK']];
-  data.forEach(([id,name,price,category])=>menuItems.set(id,new MenuItem({id,canteenId:'CAN001',name,description:`${name} Demo 菜品`,priceCents:Number(price),category:category as never,supportedModifiers:['少盐','少油','不辣','不加葱','不加姜']})));
+  const data:Array<[string,string,string,number,string]>=[['DISH-001','宫保鸡丁','Kung Pao chicken',680,'MAIN'],['DISH-002','清蒸鱼','Steamed fish',920,'MAIN'],['DISH-003','红烧肉','Braised pork',750,'MAIN'],['DISH-004','酸辣土豆丝','Hot-and-sour shredded potatoes',420,'SIDE'],['DISH-005','番茄炒蛋','Tomato and egg',520,'MAIN'],['DISH-006','西兰花炒虾仁','Broccoli with shrimp',890,'MAIN'],['DISH-007','小米粥','Millet congee',300,'DRINK'],['DISH-008','可乐','Cola',380,'DRINK']];
+  data.forEach(([id,name,nameEn,price,category])=>menuItems.set(id,new MenuItem({id,canteenId:'CAN001',name,nameEn,description:`${name} Demo 菜品`,descriptionEn:`${nameEn} demo dish`,priceCents:Number(price),category:category as never,supportedModifiers:['少盐','少油','不辣','不加葱','不加姜']})));
   preferences.set('PREF-001',new Preference({id:'PREF-001',userId:'USR-002',type:'HEALTH',name:'少盐',severity:'WARNING',source:'USER'}));
 }
 seed();
@@ -68,7 +68,7 @@ router.get('/users/me/preferences',(_req,res)=>res.json([...preferences.values()
 router.get('/canteens',(_req,res)=>res.json([{id:'CAN001',name:'试点食堂 A',address:'Demo 校园社区食堂',status:'OPEN',operatingHours:'11:00-14:00,17:00-21:00'}]));
 router.get('/canteens/CAN001',(_req,res)=>res.json({id:'CAN001',name:'试点食堂 A',address:'Demo 校园社区食堂',status:'OPEN',latitude:22.3193,longitude:114.1694}));
 router.get('/canteens/CAN001/tables',(_req,res)=>res.json([...tables.values()].map(t=>t.toJSON())));
-router.get('/canteens/CAN001/menu',(_req,res)=>res.json([...menuItems.values()].map(d=>d.toJSON())));
+router.get('/canteens/CAN001/menu',(_req,res)=>res.json([...menuItems.values()].filter(d=>d.available).map(d=>d.toJSON())));
 router.get('/canteens/CAN001/dishes/:dishId',(req,res)=>{const dish=menuItems.get(req.params.dishId);if(!dish)return res.status(404).json({error:'Dish not found'});res.json(dish.toJSON());});
 router.get('/orders',(_req,res)=>res.json([...orders.values()].map(o=>o.toJSON())));
 router.get('/orders/:id',(req,res)=>{try{res.json(getOrder(req.params.id).toJSON());}catch(e:any){res.status(404).json({error:e.message});}});

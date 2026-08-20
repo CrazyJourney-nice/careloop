@@ -10,7 +10,11 @@ npm run build
 npm run start
 ```
 
-打开 <http://localhost:3100>。后端 API 位于 `/api`，WebSocket 位于 `/ws`。
+顾客点餐入口为 <http://localhost:3100>，页面只展示本人点餐和为他人点餐。
+
+工作人员独立工作台为 <http://localhost:3100/staff>，用于处理顾客协助会话、后厨制作和传送带配送。后端 API 位于 `/api`，WebSocket 位于 `/ws`。
+
+统一运营后台为 <http://localhost:3100/admin>，包含运营概览、菜单管理和点单数据管理。后台接口统一位于 `/api/admin`。
 
 ## 验证
 

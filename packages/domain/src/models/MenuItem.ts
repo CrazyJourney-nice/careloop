@@ -4,7 +4,9 @@ export class MenuItem {
   id: string;
   canteenId: string;
   name: string;
+  nameEn?: string;
   description: string;
+  descriptionEn?: string;
   priceCents: number;
   category: 'STARTER' | 'MAIN' | 'SIDE' | 'DRINK' | 'DESSERT' | 'SET';
   available: boolean = true;
@@ -18,7 +20,9 @@ export class MenuItem {
     this.id = data.id || `DISH-${Date.now().toString(36).substring(2)}`;
     this.canteenId = data.canteenId!;
     this.name = data.name!;
+    this.nameEn = data.nameEn;
     this.description = data.description!;
+    this.descriptionEn = data.descriptionEn;
     this.priceCents = data.priceCents!;
     this.category = data.category || 'MAIN';
     this.available = data.available !== undefined ? data.available : true;
@@ -40,7 +44,9 @@ export class MenuItem {
       id: this.id,
       canteenId: this.canteenId,
       name: this.name,
+      nameEn: this.nameEn,
       description: this.description,
+      descriptionEn: this.descriptionEn,
       priceCents: this.priceCents,
       category: this.category,
       available: this.available,

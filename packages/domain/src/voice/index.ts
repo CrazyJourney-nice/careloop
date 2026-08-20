@@ -41,18 +41,49 @@ export class MockSpeechAdapter implements SpeechAdapter {
 
 export type MenuCandidate = { id?: string; name: string; confidence: number; available?: boolean };
 const defaultDishes = ['宫保鸡丁','清蒸鱼','红烧肉','酸辣土豆丝','番茄炒蛋','西兰花炒虾仁','小米粥','可乐'];
-const aliases: Record<string,string> = { 土豆丝:'酸辣土豆丝', 肉菜:'红烧肉', 粥:'小米粥', 饮料:'可乐', 鱼:'清蒸鱼', 鸡丁:'宫保鸡丁' };
+const aliases: Record<string,string> = {
+  土豆丝:'酸辣土豆丝', 肉菜:'红烧肉', 粥:'小米粥', 饮料:'可乐', 鱼:'清蒸鱼', 鸡丁:'宫保鸡丁',
+  'kung pao chicken':'宫保鸡丁', 'kung pao':'宫保鸡丁',
+  'kung pow chicken':'宫保鸡丁', 'kong pao chicken':'宫保鸡丁',
+  'steamed fish':'清蒸鱼', 'steamed white fish':'清蒸鱼', fish:'清蒸鱼',
+  'braised pork':'红烧肉', 'braised pork belly':'红烧肉', 'red cooked pork':'红烧肉', 'braised port':'红烧肉',
+  'hot and sour shredded potatoes':'酸辣土豆丝', 'hot-and-sour shredded potatoes':'酸辣土豆丝', 'shredded potatoes':'酸辣土豆丝',
+  'potato strips':'酸辣土豆丝', 'hot sour potatoes':'酸辣土豆丝',
+  'tomato and egg':'番茄炒蛋', 'tomato with egg':'番茄炒蛋', 'scrambled eggs with tomato':'番茄炒蛋', 'tomato scrambled eggs':'番茄炒蛋',
+  'broccoli with shrimp':'西兰花炒虾仁', 'shrimp with broccoli':'西兰花炒虾仁', 'broccoli shrimp':'西兰花炒虾仁',
+  'millet congee':'小米粥', 'millet porridge':'小米粥', congee:'小米粥', porridge:'小米粥', 'con jee':'小米粥',
+  cola:'可乐', coke:'可乐', 'coca cola':'可乐'
+};
+const aliasConfidence: Record<string, number> = {
+  'kung pao chicken':.95, 'steamed fish':.94, 'braised pork':.95, 'hot and sour shredded potatoes':.95,
+  'hot-and-sour shredded potatoes':.95, 'tomato and egg':.94, 'scrambled eggs with tomato':.94,
+  'broccoli with shrimp':.94, 'millet congee':.95, cola:.95,
+  fish:.62, porridge:.72, 'shredded potatoes':.78, 'potato strips':.76,
+  'kung pow chicken':.78, 'kong pao chicken':.78, 'braised port':.7, 'con jee':.7
+};
 const chineseNumbers: Record<string, number> = { 一:1, 壹:1, 两:2, 二:2, 贰:2, 三:3, 四:4, 五:5, 六:6, 七:7, 八:8, 九:9, 十:10 };
+const englishNumbers: Record<string, number> = { one:1, a:1, an:1, two:2, three:3, four:4, five:5, six:6, seven:7, eight:8, nine:9, ten:10 };
 
 export function normalizeTranscript(text: string) {
-  return text.trim().replace(/[，。！？、]/g, '，').replace(/幺/g, '一').replace(/俩/g, '两').replace(/不要辣椒|不放辣椒|别放辣椒/g, '不辣').replace(/清淡一点|淡一点/g, '少盐');
+  return text.trim().toLowerCase().replace(/[’']/g, '').replace(/\s+/g, ' ').replace(/[，。！？、]/g, '，').replace(/幺/g, '一').replace(/俩/g, '两').replace(/不要辣椒|不放辣椒|别放辣椒/g, '不辣').replace(/清淡一点|淡一点/g, '少盐');
+}
+
+function aliasOccurrences(query: string, alias: string) {
+  if (!/[a-z]/i.test(alias)) {
+    const positions: Array<{ index:number; end:number }> = [];
+    let from = 0;
+    while (from < query.length) { const index=query.indexOf(alias,from);if(index<0)break;positions.push({index,end:index+alias.length});from=index+alias.length; }
+    return positions;
+  }
+  const phrase=alias.split(/[\s-]+/).map(part=>part.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('[\\s-]+');
+  return [...query.matchAll(new RegExp(`\\b${phrase}\\b`,'gi'))].map(match=>({index:match.index!,end:match.index!+match[0].length}));
 }
 
 export function matchDishes(query: string, menu = defaultDishes): MenuCandidate[] {
   const exact = menu.filter(name => query.includes(name)).map(name => ({ name, confidence: 0.98 }));
   if (exact.length) return exact;
-  const found = Object.entries(aliases).filter(([key]) => query.includes(key)).map(([, name]) => name).filter(name => menu.includes(name));
-  if (found.length) return [...new Set(found)].map(name => ({ name, confidence: 0.72 }));
+  const found = Object.entries(aliases).filter(([key]) => aliasOccurrences(query,key).length).map(([key,name]) => ({name,confidence:aliasConfidence[key]??.72})).filter(candidate => menu.includes(candidate.name));
+  if (found.length) return [...new Map(found.sort((a,b)=>b.confidence-a.confidence).map(candidate=>[candidate.name,candidate])).values()];
   const compact = query.replace(/[^\u4e00-\u9fa5a-zA-Z]/g, '').toLowerCase();
   return menu.map(name => {
     const overlap = [...name].filter(char => compact.includes(char)).length / name.length;
@@ -72,25 +103,31 @@ function findDishMentions(query: string, menu: string[]): DishMention[] {
       from = index + name.length;
     }
   }
-  for (const [alias, name] of Object.entries(aliases)) {
-    if (!menu.includes(name) || mentions.some(mention => mention.name === name)) continue;
-    let from = 0;
-    while (from < query.length) {
-      const index = query.indexOf(alias, from);
-      if (index < 0) break;
-      const end = index + alias.length;
-      if (!mentions.some(mention => index < mention.end && end > mention.index)) mentions.push({ name, confidence: .72, index, end });
-      from = end;
+  for (const [alias, name] of Object.entries(aliases).sort(([a],[b])=>b.length-a.length)) {
+    if (!menu.includes(name)) continue;
+    for (const {index,end} of aliasOccurrences(query,alias)) {
+      if (!mentions.some(mention => index < mention.end && end > mention.index)) mentions.push({ name, confidence: aliasConfidence[alias]??.72, index, end });
     }
   }
   return mentions.sort((a, b) => a.index - b.index || b.confidence - a.confidence);
 }
 
 function quantityOf(segment: string) {
-  const digit = segment.match(/\d+/)?.[0];
+  const quantityText = segment.replace(/(?:table\s*)?[a-z]\s*\d{1,2}\s*(?:桌|table)?/ig, '');
+  if (/\b(?:a\s+)?(?:couple|pair)\s+of\b/i.test(quantityText)) return 2;
+  const digit = quantityText.match(/\d+/)?.[0];
   if (digit) return Math.max(1, Number(digit));
-  const word = Object.keys(chineseNumbers).find(key => segment.includes(key));
-  return word ? chineseNumbers[word] : 1;
+  const word = Object.keys(chineseNumbers).find(key => quantityText.includes(key));
+  if (word) return chineseNumbers[word];
+  const englishWord = Object.keys(englishNumbers).find(key => new RegExp(`\\b${key}\\b`, 'i').test(quantityText));
+  return englishWord ? englishNumbers[englishWord] : 1;
+}
+
+function itemStart(segment:string,index:number,lowerBound:number) {
+  const prefix=segment.slice(lowerBound,index);
+  const matches=[...prefix.matchAll(/\b(?:one|two|three|four|five|six|seven|eight|nine|ten|an?|\d+)\b|[一壹两二贰三四五六七八九十]\s*(?:份|碗|个)?/gi)];
+  const last=matches[matches.length-1];
+  return last?.index===undefined?lowerBound:lowerBound+last.index;
 }
 
 function modifierNames(text: string) {
@@ -101,7 +138,13 @@ function modifierNames(text: string) {
   if (/不加葱|不放葱|不要葱/.test(text)) names.push('不加葱');
   if (/不加姜|不放姜|不要姜/.test(text)) names.push('不加姜');
   if (/易咀嚼|好咬|软一点|软烂/.test(text)) names.push('易咀嚼');
-  return names;
+  if (/\b(?:less|low)\s*salt\b|\blight(?:ly)?\s+salted\b/i.test(text)) names.push('少盐');
+  if (/\b(?:less|low)\s*(?:oil|oily)\b/i.test(text)) names.push('少油');
+  if (/\b(?:not|non)[ -]?spicy\b|\bno\s+(?:spice|chili|chilli)\b/i.test(text)) names.push('不辣');
+  if (/\bno\s+(?:scallion|green onion|spring onion)s?\b/i.test(text)) names.push('不加葱');
+  if (/\bno\s+ginger\b/i.test(text)) names.push('不加姜');
+  if (/\b(?:soft(?:er)?|easy to chew)\b/i.test(text)) names.push('易咀嚼');
+  return [...new Set(names)];
 }
 
 export function modifiersToProfile(names: string[]): ModifierProfile {
@@ -118,31 +161,39 @@ export function modifiersToProfile(names: string[]): ModifierProfile {
 export class IntentParser {
   parse(text: string, language = 'zh-CN', options: { asrConfidence?: number; menu?: string[]; alternatives?: string[] } = {}): OrderIntent {
     const rawText = text;
-    const normalizedText = normalizeTranscript(text);
     const lang = language === 'zh-HK' ? 'zh-HK' : language === 'en-US' ? 'en-US' : 'zh-CN';
+    const menu = options.menu?.length ? options.menu : defaultDishes;
+    const transcripts = [...new Set([text,...(options.alternatives||[])].map(normalizeTranscript).filter(Boolean))];
+    const transcriptScore = (candidate:string) => findDishMentions(candidate,menu).reduce((sum,mention)=>sum+mention.confidence,0)+(candidate.match(/(?:table\s*)?[ab]\s*\d{1,2}/i)?.[0]?.length?0.05:0);
+    const normalizedText = lang==='en-US' ? transcripts.reduce((best,candidate)=>transcriptScore(candidate)>transcriptScore(best)?candidate:best,transcripts[0]||'') : transcripts[0]||'';
     const asrConfidence = options.asrConfidence ?? (normalizedText ? 0.96 : 0);
     const base = { language: lang, rawText, normalizedText, asrConfidence };
     if (!normalizedText) return IntentSchema.parse({ ...base, intent: 'UNKNOWN', confidence: 0, needsConfirmation: true });
-    if (/工作人员|人工|帮助|不清楚|听不懂|help/i.test(normalizedText)) return IntentSchema.parse({ ...base, intent: 'ASK_FOR_STAFF', confidence: .99, needsConfirmation: true });
+    if (/工作人员|人工|帮助|不清楚|听不懂|\bhelp\b|staff|assistant/i.test(normalizedText)) return IntentSchema.parse({ ...base, intent: 'ASK_FOR_STAFF', confidence: .99, needsConfirmation: true });
     if (/确认|可以|好的|yes|confirm/i.test(normalizedText)) return IntentSchema.parse({ ...base, intent: 'CONFIRM_ORDER', confidence: .96, needsConfirmation: false });
     if (/取消|不要了|cancel/i.test(normalizedText)) return IntentSchema.parse({ ...base, intent: 'CANCEL_ORDER', confidence: .96, needsConfirmation: true });
-    const tableQuery = normalizedText.match(/([AB]\s*\d{1,2})\s*(?:桌|table)?/i)?.[1]?.replace(/\s/g, '').toUpperCase() || null;
-    const menu = options.menu?.length ? options.menu : defaultDishes;
-    const segments = normalizedText.split(/[，,；;和]|再来|再加/).map(segment => segment.trim()).filter(Boolean);
+    const tableQuery = normalizedText.match(/(?:table\s*)?([AB]\s*\d{1,2})\s*(?:桌|table)?/i)?.[1]?.replace(/\s/g, '').toUpperCase() || null;
+    const segments = normalizedText.split(/[，,；;和]|再来|再加|\band\s+(?=(?:one|two|three|four|five|six|seven|eight|nine|ten|\d)\b)|\bplus\b|\balso\b/i).map(segment => segment.trim()).filter(Boolean);
     const items: OrderIntent['items'] = [];
     const allCandidates: MenuCandidate[] = [];
     for (const segment of segments) {
       const mentions = findDishMentions(segment, menu);
-      const matches = mentions.length ? mentions : matchDishes(segment, menu).filter(candidate => candidate.confidence >= .65).slice(0, 1).map(candidate => ({ ...candidate, index: 0, end: segment.length }));
-      allCandidates.push(...matches.map(({ name, confidence }) => ({ name, confidence })));
-      let previousEnd = 0;
-      for (const match of matches) {
-        const contextEnd = match === matches[matches.length - 1] ? segment.length : match.end;
-        const context = mentions.length ? segment.slice(previousEnd, contextEnd) : segment;
-        previousEnd = match.end;
+      const rawMatches = mentions.length ? mentions : matchDishes(segment, menu).slice(0, 3).map(candidate => ({ ...candidate, index: 0, end: segment.length }));
+      const supportedMatches = rawMatches.filter(candidate => candidate.confidence >= .65);
+      const matches = mentions.length ? supportedMatches : supportedMatches.slice(0,1);
+      allCandidates.push(...rawMatches.map(({ name, confidence }) => ({ name, confidence })));
+      if (!matches.length) {
+        const names=modifierNames(segment);const previous=items[items.length-1];
+        if(names.length&&previous){previous.modifiers=[...new Set([...previous.modifiers,...names])];previous.modifierProfile=modifiersToProfile(previous.modifiers)}
+        continue;
+      }
+      const starts=matches.map((match,index)=>itemStart(segment,match.index,index?matches[index-1].end:0));
+      for (const [index,match] of matches.entries()) {
+        const context = mentions.length ? segment.slice(starts[index],starts[index+1]??segment.length) : segment;
         const names = modifierNames(context);
         const previous = [...items].reverse().find(item => item.dishQuery === match.name);
-        const isFollowUpModifier = names.length > 0 && !/份|碗|个|来|要一|要两|再/.test(context) && Boolean(previous);
+        const hasQuantity=/份|碗|个|来|要一|要两|再|\b(?:one|two|three|four|five|six|seven|eight|nine|ten|an?|\d+|couple|pair)\b/i.test(context);
+        const isFollowUpModifier = names.length > 0 && !hasQuantity && Boolean(previous);
         if (isFollowUpModifier) {
           previous!.modifiers = [...new Set([...previous!.modifiers, ...names])];
           previous!.modifierProfile = modifiersToProfile(previous!.modifiers);
