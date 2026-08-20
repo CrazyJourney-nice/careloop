@@ -11,9 +11,9 @@ https://crazyjourney-nice.github.io/careloop/
 三个演示入口：
 
 ```text
-顾客端：https://crazyjourney-nice.github.io/careloop/?screen=customer
-员工端：https://crazyjourney-nice.github.io/careloop/?screen=staff
-管理端：https://crazyjourney-nice.github.io/careloop/?screen=admin
+顾客端：https://crazyjourney-nice.github.io/careloop/
+员工端：https://crazyjourney-nice.github.io/careloop/staff.html
+管理端：https://crazyjourney-nice.github.io/careloop/admin.html
 ```
 
 ## 首次启用
@@ -55,9 +55,16 @@ npm run build
 7. 返回顾客端确认菜品和状态同步。
 8. 刷新三个标签页，确认页面正常且没有 404。
 
+需要清除所有演示数据时，打开：
+
+```text
+https://crazyjourney-nice.github.io/careloop/?reset=1
+```
+
 ## 重要限制
 
 - GitHub Pages 是静态托管，不运行 Express 后端。
+- 页面是原始 `src/ui` 顾客端、员工端和管理后台的镜像，仅将服务端接口替换为浏览器兼容层。
 - 此演示版有意使用浏览器 `localStorage` 和 `BroadcastChannel`。
 - 多标签页同步要求页面来自同一个 Pages 域名，并在同一浏览器中打开。
 - 不同设备之间不会共享订单，这是比赛演示版的预期行为。

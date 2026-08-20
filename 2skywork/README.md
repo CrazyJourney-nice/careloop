@@ -1,14 +1,12 @@
 # CareLoop 静态比赛 Demo
 
-这是从主项目独立出来的比赛演示版本。它是纯前端应用，不连接 Express、数据库、`/api` 或 `/ws`。
+这是主项目原始 UI 的比赛演示镜像。`index.html`、`staff.html`、`admin.html` 和 `i18n.js` 直接来自 `src/ui`，没有重新设计或缩减页面功能。GitHub Pages 无法运行 Express，因此构建时只注入 `demo-runtime.js`，在浏览器内兼容原来的 `/api` 和 `/ws` 调用。
 
 ## 演示入口
 
-- 顾客点餐：`/?screen=customer`
-- 员工协助：`/?screen=staff`
-- 管理后台：`/?screen=admin`
-
-三个界面也可以通过页面顶部按钮切换。
+- 顾客点餐：`/`
+- 员工协助：`/staff.html`
+- 管理后台：`/admin.html`
 
 ## 数据方式
 
