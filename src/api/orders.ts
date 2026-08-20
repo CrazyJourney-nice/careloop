@@ -8,7 +8,7 @@ import { Preference } from '../../packages/domain/src/models/Preference';
 import { KitchenSimulator } from '../kitchen/index';
 import { ConveyorSimulator } from '../conveyor/index';
 import { IntentParser } from '../../packages/domain/src/voice/index';
-import { IntentSchema, type VoiceSession, type VoiceSessionStatus, modifiersToProfile, normalizeTranscript } from '../../packages/domain/src/voice/index';
+import { IntentSchema, ModifierProfileSchema, type VoiceSession, type VoiceSessionStatus, modifiersToProfile, normalizeTranscript } from '../../packages/domain/src/voice/index';
 import { broadcast } from './realtime';
 import { randomUUID } from 'node:crypto';
 
@@ -45,7 +45,17 @@ function advance(order:Order,status:OrderStatus,notes?:string){order.updateStatu
 export function preview(body:any){
   const table=tables.get(body.tableId) || [...tables.values()].find(t=>t.tableNumber===body.tableNumber);
   if(!table || !table.isAvailable()) throw new Error('A valid available table is required');
-  const items=(body.items||[]).map((raw:any)=>{const dish=menuItems.get(raw.dishId)||[...menuItems.values()].find(d=>d.name===raw.dishName);if(!dish||!dish.available)throw new Error('Dish is unavailable');const modifiers=Array.isArray(raw.modifiers)?modifiersToProfile(raw.modifiers):raw.modifiers||{};return {dishId:dish.id,dishNameSnapshot:dish.name,unitPriceCents:dish.priceCents,quantity:Math.max(1,Number(raw.quantity||1)),modifiers,allergenWarnings:raw.allergenWarnings||{}};});
+  const items=(body.items||[]).map((raw:any)=>{
+    const dish=menuItems.get(raw.dishId)||[...menuItems.values()].find(d=>d.name===raw.dishName);
+    if(!dish||!dish.available)throw new Error('Dish is unavailable');
+    const requested=Array.isArray(raw.modifiers)?raw.modifiers:[];
+    const unsupported=requested.filter((modifier:unknown)=>typeof modifier!=='string'||!dish.supportedModifiers.includes(modifier));
+    if(unsupported.length)throw new Error(`${dish.name} does not support: ${unsupported.join(', ')}`);
+    const modifiers=Array.isArray(raw.modifiers)?modifiersToProfile(raw.modifiers):ModifierProfileSchema.parse(raw.modifiers||{});
+    const specialInstructions=String(raw.specialInstructions||'').trim();
+    if(specialInstructions.length>80)throw new Error('Special instructions must be 80 characters or fewer');
+    return {dishId:dish.id,dishNameSnapshot:dish.name,unitPriceCents:dish.priceCents,quantity:Math.max(1,Number(raw.quantity||1)),modifiers,allergenWarnings:raw.allergenWarnings||{},specialInstructions:specialInstructions||undefined};
+  });
   if(!items.length)throw new Error('At least one item is required');
   return {tableId:table.id,tableNumber:table.tableNumber,items,totalCents:items.reduce((sum:any,i:any)=>sum+i.unitPriceCents*i.quantity,0),paymentMethods:['WECHAT','ALIPAY','CASH']};
 }
