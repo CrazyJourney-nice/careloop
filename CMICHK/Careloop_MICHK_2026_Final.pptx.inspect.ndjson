@@ -1,0 +1,1035 @@
+{"kind":"deck","id":"pr/olsjis","name":"Deck"}
+{"kind":"layout","layoutId":"55831201-afda-491b-97b4-7b9b7b1011cb","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"b2773430-5058-43eb-873d-9a062cc87945","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/v9kehk","slide":1,"title":"CARELOOP 暖桌","textShapes":6}
+{"kind":"shape","id":"sh/q90bqpcr","slide":1,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/dcbul4b2","slide":1,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[68,55,360,28]}
+{"kind":"textbox","id":"sh/cb2tszah","slide":1,"text":"把社区助餐升级成\n可持续照护服务节点","textPreview":"把社区助餐升级成 | 可持续照护服务节点","textChars":18,"textLines":2,"bbox":[68,112,555,188]}
+{"kind":"textbox","id":"sh/zetcnet8","slide":1,"text":"社区共享厨房 × 适老交互 × 家属协作 × 人工兜底 × 数据闭环","textPreview":"社区共享厨房 × 适老交互 × 家属协作 × 人工兜底 × 数据闭环","textChars":34,"textLines":1,"bbox":[70,330,540,76]}
+{"kind":"shape","id":"sh/edkbu9sn","slide":1,"bbox":[70,442,472,34]}
+{"kind":"textbox","id":"sh/1gbup4be","slide":1,"text":"SOFTWARE / INTERACTIONS DEMO → ENGINEERING PILOT","textPreview":"SOFTWARE / INTERACTIONS DEMO → ENGINEERING PILOT","textChars":48,"textLines":1,"bbox":[78,447,456,24]}
+{"kind":"textbox","id":"sh/fipsbat4","slide":1,"text":"Machines handle the labor. Careloop makes care continuous.","textPreview":"Machines handle the labor. Careloop makes care continuous.","textChars":58,"textLines":1,"bbox":[70,635,760,28]}
+{"kind":"textbox","id":"sh/uhgbi5cj","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1170,655,40,18]}
+{"kind":"image","id":"im/h4ba18vy","slide":1,"name":"","geometry":"roundRect","alt":"Careloop current dining UI evidence","bbox":[670,70,540,560]}
+{"kind":"notes","id":"nt/v9kehk","slide":1,"text":"我们不是再开一家食堂，而是在做一个可以嵌入社区、把一顿饭变成持续照护触点的服务节点。当前可展示的是软件与交互原型；硬件部署和商业收入属于下一阶段。\n\n[Sources]\n- Careloop prior deck, Group 5-暖桌Careloop.pdf, slide 14 (user-provided UI evidence)"}
+{"kind":"slide","id":"sl/vwu6kc","slide":2,"title":"CARELOOP · MICHK 2026","textShapes":14}
+{"kind":"textbox","id":"sh/4fyhcjml","slide":2,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/3ep0je50","slide":2,"name":"title-2","text":"深圳已把长者助餐纳入基础服务","textPreview":"深圳已把长者助餐纳入基础服务","textChars":14,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/2dgza94f","slide":2,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/dkripon2","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/cjihgjmx","slide":2,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/ri90ny5c","slide":2,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/qhgzet4r","slide":2,"text":"EXTERNAL SOURCE","textPreview":"EXTERNAL SOURCE","textChars":15,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/18rit8ne","slide":2,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"textbox","id":"sh/07ihk3mt","slide":2,"text":"政策与人口结构已经把需求推到社区一线","textPreview":"政策与人口结构已经把需求推到社区一线","textChars":18,"textLines":1,"bbox":[62,174,690,34]}
+{"kind":"shape","id":"sh/618jm9wb","slide":2,"bbox":[62,246,350,250]}
+{"kind":"textbox","id":"sh/r2h0fexw","slide":2,"text":"3.23亿","textPreview":"3.23亿","textChars":5,"textLines":1,"bbox":[84,276,306,90]}
+{"kind":"textbox","id":"sh/s3a1ojeh","slide":2,"text":"2025年中国60岁及以上人口","textPreview":"2025年中国60岁及以上人口","textChars":15,"textLines":1,"bbox":[92,390,290,65]}
+{"kind":"shape","id":"sh/t4jihov2","slide":2,"bbox":[448,246,350,250]}
+{"kind":"textbox","id":"sh/e5sjqtwn","slide":2,"text":"23.0%","textPreview":"23.0%","textChars":5,"textLines":1,"bbox":[470,276,306,90]}
+{"kind":"textbox","id":"sh/f610jyd8","slide":2,"text":"占全国人口比重","textPreview":"占全国人口比重","textChars":7,"textLines":1,"bbox":[478,390,290,65]}
+{"kind":"shape","id":"sh/g7a1sjed","slide":2,"bbox":[834,246,350,250]}
+{"kind":"textbox","id":"sh/18jilovy","slide":2,"text":"5–15元","textPreview":"5–15元","textChars":5,"textLines":1,"bbox":[856,276,306,90]}
+{"kind":"textbox","id":"sh/u9ozepw3","slide":2,"text":"深圳符合条件长者每餐补贴上限","textPreview":"深圳符合条件长者每餐补贴上限","textChars":14,"textLines":1,"bbox":[864,390,290,65]}
+{"kind":"textbox","id":"sh/vax07uxo","slide":2,"text":"机会不是证明老人需要吃饭，而是让既有助餐体系更可协作、更可持续。","textPreview":"机会不是证明老人需要吃饭，而是让既有助餐体系更可协作、更可持续。","textChars":32,"textLines":1,"bbox":[170,548,940,48]}
+{"kind":"notes","id":"nt/vwu6kc","slide":2,"text":"三组数字建立同一件事：老龄化规模、政策服务属性、以及真实补贴机制已经存在。Careloop要验证的是如何提高服务连续性，而不是从零教育市场。\n\n[Sources]\n- 国家统计局，《2025年经济发展向新向优 预期目标圆满实现》，2026, https://www.stats.gov.cn/sj/zxfb/202601/t20260119_1962330.html\n- 深圳市人民政府，《深圳市基本养老服务清单（2026年版）》，2026, https://www.sz.gov.cn/attachment/1/1734/1734727/12779745.pdf"}
+{"kind":"slide","id":"sl/gkedri","slide":3,"title":"CARELOOP · MICHK 2026","textShapes":18}
+{"kind":"textbox","id":"sh/4zedkvut","slide":3,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/3y5wrqd8","slide":3,"name":"title-3","text":"南山已有助餐网络，Careloop增加智能协作层","textPreview":"南山已有助餐网络，Careloop增加智能协作层","textChars":24,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/2xcvilcn","slide":3,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/donexkvq","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/cnexofu5","slide":3,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/bm5wvadk","slide":3,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/q1wvm5cz","slide":3,"text":"EXTERNAL SOURCE / TO VALIDATE","textPreview":"EXTERNAL SOURCE / TO VALIDATE","textChars":29,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/ls7e1kbm","slide":3,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"textbox","id":"sh/0ryxsfu1","slide":3,"text":"公开场景网络","textPreview":"公开场景网络","textChars":6,"textLines":1,"bbox":[76,188,300,30]}
+{"kind":"shape","id":"sh/ehwv2xwj","slide":3,"bbox":[62,228,520,354]}
+{"kind":"shape","id":"sh/fi5wb2x4","slide":3,"bbox":[142,292,36,36]}
+{"kind":"textbox","id":"sh/gjed47ep","slide":3,"text":"沙河\n高发社区","textPreview":"沙河 | 高发社区","textChars":7,"textLines":2,"bbox":[105,338,110,48]}
+{"kind":"shape","id":"sh/1knedcfu","slide":3,"bbox":[332,268,36,36]}
+{"kind":"textbox","id":"sh/2lwv6hwf","slide":3,"text":"粤海\n科技园","textPreview":"粤海 | 科技园","textChars":6,"textLines":2,"bbox":[295,314,110,48]}
+{"kind":"shape","id":"sh/3m5wfmx0","slide":3,"bbox":[427,412,36,36]}
+{"kind":"textbox","id":"sh/onyd8rel","slide":3,"text":"桃源\n社区点","textPreview":"桃源 | 社区点","textChars":6,"textLines":2,"bbox":[390,458,110,48]}
+{"kind":"shape","id":"sh/po7ehwf6","slide":3,"bbox":[208,450,36,36]}
+{"kind":"textbox","id":"sh/ipcvudwb","slide":3,"text":"蛇口\n社区点","textPreview":"蛇口 | 社区点","textChars":6,"textLines":2,"bbox":[171,496,110,48]}
+{"kind":"shape","id":"sh/jqlc3ixw","slide":3,"bbox":[165,324,174,4]}
+{"kind":"shape","id":"sh/nixkfu9c","slide":3,"bbox":[358,312,78,4]}
+{"kind":"shape","id":"sh/mhojmp8r","slide":3,"bbox":[242,454,187,4]}
+{"kind":"textbox","id":"sh/9kz2h4ri","slide":3,"text":"深圳民政公开名录显示南山多个街道已有长者饭堂、助餐点与长者餐桌。","textPreview":"深圳民政公开名录显示南山多个街道已有长者饭堂、助餐点与长者餐桌。","textChars":32,"textLines":1,"bbox":[84,515,455,48]}
+{"kind":"shape","id":"sh/ojq1ozqx","slide":3,"bbox":[650,228,568,354]}
+{"kind":"textbox","id":"sh/zex0ba9g","slide":3,"text":"CARELOOP 智能服务层","textPreview":"CARELOOP 智能服务层","textChars":14,"textLines":1,"bbox":[686,260,490,42]}
+{"kind":"shape","id":"sh/etoji58v","slide":3,"bbox":[686,330,420,34]}
+{"kind":"textbox","id":"sh/1gf2dkr6","slide":3,"text":"低门槛发起与确认","textPreview":"低门槛发起与确认","textChars":8,"textLines":1,"bbox":[694,335,404,24]}
+{"kind":"shape","id":"sh/0f61kfq1","slide":3,"bbox":[686,385,420,34]}
+{"kind":"textbox","id":"sh/ja1kne9k","slide":3,"text":"跨角色订单接力","textPreview":"跨角色订单接力","textChars":7,"textLines":1,"bbox":[694,390,404,24]}
+{"kind":"shape","id":"sh/yp8ju98z","slide":3,"bbox":[686,440,420,34]}
+{"kind":"textbox","id":"sh/gv2hob6h","slide":3,"text":"异常进入人工队列","textPreview":"异常进入人工队列","textChars":8,"textLines":1,"bbox":[694,445,404,24]}
+{"kind":"shape","id":"sh/hwbyhg72","slide":3,"bbox":[686,495,420,34]}
+{"kind":"textbox","id":"sh/utkzm1ob","slide":3,"text":"授权数据形成运营学习","textPreview":"授权数据形成运营学习","textChars":10,"textLines":1,"bbox":[694,500,404,24]}
+{"kind":"textbox","id":"sh/futgf6pw","slide":3,"text":"候选场景 ≠ 已签约试点","textPreview":"候选场景 ≠ 已签约试点","textChars":12,"textLines":1,"bbox":[720,552,390,26]}
+{"kind":"notes","id":"nt/gkedri","slide":3,"text":"南山不是空白市场。公开名录和高发社区案例说明场景、管理者和老人流量已经存在。我们要寻找一个Benchmark、一个餐饮运营点和一个物业主导点；这些都是候选研究场景，不是已签约合作。\n\n[Sources]\n- 深圳市民政局，《深圳市长者饭堂和助餐点一览表》，2026, https://mzj.sz.gov.cn/szmz/pc/bmxx/cyfwzy/content/mpost_2948869.html\n- 深圳市人民政府，《深圳国企打造首个社区嵌入式民生服务综合体》，2024, https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_11559674.html"}
+{"kind":"slide","id":"sl/fl2rr8","slide":4,"title":"CARELOOP · MICHK 2026","textShapes":20}
+{"kind":"textbox","id":"sh/y1cnu10b","slide":4,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/lo365gjm","slide":4,"name":"title-4","text":"SHARE：共享的是整个社区的照护能力","textPreview":"SHARE：共享的是整个社区的照护能力","textChars":19,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/03upwbi1","slide":4,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/bylozm1k","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/qxcnq10z","slide":4,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/d0361wjq","slide":4,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/czu5sri5","slide":4,"text":"CONCEPT / BUSINESS MODEL","textPreview":"CONCEPT / BUSINESS MODEL","textChars":24,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/vu5obq1o","slide":4,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/utw72l03","slide":4,"bbox":[490,240,300,300]}
+{"kind":"textbox","id":"sh/4jq14ze5","slide":4,"text":"COMMUNITY\nCARE STATION","textPreview":"COMMUNITY | CARE STATION","textChars":22,"textLines":2,"bbox":[535,330,210,92]}
+{"kind":"shape","id":"sh/pkzix4vq","slide":4,"bbox":[90,220,300,125]}
+{"kind":"textbox","id":"sh/2h8j2pwf","slide":4,"text":"HARDWARE","textPreview":"HARDWARE","textChars":8,"textLines":1,"bbox":[110,238,260,24]}
+{"kind":"textbox","id":"sh/3ih0vudk","slide":4,"text":"共享设备","textPreview":"共享设备","textChars":4,"textLines":1,"bbox":[110,268,260,30]}
+{"kind":"textbox","id":"sh/gf610ze9","slide":4,"text":"减少重复劳动","textPreview":"减少重复劳动","textChars":6,"textLines":1,"bbox":[110,308,260,22]}
+{"kind":"shape","id":"sh/hgfit4vu","slide":4,"bbox":[870,220,300,125]}
+{"kind":"textbox","id":"sh/udojypw3","slide":4,"text":"SPACE","textPreview":"SPACE","textChars":5,"textLines":1,"bbox":[890,238,260,24]}
+{"kind":"textbox","id":"sh/fex0ruxo","slide":4,"text":"共享空间","textPreview":"共享空间","textChars":4,"textLines":1,"bbox":[890,268,260,30]}
+{"kind":"textbox","id":"sh/sb6hwfex","slide":4,"text":"激活社区节点","textPreview":"激活社区节点","textChars":6,"textLines":1,"bbox":[890,308,260,22]}
+{"kind":"shape","id":"sh/tcfipkfi","slide":4,"bbox":[90,470,300,125]}
+{"kind":"textbox","id":"sh/987ytg7m","slide":4,"text":"PEOPLE","textPreview":"PEOPLE","textChars":6,"textLines":1,"bbox":[110,488,260,24]}
+{"kind":"textbox","id":"sh/87yh0b61","slide":4,"text":"共享协作","textPreview":"共享协作","textChars":4,"textLines":1,"bbox":[110,518,260,30]}
+{"kind":"textbox","id":"sh/76pgr6pg","slide":4,"text":"把人留给陪伴","textPreview":"把人留给陪伴","textChars":6,"textLines":1,"bbox":[110,558,260,22]}
+{"kind":"shape","id":"sh/m5wfy1ov","slide":4,"bbox":[870,470,300,125]}
+{"kind":"textbox","id":"sh/l4nypw7a","slide":4,"text":"DATA","textPreview":"DATA","textChars":4,"textLines":1,"bbox":[890,488,260,24]}
+{"kind":"textbox","id":"sh/kjexwr6p","slide":4,"text":"共享洞察","textPreview":"共享洞察","textChars":4,"textLines":1,"bbox":[890,518,260,30]}
+{"kind":"textbox","id":"sh/zi5gn6p4","slide":4,"text":"授权角色共同改进","textPreview":"授权角色共同改进","textChars":8,"textLines":1,"bbox":[890,558,260,22]}
+{"kind":"textbox","id":"sh/yhwfu1oz","slide":4,"text":"一套能力服务一个社区，才有规模经济。","textPreview":"一套能力服务一个社区，才有规模经济。","textChars":18,"textLines":1,"bbox":[390,594,500,34]}
+{"kind":"notes","id":"nt/fl2rr8","slide":4,"text":"一台设备服务一个家庭很贵；硬件、空间、人员和数据在社区尺度共享，才形成可持续的服务经济。SHARE是商业化逻辑，不是设备清单。\n\n[Sources]\n- Careloop prior deck, Group 5-暖桌Careloop.pdf, slide 3 (user-provided concept reference)"}
+{"kind":"slide","id":"sl/w7gv6m","slide":5,"title":"CARELOOP · MICHK 2026","textShapes":26}
+{"kind":"textbox","id":"sh/sz6x4f2d","slide":5,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/redwbals","slide":5,"name":"title-5","text":"现有方案覆盖一段，Careloop连接整条服务链","textPreview":"现有方案覆盖一段，Careloop连接整条服务链","textChars":24,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/6d4f25k7","slide":5,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/5cve9k3m","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/4bmx0f21","slide":5,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/jadw7alw","slide":5,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/i94fy54b","slide":5,"text":"EXTERNAL SOURCE / ASSUMPTION","textPreview":"EXTERNAL SOURCE / ASSUMPTION","textChars":28,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/h8ve503q","slide":5,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"textbox","id":"sh/w7mxwvm5","slide":5,"text":"传统助餐","textPreview":"传统助餐","textChars":4,"textLines":1,"bbox":[62,205,188,30]}
+{"kind":"shape","id":"sh/e1s7edgf","slide":5,"bbox":[82,260,148,4]}
+{"kind":"textbox","id":"sh/f2187ih0","slide":5,"text":"有供给","textPreview":"有供给","textChars":3,"textLines":1,"bbox":[62,286,188,30]}
+{"kind":"textbox","id":"sh/03upgnyl","slide":5,"text":"人工流程重","textPreview":"人工流程重","textChars":5,"textLines":1,"bbox":[62,335,188,48]}
+{"kind":"textbox","id":"sh/143q9sz6","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[240,286,32,42]}
+{"kind":"textbox","id":"sh/qds7adgj","slide":5,"text":"复杂 App","textPreview":"复杂 App","textChars":6,"textLines":1,"bbox":[272,205,188,30]}
+{"kind":"shape","id":"sh/re183iho","slide":5,"bbox":[292,260,148,4]}
+{"kind":"textbox","id":"sh/szapcny9","slide":5,"text":"有数字化","textPreview":"有数字化","textChars":4,"textLines":1,"bbox":[272,286,188,30]}
+{"kind":"textbox","id":"sh/d0jq5szu","slide":5,"text":"老人操作成本高","textPreview":"老人操作成本高","textChars":7,"textLines":1,"bbox":[272,335,188,48]}
+{"kind":"textbox","id":"sh/i9876tg7","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[450,286,32,42]}
+{"kind":"textbox","id":"sh/3ahozyhs","slide":5,"text":"家属代点","textPreview":"家属代点","textChars":4,"textLines":1,"bbox":[482,205,188,30]}
+{"kind":"shape","id":"sh/7ex47uxk","slide":5,"bbox":[502,260,148,4]}
+{"kind":"textbox","id":"sh/6dony9wz","slide":5,"text":"有支付","textPreview":"有支付","textChars":3,"textLines":1,"bbox":[482,286,188,30]}
+{"kind":"textbox","id":"sh/tgfm94fq","slide":5,"text":"难看到现场履约","textPreview":"难看到现场履约","textChars":7,"textLines":1,"bbox":[482,335,188,48]}
+{"kind":"textbox","id":"sh/8f650ze5","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[660,286,32,42]}
+{"kind":"textbox","id":"sh/vix4bexg","slide":5,"text":"单一机器人","textPreview":"单一机器人","textChars":5,"textLines":1,"bbox":[692,205,188,30]}
+{"kind":"shape","id":"sh/uhon29wb","slide":5,"bbox":[712,260,148,4]}
+{"kind":"textbox","id":"sh/hkzmdofm","slide":5,"text":"有自动化","textPreview":"有自动化","textChars":4,"textLines":1,"bbox":[692,286,188,30]}
+{"kind":"textbox","id":"sh/gj654je1","slide":5,"text":"缺少社区协作","textPreview":"缺少社区协作","textChars":6,"textLines":1,"bbox":[692,335,188,48]}
+{"kind":"textbox","id":"sh/bmd4zaxc","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[870,286,32,42]}
+{"kind":"shape","id":"sh/al43qpwr","slide":5,"bbox":[915,190,303,265]}
+{"kind":"textbox","id":"sh/gfytkrqd","slide":5,"text":"CARELOOP","textPreview":"CARELOOP","textChars":8,"textLines":1,"bbox":[945,220,245,28]}
+{"kind":"textbox","id":"sh/1gradwry","slide":5,"text":"发起 → 确认 → 履约\n→ 异常 → 家庭连接","textPreview":"发起 → 确认 → 履约 | → 异常 → 家庭连接","textChars":24,"textLines":2,"bbox":[947,275,240,96]}
+{"kind":"textbox","id":"sh/edgbih87","slide":5,"text":"一笔订单，一个闭环","textPreview":"一笔订单，一个闭环","textChars":9,"textLines":1,"bbox":[960,400,215,25]}
+{"kind":"textbox","id":"sh/fepsbm9s","slide":5,"text":"差异不在于“别人做不到”，而在于 Careloop 把用户、工作人员、厨房和家属放进同一条可接管链路。","textPreview":"差异不在于“别人做不到”，而在于 Careloop 把用户、工作人员、厨房和家属放进同一条可接管链路。","textChars":51,"textLines":1,"bbox":[130,520,1020,70]}
+{"kind":"notes","id":"nt/w7gv6m","slide":5,"text":"现有方案往往各自解决供给、数字点餐、远程支付或自动烹饪。Careloop的差异是把这些动作接成一笔可追踪、可人工接管的订单。页面不主张竞争者无法做到，只描述链路差异。\n\n[Sources]\n- Careloop_Maker_in_China_HK_2026_PPT_Optimization_Guide_v3.docx (comparison framework)"}
+{"kind":"slide","id":"sl/uhxafu","slide":6,"title":"CARELOOP · MICHK 2026","textShapes":15}
+{"kind":"textbox","id":"sh/fa9g3mho","slide":6,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/gbihwry9","slide":6,"name":"title-6","text":"四层组合，才形成一个 Community Care Station","textPreview":"四层组合，才形成一个 Community Care Station","textChars":33,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/1crypwzu","slide":6,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/6lgzqxg7","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/7mpgz2hs","slide":6,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/snyhs7yx","slide":6,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/to7y1czi","slide":6,"text":"AICAN EXTERNAL SOURCE + CURRENT DEMO","textPreview":"AICAN EXTERNAL SOURCE + CURRENT DEMO","textChars":36,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/ihwfmx0v","slide":6,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/b690jmh4","slide":6,"bbox":[575,196,643,78]}
+{"kind":"textbox","id":"sh/q50jqhgj","slide":6,"text":"04 数据运营","textPreview":"04 数据运营","textChars":7,"textLines":1,"bbox":[600,213,190,29]}
+{"kind":"textbox","id":"sh/d8rilwzu","slide":6,"text":"订单 · 偏好 · 异常 · 设备状态","textPreview":"订单 · 偏好 · 异常 · 设备状态","textChars":19,"textLines":1,"bbox":[795,214,390,42]}
+{"kind":"shape","id":"sh/c7i1sryp","slide":6,"bbox":[575,294,643,78]}
+{"kind":"textbox","id":"sh/zatkn6h0","slide":6,"text":"03 交互与人","textPreview":"03 交互与人","textChars":7,"textLines":1,"bbox":[600,311,190,29]}
+{"kind":"textbox","id":"sh/y90ju1gf","slide":6,"text":"语音 / 大按钮 / 家属代点 / 人工协作","textPreview":"语音 / 大按钮 / 家属代点 / 人工协作","textChars":22,"textLines":1,"bbox":[795,312,390,42]}
+{"kind":"shape","id":"sh/lcb2pgz6","slide":6,"bbox":[575,392,643,78]}
+{"kind":"textbox","id":"sh/0b21wbyl","slide":6,"text":"02 服务软件","textPreview":"02 服务软件","textChars":7,"textLines":1,"bbox":[600,409,190,29]}
+{"kind":"textbox","id":"sh/fep0b2hw","slide":6,"text":"Kitchen Control + Order State Engine","textPreview":"Kitchen Control + Order State Engine","textChars":36,"textLines":1,"bbox":[795,410,390,42]}
+{"kind":"shape","id":"sh/edgjixgb","slide":6,"bbox":[575,490,643,78]}
+{"kind":"textbox","id":"sh/i9o3q50z","slide":6,"text":"01 硬件工作流","textPreview":"01 硬件工作流","textChars":8,"textLines":1,"bbox":[600,507,190,29]}
+{"kind":"textbox","id":"sh/jux4ja1k","slide":6,"text":"烹饪 · 保温 · 出餐 · 清洁","textPreview":"烹饪 · 保温 · 出餐 · 清洁","textChars":17,"textLines":1,"bbox":[795,508,390,42]}
+{"kind":"textbox","id":"sh/4v6lsfi5","slide":6,"text":"产品 = 四层组合后的服务能力","textPreview":"产品 = 四层组合后的服务能力","textChars":15,"textLines":1,"bbox":[590,605,605,32]}
+{"kind":"image","id":"im/q5cjy1o7","slide":6,"name":"","geometry":"roundRect","alt":"Community care station concept render from prior Careloop deck","bbox":[62,188,450,430]}
+{"kind":"notes","id":"nt/uhxafu","slide":6,"text":"这页第一次把系统讲完整。AICAN等设备提供底层自动化；Careloop增加订单状态、四角色界面、人工协作和运营数据。左侧是概念空间图，不代表已部署站点。\n\n[Sources]\n- AICAN Global official overview, 2026, https://www.aicanglobal.com/\n- Careloop prior deck, Group 5-暖桌Careloop.pdf, slide 16 (concept render)"}
+{"kind":"slide","id":"sl/rcme6y","slide":7,"title":"CARELOOP · MICHK 2026","textShapes":27}
+{"kind":"textbox","id":"sh/ud03yl0v","slide":7,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/hgr290jm","slide":7,"name":"title-7","text":"硬件负责重复、危险和标准化劳动","textPreview":"硬件负责重复、危险和标准化劳动","textChars":15,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/gfil0vi1","slide":7,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/7apk361k","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/69g3ul0z","slide":7,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/tcr25gja","slide":7,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/sbylwbi5","slide":7,"text":"AICAN EXTERNAL SOURCE / TO VALIDATE","textPreview":"AICAN EXTERNAL SOURCE / TO VALIDATE","textChars":35,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/b6t4faho","slide":7,"text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/4ni5o7ad","slide":7,"bbox":[572,206,24,24]}
+{"kind":"textbox","id":"sh/5ormxcby","slide":7,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[570,209,28,18]}
+{"kind":"textbox","id":"sh/il0nmxsn","slide":7,"text":"备餐","textPreview":"备餐","textChars":2,"textLines":1,"bbox":[615,193,150,31]}
+{"kind":"textbox","id":"sh/3m94v2ts","slide":7,"text":"供应链与储存","textPreview":"供应链与储存","textChars":6,"textLines":1,"bbox":[760,195,195,28]}
+{"kind":"textbox","id":"sh/gji5k7ah","slide":7,"text":"减少现场备料","textPreview":"减少现场备料","textChars":6,"textLines":1,"bbox":[965,197,220,25]}
+{"kind":"shape","id":"sh/hkrmtcb2","slide":7,"bbox":[583,238,3,40]}
+{"kind":"shape","id":"sh/uxgnixsb","slide":7,"bbox":[572,288,24,24]}
+{"kind":"textbox","id":"sh/vip4r2tw","slide":7,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[570,291,28,18]}
+{"kind":"textbox","id":"sh/8vylgnu5","slide":7,"text":"烹饪","textPreview":"烹饪","textChars":2,"textLines":1,"bbox":[615,275,150,31]}
+{"kind":"textbox","id":"sh/tw7mpsbq","slide":7,"text":"温控 / 调味 / 菜谱","textPreview":"温控 / 调味 / 菜谱","textChars":12,"textLines":1,"bbox":[760,277,195,28]}
+{"kind":"textbox","id":"sh/9cz2to3u","slide":7,"text":"减少重复烹饪","textPreview":"减少重复烹饪","textChars":6,"textLines":1,"bbox":[965,279,220,25]}
+{"kind":"shape","id":"sh/orqlkjm9","slide":7,"bbox":[583,320,3,40]}
+{"kind":"shape","id":"sh/nqhkrelo","slide":7,"bbox":[572,370,24,24]}
+{"kind":"textbox","id":"sh/mp83i943","slide":7,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[570,373,28,18]}
+{"kind":"textbox","id":"sh/1oz2p43i","slide":7,"text":"装盘与传送","textPreview":"装盘与传送","textChars":5,"textLines":1,"bbox":[615,357,150,31]}
+{"kind":"textbox","id":"sh/0n61gzmx","slide":7,"text":"轻量辅助","textPreview":"轻量辅助","textChars":4,"textLines":1,"bbox":[760,359,195,28]}
+{"kind":"textbox","id":"sh/zmxknelc","slide":7,"text":"降低峰值搬运","textPreview":"降低峰值搬运","textChars":6,"textLines":1,"bbox":[965,361,220,25]}
+{"kind":"shape","id":"sh/eloje947","slide":7,"bbox":[583,402,3,40]}
+{"kind":"shape","id":"sh/lkj2183m","slide":7,"bbox":[572,452,24,24]}
+{"kind":"textbox","id":"sh/kjals3mh","slide":7,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[570,455,28,18]}
+{"kind":"textbox","id":"sh/2p4zm5kz","slide":7,"text":"交付","textPreview":"交付","textChars":2,"textLines":1,"bbox":[615,439,150,31]}
+{"kind":"textbox","id":"sh/3qd0va14","slide":7,"text":"工作人员确认","textPreview":"工作人员确认","textChars":6,"textLines":1,"bbox":[760,441,195,28]}
+{"kind":"textbox","id":"sh/4rmhof2p","slide":7,"text":"保留服务温度","textPreview":"保留服务温度","textChars":6,"textLines":1,"bbox":[965,443,220,25]}
+{"kind":"shape","id":"sh/psvix0ja","slide":7,"bbox":[583,484,3,40]}
+{"kind":"shape","id":"sh/u1kzilkn","slide":7,"bbox":[572,534,24,24]}
+{"kind":"textbox","id":"sh/fmt0rq18","slide":7,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[570,537,28,18]}
+{"kind":"textbox","id":"sh/gn2hkv2t","slide":7,"text":"清洁","textPreview":"清洁","textChars":2,"textLines":1,"bbox":[615,521,150,31]}
+{"kind":"textbox","id":"sh/hovit0je","slide":7,"text":"自动/半自动","textPreview":"自动/半自动","textChars":6,"textLines":1,"bbox":[760,523,195,28]}
+{"kind":"textbox","id":"sh/exozupkr","slide":7,"text":"降低收档劳动","textPreview":"降低收档劳动","textChars":6,"textLines":1,"bbox":[965,525,220,25]}
+{"kind":"textbox","id":"sh/zix03u1c","slide":7,"text":"设备报价、安装、SLA 与真实峰值稳定性：QUOTE REQUIRED","textPreview":"设备报价、安装、SLA 与真实峰值稳定性：QUOTE REQUIRED","textChars":35,"textLines":1,"bbox":[610,606,570,30]}
+{"kind":"image","id":"im/zud0zyxc","slide":7,"name":"","geometry":"roundRect","alt":"User-provided hardware concept modules","bbox":[62,188,460,390]}
+{"kind":"notes","id":"nt/rcme6y","slide":7,"text":"硬件不是机器人展览。每个节点都对应一种运营结果。AICAN官网支持温控、自动调味、自清洁、智能操作系统和云管理等能力，但Careloop尚未获得本项目正式报价，也未完成社区部署验证。\n\n[Sources]\n- AICAN Global official overview, 2026, https://www.aicanglobal.com/\n- AICAN corporate profile, https://aicanwang.cn/index/aboutUs/company_profile\n- Careloop prior deck, Group 5-暖桌Careloop.pdf, slide 9 (user-provided visual reference)"}
+{"kind":"slide","id":"sl/3p4ryy","slide":8,"title":"CARELOOP · MICHK 2026","textShapes":15}
+{"kind":"textbox","id":"sh/zqdozm94","slide":8,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/krmpsra9","slide":8,"name":"title-8","text":"AICAN做厨房自动化，Careloop做社区服务闭环","textPreview":"AICAN做厨房自动化，Careloop做社区服务闭环","textChars":27,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/lsv61wru","slide":8,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/mt47u1sf","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/7udo3m90","slide":8,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/8f6pwral","slide":8,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/9gf65wr6","slide":8,"text":"EXTERNAL SOURCE / INTEGRATION PLAN","textPreview":"EXTERNAL SOURCE / INTEGRATION PLAN","textChars":34,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/2xknixsb","slide":8,"text":"8","textPreview":"8","textChars":1,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/nytor29w","slide":8,"bbox":[62,205,448,360]}
+{"kind":"shape","id":"sh/bmpwfax8","slide":8,"bbox":[62,205,7,360]}
+{"kind":"textbox","id":"sh/algf65wn","slide":8,"text":"AICAN 官方能力","textPreview":"AICAN 官方能力","textChars":10,"textLines":1,"bbox":[86,223,406,34]}
+{"kind":"textbox","id":"sh/xo7eh0fy","slide":8,"text":"烹饪硬件\n智能 HMI 与 AICMOS OS\n菜谱与设备管理\nAican Cloud 多设备运营\n自动调味 / 烟气处理 / 自清洁","textPreview":"烹饪硬件 | 智能 HMI 与 AICMOS OS | 菜谱与设备管理 | Aican Cloud 多设备运营 | 自动调味 / 烟气处理 / 自清洁","textChars":67,"textLines":5,"bbox":[86,268,406,280]}
+{"kind":"shape","id":"sh/cnyx8vet","slide":8,"bbox":[770,205,448,360]}
+{"kind":"shape","id":"sh/ni5wbqxw","slide":8,"bbox":[770,205,7,360]}
+{"kind":"textbox","id":"sh/2hwf2lgb","slide":8,"text":"CARELOOP 社区服务层","textPreview":"CARELOOP 社区服务层","textChars":14,"textLines":1,"bbox":[794,223,406,34]}
+{"kind":"textbox","id":"sh/pkned0f2","slide":8,"text":"老人 / 家属 / 工作人员 / 运营端\n订单状态与确认机制\n低置信度人工接管\n社区站点 SOP 与服务记录\n授权数据形成 Operational Learning","textPreview":"老人 / 家属 / 工作人员 / 运营端 | 订单状态与确认机制 | 低置信度人工接管 | 社区站点 SOP 与服务记录 | 授权数据形成 Operational Learning","textChars":82,"textLines":5,"bbox":[794,268,406,280]}
+{"kind":"shape","id":"sh/ojex4vyh","slide":8,"bbox":[530,280,220,150]}
+{"kind":"textbox","id":"sh/fe5w7qx0","slide":8,"text":"INTEGRATION\nPLAN","textPreview":"INTEGRATION | PLAN","textChars":16,"textLines":2,"bbox":[560,310,160,55]}
+{"kind":"textbox","id":"sh/etwvylgf","slide":8,"text":"API / Adapter\nOrder State","textPreview":"API / Adapter | Order State","textChars":25,"textLines":2,"bbox":[560,370,160,42]}
+{"kind":"textbox","id":"sh/ipcfal07","slide":8,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[500,330,34,42]}
+{"kind":"textbox","id":"sh/3qlgj6hs","slide":8,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[736,330,34,42]}
+{"kind":"textbox","id":"sh/4ruxcbid","slide":8,"text":"知识产权与合作状态必须分开：AICAN能力 ≠ Careloop自研 ≠ 已签合作","textPreview":"知识产权与合作状态必须分开：AICAN能力 ≠ Careloop自研 ≠ 已签合作","textChars":41,"textLines":1,"bbox":[218,605,844,31]}
+{"kind":"notes","id":"nt/3p4ryy","slide":8,"text":"我们的策略不是重造厨房操作系统，而是在成熟厨房自动化能力上增加社区服务层。中间的连接是集成计划，不代表已完成接口或签署合作。\n\n[Sources]\n- AICAN Global official overview, 2026, https://www.aicanglobal.com/"}
+{"kind":"slide","id":"sl/at0g66","slide":9,"title":"CARELOOP · MICHK 2026","textShapes":25}
+{"kind":"textbox","id":"sh/adsrip83","slide":9,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/xgjat4ru","slide":9,"name":"title-9","text":"一笔订单，如何被不同的人接力完成","textPreview":"一笔订单，如何被不同的人接力完成","textChars":16,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/cfa9kzq9","slide":9,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/na18nu9s","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/298rep87","slide":9,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/pcjqpkry","slide":9,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/oba9gfqd","slide":9,"text":"VALIDATED / DEMO / TO VALIDATE","textPreview":"VALIDATED / DEMO / TO VALIDATE","textChars":30,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/76lszepw","slide":9,"text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/m5crq98b","slide":9,"bbox":[60,265,165,82]}
+{"kind":"textbox","id":"sh/gbm587e9","slide":9,"text":"CREATED","textPreview":"CREATED","textChars":7,"textLines":1,"bbox":[72,286,141,32]}
+{"kind":"textbox","id":"sh/1cv61cfu","slide":9,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[222,282,33,42]}
+{"kind":"shape","id":"sh/e94n6hw3","slide":9,"bbox":[255,265,165,82]}
+{"kind":"textbox","id":"sh/fadozmxo","slide":9,"text":"CONFIRMED","textPreview":"CONFIRMED","textChars":9,"textLines":1,"bbox":[267,286,141,32]}
+{"kind":"textbox","id":"sh/sn2547ex","slide":9,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[417,282,33,42]}
+{"kind":"shape","id":"sh/tob6xcfi","slide":9,"bbox":[450,265,165,82]}
+{"kind":"textbox","id":"sh/6lkn2xw7","slide":9,"text":"PREPARING","textPreview":"PREPARING","textChars":9,"textLines":1,"bbox":[462,286,141,32]}
+{"kind":"textbox","id":"sh/rmtov2xc","slide":9,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[612,282,33,42]}
+{"kind":"shape","id":"sh/4j250ne1","slide":9,"bbox":[645,265,165,82]}
+{"kind":"textbox","id":"sh/5kbmtsfm","slide":9,"text":"READY","textPreview":"READY","textChars":5,"textLines":1,"bbox":[657,286,141,32]}
+{"kind":"textbox","id":"sh/l4juhk3y","slide":9,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[807,282,33,42]}
+{"kind":"shape","id":"sh/k3ad8zmd","slide":9,"bbox":[840,265,165,82]}
+{"kind":"textbox","id":"sh/z21cful8","slide":9,"text":"COLLECTED","textPreview":"COLLECTED","textChars":9,"textLines":1,"bbox":[852,286,141,32]}
+{"kind":"textbox","id":"sh/y1sb6p4n","slide":9,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[1002,282,33,42]}
+{"kind":"shape","id":"sh/x0judk32","slide":9,"bbox":[1035,265,165,82]}
+{"kind":"textbox","id":"sh/czqt4fmh","slide":9,"text":"COMPLETED","textPreview":"COMPLETED","textChars":9,"textLines":1,"bbox":[1047,286,141,32]}
+{"kind":"shape","id":"sh/byhcbalw","slide":9,"bbox":[70,191,160,34]}
+{"kind":"textbox","id":"sh/ax8b254b","slide":9,"text":"ORDER ID","textPreview":"ORDER ID","textChars":8,"textLines":1,"bbox":[78,196,144,24]}
+{"kind":"shape","id":"sh/hw3upo36","slide":9,"bbox":[250,191,240,34]}
+{"kind":"textbox","id":"sh/wvudgj2l","slide":9,"text":"INTENT / PREFERENCE","textPreview":"INTENT / PREFERENCE","textChars":19,"textLines":1,"bbox":[258,196,224,24]}
+{"kind":"shape","id":"sh/e1ora1k3","slide":9,"bbox":[510,191,200,34]}
+{"kind":"textbox","id":"sh/f2xs361o","slide":9,"text":"CONFIRMATION","textPreview":"CONFIRMATION","textChars":12,"textLines":1,"bbox":[518,196,184,24]}
+{"kind":"shape","id":"sh/0369cb29","slide":9,"bbox":[770,174,448,78]}
+{"kind":"textbox","id":"sh/14fa5gju","slide":9,"text":"低置信度 / 异常","textPreview":"低置信度 / 异常","textChars":9,"textLines":1,"bbox":[792,190,170,25]}
+{"kind":"textbox","id":"sh/6d4r61k7","slide":9,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[965,185,50,42]}
+{"kind":"textbox","id":"sh/red8z61s","slide":9,"text":"HUMAN ASSIST","textPreview":"HUMAN ASSIST","textChars":12,"textLines":1,"bbox":[1018,190,170,25]}
+{"kind":"textbox","id":"sh/sfm98b2d","slide":9,"text":"聊天只是入口。确认、状态、追踪与人工接管，才让需求变成可执行任务。","textPreview":"聊天只是入口。确认、状态、追踪与人工接管，才让需求变成可执行任务。","textChars":33,"textLines":1,"bbox":[170,460,940,70]}
+{"kind":"textbox","id":"sh/tgva1gji","slide":9,"text":"支付 / AICAN / 传送带适配器：DEMO ASSUMPTION","textPreview":"支付 / AICAN / 传送带适配器：DEMO ASSUMPTION","textChars":35,"textLines":1,"bbox":[330,568,620,30]}
+{"kind":"notes","id":"nt/at0g66","slide":9,"text":"同一个Order ID贯穿所有终端。系统先理解意图和偏好，再做预览确认，并通过状态机推进。任何低置信度或异常都进入人工队列。当前验证来自UI与Demo；真实支付、设备接口和现场流程仍需验证。\n\n[Sources]\n- Careloop current UI and demo evidence referenced in user-provided v3 guide"}
+{"kind":"slide","id":"sl/c18vdw","slide":10,"title":"CARELOOP · MICHK 2026","textShapes":14}
+{"kind":"textbox","id":"sh/7mx0ri9o","slide":10,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/8n610nq9","slide":10,"name":"title-10","text":"同一笔订单，四个角色看到四种行动","textPreview":"同一笔订单，四个角色看到四种行动","textChars":16,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/t8fit8ru","slide":10,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/u9oj2d8f","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/vax0vi9k","slide":10,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/gbq14nq5","slide":10,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/hczixsrq","slide":10,"text":"VALIDATED / DEMO","textPreview":"VALIDATED / DEMO","textChars":16,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/ad4zqtsv","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/329gvup4","slide":10,"bbox":[462,190,340,180]}
+{"kind":"shape","id":"sh/2h0f2poj","slide":10,"bbox":[462,190,7,180]}
+{"kind":"textbox","id":"sh/p4byxk7u","slide":10,"text":"老人端","textPreview":"老人端","textChars":3,"textLines":1,"bbox":[486,208,298,34]}
+{"kind":"textbox","id":"sh/43ix4z69","slide":10,"text":"自己点\n语音 / 大按钮 / 预览确认","textPreview":"自己点 | 语音 / 大按钮 / 预览确认","textChars":19,"textLines":2,"bbox":[486,253,298,100]}
+{"kind":"shape","id":"sh/fe9graps","slide":10,"bbox":[837,190,340,180]}
+{"kind":"shape","id":"sh/ud0fy5o7","slide":10,"bbox":[837,190,7,180]}
+{"kind":"textbox","id":"sh/hgrytk7y","slide":10,"text":"家属端","textPreview":"家属端","textChars":3,"textLines":1,"bbox":[861,208,298,34]}
+{"kind":"textbox","id":"sh/gfix0f6d","slide":10,"text":"帮他点\n远程代点 / 套餐 / 状态","textPreview":"帮他点 | 远程代点 / 套餐 / 状态","textChars":18,"textLines":2,"bbox":[861,253,298,100]}
+{"kind":"shape","id":"sh/7apgnapw","slide":10,"bbox":[462,400,340,180]}
+{"kind":"shape","id":"sh/69gfu5ob","slide":10,"bbox":[462,400,7,180]}
+{"kind":"textbox","id":"sh/a5wz65s3","slide":10,"text":"工作人员端","textPreview":"工作人员端","textChars":5,"textLines":1,"bbox":[486,418,298,34]}
+{"kind":"textbox","id":"sh/v6pgfa9o","slide":10,"text":"接住异常\n订单队列 / 偏好 / 协作","textPreview":"接住异常 | 订单队列 / 偏好 / 协作","textChars":19,"textLines":2,"bbox":[486,463,298,100]}
+{"kind":"shape","id":"sh/w7yh8va9","slide":10,"bbox":[837,400,340,180]}
+{"kind":"shape","id":"sh/x87yh0ru","slide":10,"bbox":[837,400,7,180]}
+{"kind":"textbox","id":"sh/i9gza5sz","slide":10,"text":"运营端","textPreview":"运营端","textChars":3,"textLines":1,"bbox":[861,418,298,34]}
+{"kind":"textbox","id":"sh/japgja9k","slide":10,"text":"产生数据\n趋势 / 设备 / 人工介入","textPreview":"产生数据 | 趋势 / 设备 / 人工介入","textChars":19,"textLines":2,"bbox":[861,463,298,100]}
+{"kind":"image","id":"im/yhgnaps7","slide":10,"name":"","geometry":"roundRect","alt":"Careloop elder-side current UI crop","bbox":[62,190,355,420]}
+{"kind":"notes","id":"nt/c18vdw","slide":10,"text":"四个终端不是四个独立App，而是同一笔订单的四个角色视图。老人看到简单动作，家属看到远程协作，工作人员看到异常，运营端看到改进数据。\n\n[Sources]\n- Careloop prior deck, Group 5-暖桌Careloop.pdf, slide 14 (user-provided UI evidence)"}
+{"kind":"slide","id":"sl/oyd2g8","slide":11,"title":"CARELOOP · MICHK 2026","textShapes":27}
+{"kind":"textbox","id":"sh/9c7a9ovm","slide":11,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/m9wre9wb","slide":11,"name":"title-11","text":"真正体现 Care 的，是 AI 不确定时有人接住","textPreview":"真正体现 Care 的，是 AI 不确定时有人接住","textChars":25,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/7aps7edw","slide":11,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/k7e9cze5","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/l8nq54vq","slide":11,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/y5wra9wz","slide":11,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/z6583udk","slide":11,"text":"DEMO / VALIDATED / ASSUMPTION","textPreview":"DEMO / VALIDATED / ASSUMPTION","textChars":29,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/43i9o3u9","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"textbox","id":"sh/9knihoju","slide":11,"text":"NORMAL PATH","textPreview":"NORMAL PATH","textChars":11,"textLines":1,"bbox":[535,200,260,26]}
+{"kind":"shape","id":"sh/8jehoj2p","slide":11,"bbox":[535,245,112,70]}
+{"kind":"textbox","id":"sh/7y50fe14","slide":11,"text":"老人发起","textPreview":"老人发起","textChars":4,"textLines":1,"bbox":[543,265,96,34]}
+{"kind":"textbox","id":"sh/mxwzm9kj","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[645,260,25,42]}
+{"kind":"shape","id":"sh/lwnidojy","slide":11,"bbox":[668,245,112,70]}
+{"kind":"textbox","id":"sh/kvuhkj2d","slide":11,"text":"生成预览","textPreview":"生成预览","textChars":4,"textLines":1,"bbox":[676,265,96,34]}
+{"kind":"textbox","id":"sh/zulgbe1s","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[778,260,25,42]}
+{"kind":"shape","id":"sh/ytczi9k7","slide":11,"bbox":[801,245,112,70]}
+{"kind":"textbox","id":"sh/5s7ip8j2","slide":11,"text":"确认订单","textPreview":"确认订单","textChars":4,"textLines":1,"bbox":[809,265,96,34]}
+{"kind":"textbox","id":"sh/4ryhw32h","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[911,260,25,42]}
+{"kind":"shape","id":"sh/4v61srat","slide":11,"bbox":[934,245,112,70]}
+{"kind":"textbox","id":"sh/pwf2lcre","slide":11,"text":"厨房 / 人员接单","textPreview":"厨房 / 人员接单","textChars":9,"textLines":1,"bbox":[942,265,96,34]}
+{"kind":"textbox","id":"sh/2tojqhsn","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[1044,260,25,42]}
+{"kind":"shape","id":"sh/3uxkjm98","slide":11,"bbox":[1067,245,112,70]}
+{"kind":"textbox","id":"sh/grm1o7ax","slide":11,"text":"完成并记录","textPreview":"完成并记录","textChars":5,"textLines":1,"bbox":[1075,265,96,34]}
+{"kind":"textbox","id":"sh/hsf2hcri","slide":11,"text":"UNCERTAIN PATH","textPreview":"UNCERTAIN PATH","textChars":14,"textLines":1,"bbox":[535,365,270,26]}
+{"kind":"shape","id":"sh/u54jmxsr","slide":11,"bbox":[535,410,112,70]}
+{"kind":"textbox","id":"sh/fqdkf29c","slide":11,"text":"识别不确定","textPreview":"识别不确定","textChars":5,"textLines":1,"bbox":[543,430,96,34]}
+{"kind":"textbox","id":"sh/s3m1knal","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[645,425,25,42]}
+{"kind":"shape","id":"sh/t4v2dsr6","slide":11,"bbox":[668,410,112,70]}
+{"kind":"textbox","id":"sh/vytknid8","slide":11,"text":"停止自动推进","textPreview":"停止自动推进","textChars":6,"textLines":1,"bbox":[676,430,96,34]}
+{"kind":"textbox","id":"sh/axk3uxcn","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[778,425,25,42]}
+{"kind":"shape","id":"sh/x0b2psby","slide":11,"bbox":[801,410,112,70]}
+{"kind":"textbox","id":"sh/wz2lwnud","slide":11,"text":"进入任务队列","textPreview":"进入任务队列","textChars":6,"textLines":1,"bbox":[809,430,96,34]}
+{"kind":"textbox","id":"sh/j2dkr2t4","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[911,425,25,42]}
+{"kind":"shape","id":"sh/i143yxcj","slide":11,"bbox":[934,410,112,70]}
+{"kind":"textbox","id":"sh/54v2tcba","slide":11,"text":"工作人员确认","textPreview":"工作人员确认","textChars":6,"textLines":1,"bbox":[942,430,96,34]}
+{"kind":"textbox","id":"sh/k3ml07up","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[1044,425,25,42]}
+{"kind":"shape","id":"sh/7qdkv2t0","slide":11,"bbox":[1067,410,112,70]}
+{"kind":"textbox","id":"sh/6p432hcv","slide":11,"text":"继续 / 改单","textPreview":"继续 / 改单","textChars":7,"textLines":1,"bbox":[1075,430,96,34]}
+{"kind":"textbox","id":"sh/qlwve5o3","slide":11,"text":"现场演示：视频 + 6张截图备份；真实机器人 / 支付 / 传送带不得冒充已接入","textPreview":"现场演示：视频 + 6张截图备份；真实机器人 / 支付 / 传送带不得冒充已接入","textChars":40,"textLines":1,"bbox":[535,535,665,54]}
+{"kind":"image","id":"im/wjq5cbmt","slide":11,"name":"","geometry":"roundRect","alt":"Careloop current workflow UI crop","bbox":[62,196,420,390]}
+{"kind":"notes","id":"nt/oyd2g8","slide":11,"text":"演示必须同时跑一次正常路径和一次失败转人工。正常路径证明闭环，失败路径证明责任边界。现场建议准备90秒视频和六张连续截图；支付、AICAN和传送带只作为Demo adapter。\n\n[Sources]\n- Careloop current UI and demo evidence referenced in user-provided v3 guide"}
+{"kind":"slide","id":"sl/an1n7p","slide":12,"title":"CARELOOP · MICHK 2026","textShapes":21}
+{"kind":"textbox","id":"sh/rqhgfy54","slide":12,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/sraxo3mp","slide":12,"name":"title-12","text":"订单数据先形成 Operational Learning，再谈壁垒","textPreview":"订单数据先形成 Operational Learning，再谈壁垒","textChars":33,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/tsjyh8na","slide":12,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/il8fit4n","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/jmhgby58","slide":12,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/4nqxk3mt","slide":12,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/5ozyd8ne","slide":12,"text":"ROADMAP / TO VALIDATE","textPreview":"ROADMAP / TO VALIDATE","textChars":21,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/axofe94r","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/vyxg7e5w","slide":12,"bbox":[62,210,360,340]}
+{"kind":"textbox","id":"sh/vitkvah8","slide":12,"text":"一张订单留下什么？","textPreview":"一张订单留下什么？","textChars":9,"textLines":1,"bbox":[92,240,300,38]}
+{"kind":"shape","id":"sh/ahk325gn","slide":12,"bbox":[92,310,300,34]}
+{"kind":"textbox","id":"sh/hkb2xkzy","slide":12,"text":"偏好与菜单选择","textPreview":"偏好与菜单选择","textChars":7,"textLines":1,"bbox":[100,315,284,24]}
+{"kind":"shape","id":"sh/wj2l4fyt","slide":12,"bbox":[92,365,300,34]}
+{"kind":"textbox","id":"sh/jmdkzux4","slide":12,"text":"人工介入与异常类型","textPreview":"人工介入与异常类型","textChars":9,"textLines":1,"bbox":[100,370,284,24]}
+{"kind":"shape","id":"sh/ilk36pgj","slide":12,"bbox":[92,420,300,34]}
+{"kind":"textbox","id":"sh/58vm1kfa","slide":12,"text":"设备利用与菜品耗时","textPreview":"设备利用与菜品耗时","textChars":9,"textLines":1,"bbox":[100,425,284,24]}
+{"kind":"shape","id":"sh/4nml8zyp","slide":12,"bbox":[92,475,300,34]}
+{"kind":"textbox","id":"sh/zq9knqh0","slide":12,"text":"高峰与服务覆盖","textPreview":"高峰与服务覆盖","textChars":7,"textLines":1,"bbox":[100,480,284,24]}
+{"kind":"textbox","id":"sh/yp0julgf","slide":12,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[442,350,70,42]}
+{"kind":"shape","id":"sh/25on2t03","slide":12,"bbox":[530,215,300,145]}
+{"kind":"textbox","id":"sh/36hovyho","slide":12,"text":"MENU","textPreview":"MENU","textChars":4,"textLines":1,"bbox":[554,238,252,24]}
+{"kind":"textbox","id":"sh/o7q543it","slide":12,"text":"菜单迭代","textPreview":"菜单迭代","textChars":4,"textLines":1,"bbox":[554,279,252,38]}
+{"kind":"shape","id":"sh/p8z6x8ze","slide":12,"bbox":[870,215,300,145]}
+{"kind":"textbox","id":"sh/ehonyt0r","slide":12,"text":"STAFFING","textPreview":"STAFFING","textChars":8,"textLines":1,"bbox":[894,238,252,24]}
+{"kind":"textbox","id":"sh/f2xory1c","slide":12,"text":"排班与介入","textPreview":"排班与介入","textChars":5,"textLines":1,"bbox":[894,279,252,38]}
+{"kind":"shape","id":"sh/g3650jix","slide":12,"bbox":[530,400,300,145]}
+{"kind":"textbox","id":"sh/14f6tozi","slide":12,"text":"EQUIPMENT","textPreview":"EQUIPMENT","textChars":9,"textLines":1,"bbox":[554,423,252,24]}
+{"kind":"textbox","id":"sh/6d4nu90v","slide":12,"text":"维护与利用","textPreview":"维护与利用","textChars":5,"textLines":1,"bbox":[554,464,252,38]}
+{"kind":"shape","id":"sh/rexone1g","slide":12,"bbox":[870,400,300,145]}
+{"kind":"textbox","id":"sh/94nipgnu","slide":12,"text":"CARE","textPreview":"CARE","textChars":4,"textLines":1,"bbox":[894,423,252,24]}
+{"kind":"textbox","id":"sh/83ehgb6p","slide":12,"text":"持续照护","textPreview":"持续照护","textChars":4,"textLines":1,"bbox":[894,464,252,38]}
+{"kind":"textbox","id":"sh/7i50n654","slide":12,"text":"今天卖服务；长期积累站点 SOP、菜单模型、人员排班与设备维护经验。","textPreview":"今天卖服务；长期积累站点 SOP、菜单模型、人员排班与设备维护经验。","textChars":34,"textLines":1,"bbox":[180,590,920,34]}
+{"kind":"notes","id":"nt/an1n7p","slide":12,"text":"这页只讲运营学习，不宣称Data Moat。真实订单会产生用户、服务、厨房和社区四类数据，并反向改进菜单、排班、设备和照护。只有持续运营后，这些经验才可能形成壁垒。"}
+{"kind":"slide","id":"sl/j9sbx2","slide":13,"title":"CARELOOP · MICHK 2026","textShapes":30}
+{"kind":"textbox","id":"sh/83e9ofmh","slide":13,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/7258valw","slide":13,"name":"title-13","text":"站点靠人机分工运行，不靠“无人化”","textPreview":"站点靠人机分工运行，不靠“无人化”","textChars":17,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/m1wrm54b","slide":13,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/hs7a1k3y","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/wry9sfmd","slide":13,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/vqpszals","slide":13,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/upgrq54n","slide":13,"text":"TO VALIDATE / OPERATING MODEL","textPreview":"TO VALIDATE / OPERATING MODEL","textChars":29,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/5wra543a","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/4vy9wzmp","slide":13,"bbox":[85,338,760,6]}
+{"kind":"shape","id":"sh/q1svqlcv","slide":13,"bbox":[73,324,34,34]}
+{"kind":"textbox","id":"sh/b21wjqtg","slide":13,"text":"08:00","textPreview":"08:00","textChars":5,"textLines":1,"bbox":[44,274,92,28]}
+{"kind":"textbox","id":"sh/c3adsvul","slide":13,"text":"备餐入库","textPreview":"备餐入库","textChars":4,"textLines":1,"bbox":[10,375,160,30]}
+{"kind":"textbox","id":"sh/d4jel0b6","slide":13,"text":"净菜 / 保温 / 检查","textPreview":"净菜 / 保温 / 检查","textChars":12,"textLines":1,"bbox":[0,416,180,50]}
+{"kind":"shape","id":"sh/y5svu5cr","slide":13,"bbox":[318,324,34,34]}
+{"kind":"textbox","id":"sh/zq1wnatc","slide":13,"text":"11:00","textPreview":"11:00","textChars":5,"textLines":1,"bbox":[289,274,92,28]}
+{"kind":"textbox","id":"sh/kradwfux","slide":13,"text":"午餐峰值","textPreview":"午餐峰值","textChars":4,"textLines":1,"bbox":[255,375,160,30]}
+{"kind":"textbox","id":"sh/lsjep0bi","slide":13,"text":"自动烹饪 + 人工协作","textPreview":"自动烹饪 + 人工协作","textChars":11,"textLines":1,"bbox":[245,416,180,50]}
+{"kind":"shape","id":"sh/e9ovi1cn","slide":13,"bbox":[563,324,34,34]}
+{"kind":"textbox","id":"sh/fuhcb6d8","slide":13,"text":"14:00","textPreview":"14:00","textChars":5,"textLines":1,"bbox":[534,274,92,28]}
+{"kind":"textbox","id":"sh/j2tk3ipo","slide":13,"text":"清洁维护","textPreview":"清洁维护","textChars":4,"textLines":1,"bbox":[500,375,160,30]}
+{"kind":"textbox","id":"sh/i1kjudo3","slide":13,"text":"清洗 / 巡检 / 备件","textPreview":"清洗 / 巡检 / 备件","textChars":12,"textLines":1,"bbox":[490,416,180,50]}
+{"kind":"shape","id":"sh/54b258nu","slide":13,"bbox":[808,324,34,34]}
+{"kind":"textbox","id":"sh/k321wn69","slide":13,"text":"17:00","textPreview":"17:00","textChars":5,"textLines":1,"bbox":[779,274,92,28]}
+{"kind":"textbox","id":"sh/vyt0zypc","slide":13,"text":"晚餐 / 收档","textPreview":"晚餐 / 收档","textChars":7,"textLines":1,"bbox":[745,375,160,30]}
+{"kind":"textbox","id":"sh/axkjqto7","slide":13,"text":"异常复盘 / 数据记录","textPreview":"异常复盘 / 数据记录","textChars":11,"textLines":1,"bbox":[735,416,180,50]}
+{"kind":"shape","id":"sh/x0b2187i","slide":13,"bbox":[900,195,318,380]}
+{"kind":"textbox","id":"sh/wz21s36x","slide":13,"text":"谁负责什么？","textPreview":"谁负责什么？","textChars":6,"textLines":1,"bbox":[930,230,258,34]}
+{"kind":"textbox","id":"sh/fudkb25w","slide":13,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[932,300,28,24]}
+{"kind":"textbox","id":"sh/ut4j2xob","slide":13,"text":"设备巡检 / 运营","textPreview":"设备巡检 / 运营","textChars":9,"textLines":1,"bbox":[972,297,210,30]}
+{"kind":"textbox","id":"sh/czyhwzmt","slide":13,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[932,350,28,24]}
+{"kind":"textbox","id":"sh/d07y54ne","slide":13,"text":"社区情感服务 / 协作","textPreview":"社区情感服务 / 协作","textChars":11,"textLines":1,"bbox":[972,347,210,30]}
+{"kind":"textbox","id":"sh/qdwzup4n","slide":13,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[932,400,28,24]}
+{"kind":"textbox","id":"sh/bepg3u58","slide":13,"text":"异常人工接管","textPreview":"异常人工接管","textChars":6,"textLines":1,"bbox":[972,397,210,30]}
+{"kind":"textbox","id":"sh/03yh0zmp","slide":13,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[932,450,28,24]}
+{"kind":"textbox","id":"sh/l47y94na","slide":13,"text":"供应商 SLA 维护","textPreview":"供应商 SLA 维护","textChars":10,"textLines":1,"bbox":[972,447,210,30]}
+{"kind":"textbox","id":"sh/y1gzyp4z","slide":13,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[932,500,28,24]}
+{"kind":"textbox","id":"sh/z2pg7u54","slide":13,"text":"食品安全与责任边界","textPreview":"食品安全与责任边界","textChars":9,"textLines":1,"bbox":[972,497,210,30]}
+{"kind":"textbox","id":"sh/87ih4jm1","slide":13,"text":"AI 减负 ≠ 替代陪伴","textPreview":"AI 减负 ≠ 替代陪伴","textChars":12,"textLines":1,"bbox":[192,560,590,38]}
+{"kind":"notes","id":"nt/j9sbx2","slide":13,"text":"站点不是无人厨房。中央或区域供应链完成净菜，设备承担标准化烹饪，工作人员负责巡检、异常和社区服务，供应商负责维护SLA。食品安全、清洗、温控和责任边界必须在试点前确认。"}
+{"kind":"slide","id":"sl/m3djck","slide":14,"title":"CARELOOP · MICHK 2026","textShapes":28}
+{"kind":"textbox","id":"sh/exwfyx8n","slide":14,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/107e9c7e","slide":14,"name":"title-14","text":"补贴降低进入成本，长期收入来自持续服务","textPreview":"补贴降低进入成本，长期收入来自持续服务","textChars":19,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/gzyx07qt","slide":14,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/ra5w329w","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/69wfux8b","slide":14,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/tcne5sr2","slide":14,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/sbexwnqh","slide":14,"text":"BUSINESS MODEL / PLANNING MODEL","textPreview":"BUSINESS MODEL / PLANNING MODEL","textChars":31,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/j6lwzi90","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/i5cfqd8f","slide":14,"bbox":[62,202,350,315]}
+{"kind":"textbox","id":"sh/cnypcj6t","slide":14,"text":"G 端","textPreview":"G 端","textChars":3,"textLines":1,"bbox":[86,228,302,45]}
+{"kind":"textbox","id":"sh/d876lo7e","slide":14,"text":"PAYER","textPreview":"PAYER","textChars":5,"textLines":1,"bbox":[86,292,100,22]}
+{"kind":"textbox","id":"sh/qlg7a9o3","slide":14,"text":"政策 / 服务购买","textPreview":"政策 / 服务购买","textChars":9,"textLines":1,"bbox":[86,320,302,42]}
+{"kind":"textbox","id":"sh/rmpojep8","slide":14,"text":"VALUE","textPreview":"VALUE","textChars":5,"textLines":1,"bbox":[86,382,100,22]}
+{"kind":"textbox","id":"sh/4jyp8j6x","slide":14,"text":"助餐可及性与监管","textPreview":"助餐可及性与监管","textChars":8,"textLines":1,"bbox":[86,410,302,42]}
+{"kind":"textbox","id":"sh/pk76ho7i","slide":14,"text":"REVENUE","textPreview":"REVENUE","textChars":7,"textLines":1,"bbox":[86,466,100,22]}
+{"kind":"textbox","id":"sh/2hgn698r","slide":14,"text":"进入成本降低","textPreview":"进入成本降低","textChars":6,"textLines":1,"bbox":[86,491,302,22]}
+{"kind":"shape","id":"sh/3ipofepc","slide":14,"bbox":[452,202,350,315]}
+{"kind":"textbox","id":"sh/ofipk361","slide":14,"text":"B 端","textPreview":"B 端","textChars":3,"textLines":1,"bbox":[476,228,302,45]}
+{"kind":"textbox","id":"sh/9gb6t87m","slide":14,"text":"PAYER","textPreview":"PAYER","textChars":5,"textLines":1,"bbox":[476,292,100,22]}
+{"kind":"textbox","id":"sh/xknyh4ve","slide":14,"text":"物业 / 社区运营方","textPreview":"物业 / 社区运营方","textChars":10,"textLines":1,"bbox":[476,320,302,42]}
+{"kind":"textbox","id":"sh/wjexojut","slide":14,"text":"VALUE","textPreview":"VALUE","textChars":5,"textLines":1,"bbox":[476,382,100,22]}
+{"kind":"textbox","id":"sh/bi5gfedo","slide":14,"text":"空间与居民服务","textPreview":"空间与居民服务","textChars":7,"textLines":1,"bbox":[476,410,302,42]}
+{"kind":"textbox","id":"sh/ahcfm9c3","slide":14,"text":"REVENUE","textPreview":"REVENUE","textChars":7,"textLines":1,"bbox":[476,466,100,22]}
+{"kind":"textbox","id":"sh/9w3yd4vi","slide":14,"text":"站点费 / 管理费 / 分成","textPreview":"站点费 / 管理费 / 分成","textChars":14,"textLines":1,"bbox":[476,491,302,22]}
+{"kind":"shape","id":"sh/ovuxkzux","slide":14,"bbox":[842,202,350,315]}
+{"kind":"textbox","id":"sh/nulwbudc","slide":14,"text":"C 端","textPreview":"C 端","textChars":3,"textLines":1,"bbox":[866,228,302,45]}
+{"kind":"textbox","id":"sh/mtcfipcr","slide":14,"text":"PAYER","textPreview":"PAYER","textChars":5,"textLines":1,"bbox":[866,292,100,22]}
+{"kind":"textbox","id":"sh/1s3e9kv6","slide":14,"text":"老人 / 家属","textPreview":"老人 / 家属","textChars":7,"textLines":1,"bbox":[866,320,302,42]}
+{"kind":"textbox","id":"sh/0ruxgzu1","slide":14,"text":"VALUE","textPreview":"VALUE","textChars":5,"textLines":1,"bbox":[866,382,100,22]}
+{"kind":"textbox","id":"sh/qx8vqlsj","slide":14,"text":"单餐、套餐、健康膳食","textPreview":"单餐、套餐、健康膳食","textChars":10,"textLines":1,"bbox":[866,410,302,42]}
+{"kind":"textbox","id":"sh/ry1cjqt4","slide":14,"text":"REVENUE","textPreview":"REVENUE","textChars":7,"textLines":1,"bbox":[866,466,100,22]}
+{"kind":"textbox","id":"sh/czadsvap","slide":14,"text":"真实支付与复购","textPreview":"真实支付与复购","textChars":7,"textLines":1,"bbox":[866,491,302,22]}
+{"kind":"shape","id":"sh/d0jul0ba","slide":14,"bbox":[265,552,750,70]}
+{"kind":"textbox","id":"sh/2t8vmlsn","slide":14,"text":"CARELOOP：设备集成 + 软件运营费 + 服务分成","textPreview":"CARELOOP：设备集成 + 软件运营费 + 服务分成","textChars":28,"textLines":1,"bbox":[290,571,700,32]}
+{"kind":"notes","id":"nt/m3djck","slide":14,"text":"谁付钱、谁获益、Careloop如何收费必须分开。政策和试点资金帮助第一站进入，物业提供空间与触达，家庭支付持续服务。补贴不是长期商业模式，也不能写成已经获得的Careloop收入。\n\n[Sources]\n- 南山区人民政府，《南山区长者助餐服务管理办法（试行）》，2024, https://www.szns.gov.cn/xxgk/qzfxxgkml/zfgb/2024/three/content/post_12585343.html"}
+{"kind":"slide","id":"sl/p0wtql","slide":15,"title":"CARELOOP · MICHK 2026","textShapes":19}
+{"kind":"textbox","id":"sh/szelgzul","slide":15,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/ry5k7ed0","slide":15,"name":"title-15","text":"南山首站应插入既有助餐网络，而不是另建食堂","textPreview":"南山首站应插入既有助餐网络，而不是另建食堂","textChars":21,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/qxc3e9cv","slide":15,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/14nmdovi","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/03elkjux","slide":15,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/f254bedc","slide":15,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/e1w3i9cr","slide":15,"text":"EXTERNAL SOURCE / TO VALIDATE","textPreview":"EXTERNAL SOURCE / TO VALIDATE","textChars":29,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/h8321kvy","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/g7ul8fud","slide":15,"bbox":[62,205,350,355]}
+{"kind":"textbox","id":"sh/6hc761kz","slide":15,"text":"BENCHMARK","textPreview":"BENCHMARK","textChars":9,"textLines":1,"bbox":[86,231,302,22]}
+{"kind":"textbox","id":"sh/7i58zm1k","slide":15,"text":"高发社区 / 幸福邻里","textPreview":"高发社区 / 幸福邻里","textChars":11,"textLines":1,"bbox":[86,285,302,66]}
+{"kind":"textbox","id":"sh/sjep8r25","slide":15,"text":"综合服务体已整合食堂、社康与长者服务","textPreview":"综合服务体已整合食堂、社康与长者服务","textChars":18,"textLines":1,"bbox":[90,379,294,74]}
+{"kind":"shape","id":"sh/t4nq1wja","slide":15,"bbox":[117,485,240,34]}
+{"kind":"textbox","id":"sh/u5w7a1kv","slide":15,"text":"研究服务协同","textPreview":"研究服务协同","textChars":6,"textLines":1,"bbox":[125,490,224,24]}
+{"kind":"shape","id":"sh/f658361g","slide":15,"bbox":[452,205,350,355]}
+{"kind":"textbox","id":"sh/g7e9cb21","slide":15,"text":"FOOD-SERVICE","textPreview":"FOOD-SERVICE","textChars":12,"textLines":1,"bbox":[476,231,302,22]}
+{"kind":"textbox","id":"sh/h8nq5gjm","slide":15,"text":"既有社区食堂 / 长者餐桌","textPreview":"既有社区食堂 / 长者餐桌","textChars":13,"textLines":1,"bbox":[476,285,302,66]}
+{"kind":"textbox","id":"sh/29grel07","slide":15,"text":"已有供给与客流，人工流程可被观察","textPreview":"已有供给与客流，人工流程可被观察","textChars":16,"textLines":1,"bbox":[480,379,294,74]}
+{"kind":"shape","id":"sh/3ap8761s","slide":15,"bbox":[507,485,240,34]}
+{"kind":"textbox","id":"sh/zepovqhk","slide":15,"text":"验证运营效率","textPreview":"验证运营效率","textChars":6,"textLines":1,"bbox":[515,490,224,24]}
+{"kind":"shape","id":"sh/edg72lgz","slide":15,"bbox":[842,205,350,355]}
+{"kind":"textbox","id":"sh/1g7qxgzq","slide":15,"text":"PROPERTY-LED","textPreview":"PROPERTY-LED","textChars":12,"textLines":1,"bbox":[866,231,302,22]}
+{"kind":"textbox","id":"sh/0fyp4vy5","slide":15,"text":"物业主导社区节点","textPreview":"物业主导社区节点","textChars":8,"textLines":1,"bbox":[866,285,302,66]}
+{"kind":"textbox","id":"sh/rapor6ho","slide":15,"text":"场地、居民触达与服务合作更直接","textPreview":"场地、居民触达与服务合作更直接","textChars":15,"textLines":1,"bbox":[870,379,294,74]}
+{"kind":"shape","id":"sh/q9g7y1g3","slide":15,"bbox":[897,485,240,34]}
+{"kind":"textbox","id":"sh/dc76tgzu","slide":15,"text":"验证B端模式","textPreview":"验证B端模式","textChars":6,"textLines":1,"bbox":[905,490,224,24]}
+{"kind":"textbox","id":"sh/cbyp0by9","slide":15,"text":"公开场景用于筛选和访谈；不代表 Careloop 已获得合作。","textPreview":"公开场景用于筛选和访谈；不代表 Careloop 已获得合作。","textChars":31,"textLines":1,"bbox":[280,600,720,30]}
+{"kind":"notes","id":"nt/p0wtql","slide":15,"text":"第一站要选择已经有助餐需求、有管理者、有老人流量的节点。高发社区是Benchmark，既有食堂适合观察运营，物业主导点适合验证B端合作。三类都只是候选场景。\n\n[Sources]\n- 深圳市民政局，《深圳市长者饭堂和助餐点一览表》，2026, https://mzj.sz.gov.cn/szmz/pc/bmxx/cyfwzy/content/mpost_2948869.html\n- 深圳市人民政府，《深圳国企打造首个社区嵌入式民生服务综合体》，2024, https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_11559674.html"}
+{"kind":"slide","id":"sl/z12f3d","slide":16,"title":"CARELOOP · MICHK 2026","textShapes":21}
+{"kind":"textbox","id":"sh/sf29wzql","slide":16,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/retsnu90","slide":16,"name":"title-16","text":"政策、场景、运营和数据正在同一条线上","textPreview":"政策、场景、运营和数据正在同一条线上","textChars":18,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/6dkrup8v","slide":16,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/14vat47i","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/g3m90zqx","slide":16,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/f2tsru9c","slide":16,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/e1kryp8r","slide":16,"text":"EXTERNAL SOURCE","textPreview":"EXTERNAL SOURCE","textChars":15,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/h8rqh0ry","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/w7i9ovqd","slide":16,"bbox":[62,250,196,175]}
+{"kind":"textbox","id":"sh/y1oby5wb","slide":16,"text":"政策","textPreview":"政策","textChars":2,"textLines":1,"bbox":[82,273,156,36]}
+{"kind":"textbox","id":"sh/z2xsrqdg","slide":16,"text":"多类助餐设施\n5 / 15 元补贴","textPreview":"多类助餐设施 | 5 / 15 元补贴","textChars":17,"textLines":2,"bbox":[82,333,156,60]}
+{"kind":"textbox","id":"sh/k36t0ve1","slide":16,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[257,315,40,42]}
+{"kind":"shape","id":"sh/lofut0vm","slide":16,"bbox":[297,250,196,175]}
+{"kind":"textbox","id":"sh/mpob25w7","slide":16,"text":"场景","textPreview":"场景","textChars":2,"textLines":1,"bbox":[317,273,156,36]}
+{"kind":"textbox","id":"sh/7qxcvads","slide":16,"text":"饭堂 / 助餐点\n长者餐桌","textPreview":"饭堂 / 助餐点 | 长者餐桌","textChars":13,"textLines":2,"bbox":[317,333,156,60]}
+{"kind":"textbox","id":"sh/8r6t4fed","slide":16,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[492,315,40,42]}
+{"kind":"shape","id":"sh/9sfuxkvy","slide":16,"bbox":[532,250,196,175]}
+{"kind":"textbox","id":"sh/ut8b6pc3","slide":16,"text":"运营","textPreview":"运营","textChars":2,"textLines":1,"bbox":[552,273,156,36]}
+{"kind":"textbox","id":"sh/vuhczado","slide":16,"text":"食品安全\n证照 / 责任","textPreview":"食品安全 | 证照 / 责任","textChars":12,"textLines":2,"bbox":[552,333,156,60]}
+{"kind":"textbox","id":"sh/ryhsnutw","slide":16,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[727,315,40,42]}
+{"kind":"shape","id":"sh/6x8bepsb","slide":16,"bbox":[767,250,196,175]}
+{"kind":"textbox","id":"sh/t0japkb2","slide":16,"text":"数据","textPreview":"数据","textChars":2,"textLines":1,"bbox":[787,273,156,36]}
+{"kind":"textbox","id":"sh/szqtgzah","slide":16,"text":"订单 / 服务\n设备 / 介入","textPreview":"订单 / 服务 | 设备 / 介入","textChars":15,"textLines":2,"bbox":[787,333,156,60]}
+{"kind":"textbox","id":"sh/juhsjat0","slide":16,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[962,315,40,42]}
+{"kind":"shape","id":"sh/it8ra5sf","slide":16,"bbox":[1002,250,196,175]}
+{"kind":"textbox","id":"sh/5wzalkbq","slide":16,"text":"复制","textPreview":"复制","textChars":2,"textLines":1,"bbox":[1022,273,156,36]}
+{"kind":"textbox","id":"sh/4vq9cfa5","slide":16,"text":"Site-in-a-Box\nGate 制扩张","textPreview":"Site-in-a-Box | Gate 制扩张","textChars":22,"textLines":2,"bbox":[1022,333,156,60]}
+{"kind":"shape","id":"sh/vqxsfato","slide":16,"bbox":[190,485,900,80]}
+{"kind":"textbox","id":"sh/u5orm5s3","slide":16,"text":"补贴流向用户价格或运营成本；Careloop 是否符合资格必须逐项核验。","textPreview":"补贴流向用户价格或运营成本；Careloop 是否符合资格必须逐项核验。","textChars":36,"textLines":1,"bbox":[225,506,830,38]}
+{"kind":"notes","id":"nt/z12f3d","slide":16,"text":"南山已有助餐设施形式、补贴标准和食品安全要求。Careloop应进入既有政策体系，而不是假设获得创新补贴。任何资格和运营奖励都必须按主体、设施类型和申请条件核验。\n\n[Sources]\n- 南山区人民政府，《南山区长者助餐服务管理办法（试行）》，2024, https://www.szns.gov.cn/xxgk/qzfxxgkml/zfgb/2024/three/content/post_12585343.html\n- 深圳市人民政府，《深圳市基本养老服务清单（2026年版）》，2026, https://www.sz.gov.cn/attachment/1/1734/1734727/12779745.pdf"}
+{"kind":"slide","id":"sl/d8xzv4","slide":17,"title":"CARELOOP · MICHK 2026","textShapes":26}
+{"kind":"textbox","id":"sh/ix872lc3","slide":17,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/50j6x0bu","slide":17,"name":"title-17","text":"先通过 1→3→10 的 Gate，再把站点复制出去","textPreview":"先通过 1→3→10 的 Gate，再把站点复制出去","textChars":26,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/kzqp4vu9","slide":17,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/rm1ozqtk","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/6ls765cz","slide":17,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/toj610bq","slide":17,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/snap8va5","slide":17,"text":"PLANNING MODEL / TO VALIDATE","textPreview":"PLANNING MODEL / TO VALIDATE","textChars":28,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/nqxon6tg","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"textbox","id":"sh/mponu1cv","slide":17,"text":"0–6月","textPreview":"0–6月","textChars":4,"textLines":1,"bbox":[62,190,260,28]}
+{"kind":"shape","id":"sh/kz2twbat","slide":17,"bbox":[62,235,260,310]}
+{"kind":"textbox","id":"sh/50ba5gre","slide":17,"text":"1站","textPreview":"1站","textChars":2,"textLines":1,"bbox":[92,268,200,72]}
+{"kind":"textbox","id":"sh/ixkbuls3","slide":17,"text":"ENGINEERING PILOT","textPreview":"ENGINEERING PILOT","textChars":17,"textLines":1,"bbox":[87,360,210,22]}
+{"kind":"textbox","id":"sh/jyts3698","slide":17,"text":"政策 / 场地 / 供应商 / 合规","textPreview":"政策 / 场地 / 供应商 / 合规","textChars":18,"textLines":1,"bbox":[90,420,204,80]}
+{"kind":"textbox","id":"sh/s32t0va5","slide":17,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[320,365,37,42]}
+{"kind":"textbox","id":"sh/t4vu90rq","slide":17,"text":"6–12月","textPreview":"6–12月","textChars":5,"textLines":1,"bbox":[357,190,260,28]}
+{"kind":"shape","id":"sh/61kbylsz","slide":17,"bbox":[357,235,260,310]}
+{"kind":"textbox","id":"sh/72tc7q9k","slide":17,"text":"3站","textPreview":"3站","textChars":2,"textLines":1,"bbox":[387,268,200,72]}
+{"kind":"textbox","id":"sh/87itoral","slide":17,"text":"ANCHOR SITES","textPreview":"ANCHOR SITES","textChars":12,"textLines":1,"bbox":[382,360,210,22]}
+{"kind":"textbox","id":"sh/98raxwr6","slide":17,"text":"订单密度 / 介入 / 稳定 / 支付","textPreview":"订单密度 / 介入 / 稳定 / 支付","textChars":19,"textLines":1,"bbox":[385,420,204,80]}
+{"kind":"textbox","id":"sh/pczi5ofy","slide":17,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[615,365,37,42]}
+{"kind":"textbox","id":"sh/4rqhc3yd","slide":17,"text":"12–18月","textPreview":"12–18月","textChars":6,"textLines":1,"bbox":[652,190,260,28]}
+{"kind":"shape","id":"sh/3qh03yxs","slide":17,"bbox":[652,235,260,310]}
+{"kind":"textbox","id":"sh/2p8zatg7","slide":17,"text":"10站","textPreview":"10站","textChars":3,"textLines":1,"bbox":[682,268,200,72]}
+{"kind":"textbox","id":"sh/dgji98fu","slide":17,"text":"SITE-IN-A-BOX","textPreview":"SITE-IN-A-BOX","textChars":13,"textLines":1,"bbox":[677,360,210,22]}
+{"kind":"textbox","id":"sh/cfahg3y9","slide":17,"text":"BOM / SOP / 培训 / 数据指标","textPreview":"BOM / SOP / 培训 / 数据指标","textChars":21,"textLines":1,"bbox":[680,420,204,80]}
+{"kind":"textbox","id":"sh/reh07yx4","slide":17,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[910,365,37,42]}
+{"kind":"textbox","id":"sh/qd8zetgj","slide":17,"text":"18–36月","textPreview":"18–36月","textChars":6,"textLines":1,"bbox":[947,190,260,28]}
+{"kind":"shape","id":"sh/lkjid8f6","slide":17,"bbox":[947,235,260,310]}
+{"kind":"textbox","id":"sh/0ja1knyl","slide":17,"text":"复制","textPreview":"复制","textChars":2,"textLines":1,"bbox":[977,268,200,72]}
+{"kind":"textbox","id":"sh/ip4fy5w3","slide":17,"text":"PARTNER ROLLOUT","textPreview":"PARTNER ROLLOUT","textChars":15,"textLines":1,"bbox":[972,360,210,22]}
+{"kind":"textbox","id":"sh/jqdw7ado","slide":17,"text":"物业 / 养老机构 / 政府采购","textPreview":"物业 / 养老机构 / 政府采购","textChars":16,"textLines":1,"bbox":[975,420,204,80]}
+{"kind":"textbox","id":"sh/krmx0fe9","slide":17,"text":"每一阶段只有通过证据 Gate，才进入下一阶段。","textPreview":"每一阶段只有通过证据 Gate，才进入下一阶段。","textChars":24,"textLines":1,"bbox":[300,590,680,32]}
+{"kind":"notes","id":"nt/d8xzv4","slide":17,"text":"2,000万元不是今天开20家店，而是把第一套系统工程化，再把三站跑成模板。每阶段都只有一个核心Pass Gate：合规、运营、标准化、伙伴复制。\n\n[Sources]\n- TeaVita AI--Maker in China.pdf, slide 11 (stage-gated narrative reference only)"}
+{"kind":"slide","id":"sl/m4v116","slide":18,"title":"CARELOOP · MICHK 2026","textShapes":19}
+{"kind":"textbox","id":"sh/bm9gzixw","slide":18,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/c7ix8nyh","slide":18,"name":"title-18","text":"RMB 20M 是商业化工程资金，不是 Demo 预算","textPreview":"RMB 20M 是商业化工程资金，不是 Demo 预算","textChars":27,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/x8by1sf2","slide":18,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/2h0f2dgf","slide":18,"text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/ni9gvix0","slide":18,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/ojix4nyl","slide":18,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/pkryxsf6","slide":18,"text":"PLANNING MODEL","textPreview":"PLANNING MODEL","textChars":14,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/mdkfehwj","slide":18,"text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/7etg7mx4","slide":18,"bbox":[62,205,400,360]}
+{"kind":"textbox","id":"sh/fahkr25o","slide":18,"text":"RMB 0.5M","textPreview":"RMB 0.5M","textChars":8,"textLines":1,"bbox":[95,245,334,58]}
+{"kind":"textbox","id":"sh/e983yxo3","slide":18,"text":"PROTOTYPE","textPreview":"PROTOTYPE","textChars":9,"textLines":1,"bbox":[95,318,334,24]}
+{"kind":"textbox","id":"sh/1wjmtcne","slide":18,"text":"软件 Demo\n研究与概念验证\n有限场景测试","textPreview":"软件 Demo | 研究与概念验证 | 有限场景测试","textChars":22,"textLines":3,"bbox":[125,380,274,105]}
+{"kind":"textbox","id":"sh/gval076t","slide":18,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[485,350,70,42]}
+{"kind":"shape","id":"sh/3y14v25k","slide":18,"bbox":[570,190,648,390]}
+{"kind":"textbox","id":"sh/2xs3mhoz","slide":18,"text":"RMB 20M","textPreview":"RMB 20M","textChars":7,"textLines":1,"bbox":[610,224,568,68]}
+{"kind":"textbox","id":"sh/p0jmxcnq","slide":18,"text":"PHASE I COMMERCIALIZATION PLANNING ENVELOPE","textPreview":"PHASE I COMMERCIALIZATION PLANNING ENVELOPE","textChars":43,"textLines":1,"bbox":[620,305,548,25]}
+{"kind":"shape","id":"sh/ozalo765","slide":18,"bbox":[610,370,165,34]}
+{"kind":"textbox","id":"sh/b2l4zm5g","slide":18,"text":"Hardware","textPreview":"Hardware","textChars":8,"textLines":1,"bbox":[618,375,149,24]}
+{"kind":"shape","id":"sh/q1s3qhob","slide":18,"bbox":[795,370,165,34]}
+{"kind":"textbox","id":"sh/69gfe5cf","slide":18,"text":"Site","textPreview":"Site","textChars":4,"textLines":1,"bbox":[803,375,149,24]}
+{"kind":"shape","id":"sh/7apg7at0","slide":18,"bbox":[980,370,165,34]}
+{"kind":"textbox","id":"sh/8byxgful","slide":18,"text":"People","textPreview":"People","textChars":6,"textLines":1,"bbox":[988,375,149,24]}
+{"kind":"shape","id":"sh/tw7y9kb6","slide":18,"bbox":[610,432,165,34]}
+{"kind":"textbox","id":"sh/y5wfa5cj","slide":18,"text":"Software","textPreview":"Software","textChars":8,"textLines":1,"bbox":[618,437,149,24]}
+{"kind":"shape","id":"sh/j65w3at4","slide":18,"bbox":[795,432,165,34]}
+{"kind":"textbox","id":"sh/k7yxcfup","slide":18,"text":"Compliance","textPreview":"Compliance","textChars":10,"textLines":1,"bbox":[803,437,149,24]}
+{"kind":"shape","id":"sh/l87e5kbu","slide":18,"bbox":[980,432,165,34]}
+{"kind":"textbox","id":"sh/i10fmpcn","slide":18,"text":"Working Capital","textPreview":"Working Capital","textChars":15,"textLines":1,"bbox":[988,437,149,24]}
+{"kind":"textbox","id":"sh/329gfut8","slide":18,"text":"不是已融资，也不是供应商报价","textPreview":"不是已融资，也不是供应商报价","textChars":14,"textLines":1,"bbox":[690,525,410,28]}
+{"kind":"notes","id":"nt/m4v116","slide":18,"text":"50万元适合软件原型与概念验证，不足以覆盖硬件采购集成、场地改造、合规、人员、供应链、维护和运营现金流。2,000万元必须叫Phase I planning envelope，不是已融资或精确成本。\n\n[Sources]\n- AICAN Global official overview, 2026, https://www.aicanglobal.com/ (capability context; no Careloop quotation published)"}
+{"kind":"slide","id":"sl/4d4lhk","slide":19,"title":"CARELOOP · MICHK 2026","textShapes":31}
+{"kind":"textbox","id":"sh/94zq1s7q","slide":19,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/m1876doz","slide":19,"name":"title-19","text":"每个资金桶都必须换来下一阶段的证据","textPreview":"每个资金桶都必须换来下一阶段的证据","textChars":17,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/72h8zipk","slide":19,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/0zqp4369","slide":19,"text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/l0zqx87e","slide":19,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/ydo72d83","slide":19,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/zyh8vipo","slide":19,"text":"PLANNING MODEL / NOT SUPPLIER QUOTATION / QUOTE REQUIRED","textPreview":"PLANNING MODEL / NOT SUPPLIER QUOTATION / QUOTE REQUIRED","textChars":56,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/4va9g76d","slide":19,"text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/5w3q9c7y","slide":19,"bbox":[62,210,346.8,74]}
+{"kind":"textbox","id":"sh/pcbqpkri","slide":19,"text":"30%","textPreview":"30%","textChars":3,"textLines":1,"bbox":[64,232,342.8,27]}
+{"kind":"shape","id":"sh/ob29gfax","slide":19,"bbox":[408.8,210,173.4,74]}
+{"kind":"textbox","id":"sh/nat8nu9c","slide":19,"text":"15%","textPreview":"15%","textChars":3,"textLines":1,"bbox":[410.8,232,169.4,27]}
+{"kind":"shape","id":"sh/29krepsr","slide":19,"bbox":[582.2,210,144.5,74]}
+{"kind":"textbox","id":"sh/18bqlkr6","slide":19,"text":"12.5%","textPreview":"12.5%","textChars":5,"textLines":1,"bbox":[584.2,232,140.5,27]}
+{"kind":"shape","id":"sh/072pcfa1","slide":19,"bbox":[726.7,210,173.4,74]}
+{"kind":"textbox","id":"sh/f698ja9g","slide":19,"text":"15%","textPreview":"15%","textChars":3,"textLines":1,"bbox":[728.7,232,169.4,27]}
+{"kind":"shape","id":"sh/e507a5sv","slide":19,"bbox":[900.1,210,86.7,74]}
+{"kind":"textbox","id":"sh/l4vqx4rq","slide":19,"text":"7.5%","textPreview":"7.5%","textChars":4,"textLines":1,"bbox":[902.1,232,82.7,27]}
+{"kind":"shape","id":"sh/k3m9oza5","slide":19,"bbox":[986.8,210,57.8,74]}
+{"kind":"textbox","id":"sh/4je1g72d","slide":19,"text":"5%","textPreview":"5%","textChars":2,"textLines":1,"bbox":[988.8,232,53.8,27]}
+{"kind":"shape","id":"sh/5kn29c3y","slide":19,"bbox":[1044.6,210,57.8,74]}
+{"kind":"textbox","id":"sh/ixwjexkn","slide":19,"text":"5%","textPreview":"5%","textChars":2,"textLines":1,"bbox":[1046.6,232,53.8,27]}
+{"kind":"shape","id":"sh/3y5k72l8","slide":19,"bbox":[1102.4,210,115.6,74]}
+{"kind":"textbox","id":"sh/gvu1c72h","slide":19,"text":"10%","textPreview":"10%","textChars":3,"textLines":1,"bbox":[1104.4,232,111.6,27]}
+{"kind":"shape","id":"sh/hwn25c32","slide":19,"bbox":[62,330,270,105]}
+{"kind":"textbox","id":"sh/utcjax4b","slide":19,"text":"硬件工程","textPreview":"硬件工程","textChars":4,"textLines":1,"bbox":[80,345,234,27]}
+{"kind":"textbox","id":"sh/vulk32lw","slide":19,"text":"30% · 600万","textPreview":"30% · 600万","textChars":10,"textLines":1,"bbox":[80,384,234,29]}
+{"kind":"shape","id":"sh/8ru18nm5","slide":19,"bbox":[352,330,270,105]}
+{"kind":"textbox","id":"sh/ts321s3q","slide":19,"text":"站点改造","textPreview":"站点改造","textChars":4,"textLines":1,"bbox":[370,345,234,27]}
+{"kind":"textbox","id":"sh/bm1kri5s","slide":19,"text":"15% · 300万","textPreview":"15% · 300万","textChars":10,"textLines":1,"bbox":[370,384,234,29]}
+{"kind":"shape","id":"sh/a1s3ido7","slide":19,"bbox":[642,330,270,105]}
+{"kind":"textbox","id":"sh/xoj2tsny","slide":19,"text":"软件与数据安全","textPreview":"软件与数据安全","textChars":7,"textLines":1,"bbox":[660,345,234,27]}
+{"kind":"textbox","id":"sh/wnalkn6d","slide":19,"text":"12.5% · 250万","textPreview":"12.5% · 250万","textChars":12,"textLines":1,"bbox":[660,384,234,29]}
+{"kind":"shape","id":"sh/jqlkv25o","slide":19,"bbox":[932,330,270,105]}
+{"kind":"textbox","id":"sh/ypc3mxo3","slide":19,"text":"人员运营","textPreview":"人员运营","textChars":4,"textLines":1,"bbox":[950,345,234,27]}
+{"kind":"textbox","id":"sh/ls32xsnu","slide":19,"text":"15% · 300万","textPreview":"15% · 300万","textChars":10,"textLines":1,"bbox":[950,384,234,29]}
+{"kind":"shape","id":"sh/krulo769","slide":19,"bbox":[62,460,270,105]}
+{"kind":"textbox","id":"sh/7ulkz250","slide":19,"text":"供应链 / 物流 / 试运营","textPreview":"供应链 / 物流 / 试运营","textChars":14,"textLines":1,"bbox":[80,475,234,27]}
+{"kind":"textbox","id":"sh/6tc3qxof","slide":19,"text":"7.5% · 150万","textPreview":"7.5% · 150万","textChars":11,"textLines":1,"bbox":[80,514,234,29]}
+{"kind":"shape","id":"sh/6xknmlwr","slide":19,"bbox":[352,460,270,105]}
+{"kind":"textbox","id":"sh/ryt4v6dw","slide":19,"text":"合规 / 检测 / 保险","textPreview":"合规 / 检测 / 保险","textChars":12,"textLines":1,"bbox":[370,475,234,27]}
+{"kind":"textbox","id":"sh/sz25obuh","slide":19,"text":"5% · 100万","textPreview":"5% · 100万","textChars":9,"textLines":1,"bbox":[370,514,234,29]}
+{"kind":"shape","id":"sh/t0vmxgv2","slide":19,"bbox":[642,460,270,105]}
+{"kind":"textbox","id":"sh/e14nqlcn","slide":19,"text":"维护备件","textPreview":"维护备件","textChars":4,"textLines":1,"bbox":[660,475,234,27]}
+{"kind":"textbox","id":"sh/f2d4zqd8","slide":19,"text":"5% · 100万","textPreview":"5% · 100万","textChars":9,"textLines":1,"bbox":[660,514,234,29]}
+{"kind":"shape","id":"sh/g3m5svut","slide":19,"bbox":[932,460,270,105]}
+{"kind":"textbox","id":"sh/1ov610ve","slide":19,"text":"风险准备金","textPreview":"风险准备金","textChars":5,"textLines":1,"bbox":[950,475,234,27]}
+{"kind":"textbox","id":"sh/u50ne1wj","slide":19,"text":"10% · 200万","textPreview":"10% · 200万","textChars":10,"textLines":1,"bbox":[950,514,234,29]}
+{"kind":"textbox","id":"sh/v694nmd4","slide":19,"text":"TOTAL 100% · RMB 20M","textPreview":"TOTAL 100% · RMB 20M","textChars":20,"textLines":1,"bbox":[420,598,440,32]}
+{"kind":"notes","id":"nt/4d4lhk","slide":19,"text":"这八个桶合计100%、2,000万元。它是团队规划模型，不是AICAN或任何供应商报价。拿到设备、工程、人员和运营正式报价后必须重算；每个桶都应绑定可验证结果。"}
+{"kind":"slide","id":"sl/dl498y","slide":20,"title":"CARELOOP · MICHK 2026","textShapes":22}
+{"kind":"textbox","id":"sh/q5gn6lgb","slide":20,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/x8r6h0fm","slide":20,"name":"title-20","text":"不先承诺回本期，让真实变量决定回本","textPreview":"不先承诺回本期，让真实变量决定回本","textChars":17,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/c7i58vy1","slide":20,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/3ipob6hk","slide":20,"text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/2hgni1gz","slide":20,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/pk76dgzq","slide":20,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/ojy5kby5","slide":20,"text":"PLANNING MODEL / TO VALIDATE","textPreview":"PLANNING MODEL / TO VALIDATE","textChars":28,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/fe5o76ho","slide":20,"text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"textbox","id":"sh/edwne1g3","slide":20,"text":"REVENUE / SITE / MONTH","textPreview":"REVENUE / SITE / MONTH","textChars":22,"textLines":1,"bbox":[62,192,285,22]}
+{"kind":"shape","id":"sh/cve1cfat","slide":20,"bbox":[350,184,540,62]}
+{"kind":"textbox","id":"sh/dwn25kre","slide":20,"text":"paid orders × average ticket × operating days + eligible support","textPreview":"paid orders × average ticket × operating days + eligible support","textChars":64,"textLines":1,"bbox":[372,200,496,30]}
+{"kind":"textbox","id":"sh/qtcja5s3","slide":20,"text":"CONTRIBUTION","textPreview":"CONTRIBUTION","textChars":12,"textLines":1,"bbox":[62,285,285,22]}
+{"kind":"shape","id":"sh/rulk3a9o","slide":20,"bbox":[350,277,540,62]}
+{"kind":"textbox","id":"sh/4ru18fax","slide":20,"text":"revenue − food / packaging − variable payment / logistics","textPreview":"revenue − food / packaging − variable payment / logistics","textChars":57,"textLines":1,"bbox":[372,293,496,30]}
+{"kind":"textbox","id":"sh/ps321kri","slide":20,"text":"SITE CASH CONTRIBUTION","textPreview":"SITE CASH CONTRIBUTION","textChars":22,"textLines":1,"bbox":[62,378,285,22]}
+{"kind":"shape","id":"sh/25cj65sr","slide":20,"bbox":[350,370,540,62]}
+{"kind":"textbox","id":"sh/36lkza9c","slide":20,"text":"contribution − staff − utilities − maintenance − software − site fee","textPreview":"contribution − staff − utilities − maintenance − software − site fee","textChars":68,"textLines":1,"bbox":[372,386,496,30]}
+{"kind":"textbox","id":"sh/onylkzq1","slide":20,"text":"PAYBACK","textPreview":"PAYBACK","textChars":7,"textLines":1,"bbox":[62,471,285,22]}
+{"kind":"shape","id":"sh/9o72d4rm","slide":20,"bbox":[350,463,540,62]}
+{"kind":"textbox","id":"sh/x8jah0fu","slide":20,"text":"net initial CapEx ÷ monthly site cash contribution","textPreview":"net initial CapEx ÷ monthly site cash contribution","textChars":50,"textLines":1,"bbox":[372,479,496,30]}
+{"kind":"textbox","id":"sh/w7at8fe9","slide":20,"text":"SCENARIOS","textPreview":"SCENARIOS","textChars":9,"textLines":1,"bbox":[945,184,270,24]}
+{"kind":"shape","id":"sh/b61sfaxo","slide":20,"bbox":[940,225,280,96]}
+{"kind":"textbox","id":"sh/a5sb65w3","slide":20,"text":"CONSERVATIVE","textPreview":"CONSERVATIVE","textChars":12,"textLines":1,"bbox":[960,242,240,24]}
+{"kind":"textbox","id":"sh/94jad0fi","slide":20,"text":"Orders / AOV / Cost / CapEx","textPreview":"Orders / AOV / Cost / CapEx","textChars":27,"textLines":1,"bbox":[958,279,244,22]}
+{"kind":"shape","id":"sh/o3qt4vex","slide":20,"bbox":[940,345,280,96]}
+{"kind":"textbox","id":"sh/n2hsbqxc","slide":20,"text":"BASE","textPreview":"BASE","textChars":4,"textLines":1,"bbox":[960,362,240,24]}
+{"kind":"textbox","id":"sh/m18r2lwr","slide":20,"text":"Orders / AOV / Cost / CapEx","textPreview":"Orders / AOV / Cost / CapEx","textChars":27,"textLines":1,"bbox":[958,399,244,22]}
+{"kind":"shape","id":"sh/1gza9gfm","slide":20,"bbox":[940,465,280,96]}
+{"kind":"textbox","id":"sh/0fq90be1","slide":20,"text":"UPSIDE","textPreview":"UPSIDE","textChars":6,"textLines":1,"bbox":[960,482,240,24]}
+{"kind":"textbox","id":"sh/qlo7ahcj","slide":20,"text":"Orders / AOV / Cost / CapEx","textPreview":"Orders / AOV / Cost / CapEx","textChars":27,"textLines":1,"bbox":[958,519,244,22]}
+{"kind":"textbox","id":"sh/rmx8jmd4","slide":20,"text":"待实测：订单密度 · 客单价 · 食材成本 · 每单人工分钟 · 维护成本 · CapEx","textPreview":"待实测：订单密度 · 客单价 · 食材成本 · 每单人工分钟 · 维护成本 · CapEx","textChars":45,"textLines":1,"bbox":[190,585,900,38]}
+{"kind":"notes","id":"nt/dl498y","slide":20,"text":"这页替代旧版8个月回本。评委看到的是公式和三种情景输入框，而不是无依据的漂亮数字。真实订单、客单价、成本、人工介入和设备CapEx拿到后，才锁定回本期。"}
+{"kind":"slide","id":"sl/ar4mik","slide":21,"title":"CARELOOP · MICHK 2026","textShapes":20}
+{"kind":"textbox","id":"sh/2l07690f","slide":21,"text":"CARELOOP · MICHK 2026","textPreview":"CARELOOP · MICHK 2026","textChars":21,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/porqhoj6","slide":21,"name":"title-21","text":"从一个社区节点，变成可复制的养老服务基础设施","textPreview":"从一个社区节点，变成可复制的养老服务基础设施","textChars":22,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/oni98jil","slide":21,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/bq98jy1c","slide":21,"text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/ap0rat0r","slide":21,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/xcbql8j2","slide":21,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/wr29c3ih","slide":21,"text":"PLANNING MODEL / TO VALIDATE","textPreview":"PLANNING MODEL / TO VALIDATE","textChars":28,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/jet8ny18","slide":21,"text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/ydkret0n","slide":21,"bbox":[90,215,420,105]}
+{"kind":"shape","id":"sh/4fal0rqp","slide":21,"bbox":[90,215,7,105]}
+{"kind":"textbox","id":"sh/pgj2twra","slide":21,"text":"家庭","textPreview":"家庭","textChars":2,"textLines":1,"bbox":[114,233,378,34]}
+{"kind":"textbox","id":"sh/2d83yh8z","slide":21,"text":"远程代点 · 用餐记录 · 安心","textPreview":"远程代点 · 用餐记录 · 安心","textChars":16,"textLines":1,"bbox":[114,278,378,25]}
+{"kind":"shape","id":"sh/3ehkrm94","slide":21,"bbox":[90,345,420,105]}
+{"kind":"shape","id":"sh/cjal4rq1","slide":21,"bbox":[90,345,7,105]}
+{"kind":"textbox","id":"sh/dkjmxwrm","slide":21,"text":"物业","textPreview":"物业","textChars":2,"textLines":1,"bbox":[114,363,378,34]}
+{"kind":"textbox","id":"sh/qhs32h8v","slide":21,"text":"空间利用 · 居民黏性 · 服务差异","textPreview":"空间利用 · 居民黏性 · 服务差异","textChars":18,"textLines":1,"bbox":[114,408,378,25]}
+{"kind":"shape","id":"sh/ri14vm9g","slide":21,"bbox":[90,475,420,105]}
+{"kind":"shape","id":"sh/07ul8bqx","slide":21,"bbox":[90,475,7,105]}
+{"kind":"textbox","id":"sh/183m1g7i","slide":21,"text":"政府","textPreview":"政府","textChars":2,"textLines":1,"bbox":[114,493,378,34]}
+{"kind":"textbox","id":"sh/94z2lwzm","slide":21,"text":"助餐效率 · 服务覆盖 · 数据化监管","textPreview":"助餐效率 · 服务覆盖 · 数据化监管","textChars":19,"textLines":1,"bbox":[114,538,378,25]}
+{"kind":"shape","id":"sh/83qlsri1","slide":21,"bbox":[770,215,420,105]}
+{"kind":"shape","id":"sh/n2hkj6hg","slide":21,"bbox":[770,215,7,105]}
+{"kind":"textbox","id":"sh/m1o3q10b","slide":21,"text":"Careloop","textPreview":"Careloop","textChars":8,"textLines":1,"bbox":[794,233,378,34]}
+{"kind":"textbox","id":"sh/xszmpgzy","slide":21,"text":"集成服务 · 软件运营费 · 服务分成","textPreview":"集成服务 · 软件运营费 · 服务分成","textChars":19,"textLines":1,"bbox":[794,278,378,25]}
+{"kind":"shape","id":"sh/w7qlwbid","slide":21,"bbox":[770,345,420,105]}
+{"kind":"shape","id":"sh/v6hkn6hs","slide":21,"bbox":[770,345,7,105]}
+{"kind":"textbox","id":"sh/a583u107","slide":21,"text":"逐步形成的壁垒","textPreview":"逐步形成的壁垒","textChars":7,"textLines":1,"bbox":[794,363,378,34]}
+{"kind":"textbox","id":"sh/dwf2dcje","slide":21,"text":"软硬件集成 · 社区 SOP · 人工协作 · 数据 · 网络","textPreview":"软硬件集成 · 社区 SOP · 人工协作 · 数据 · 网络","textChars":31,"textLines":1,"bbox":[794,408,378,25]}
+{"kind":"shape","id":"sh/cb6lk7it","slide":21,"bbox":[530,247,210,210]}
+{"kind":"textbox","id":"sh/2hkzudgr","slide":21,"text":"RMB 20M\nPHASE I\nFUNDING TARGET","textPreview":"RMB 20M | PHASE I | FUNDING TARGET","textChars":30,"textLines":3,"bbox":[557,294,156,120]}
+{"kind":"textbox","id":"sh/32d0nixc","slide":21,"text":"ASK","textPreview":"ASK","textChars":3,"textLines":1,"bbox":[585,467,100,28]}
+{"kind":"textbox","id":"sh/o3mhwnyx","slide":21,"text":"政策入口 · 1–3个南山 Anchor Sites · 产业伙伴 · Phase I 资金 · 战略投资","textPreview":"政策入口 · 1–3个南山 Anchor Sites · 产业伙伴 · Phase I 资金 · 战略投资","textChars":53,"textLines":1,"bbox":[300,515,680,58]}
+{"kind":"textbox","id":"sh/p4vipsfi","slide":21,"text":"Machines handle the labor. Careloop makes care continuous.","textPreview":"Machines handle the labor. Careloop makes care continuous.","textChars":58,"textLines":1,"bbox":[220,608,840,34]}
+{"kind":"notes","id":"nt/ar4mik","slide":21,"text":"我们寻找的不是一笔钱把概念铺开，而是政策入口、一个真实社区、一套产业伙伴和一笔把工程化、试点与标准化跑通的Phase I资本。最终价值同时服务家庭、物业、政府和Careloop。"}
+{"kind":"slide","id":"sl/q9r5qr","slide":22,"title":"CARELOOP · APPENDIX","textShapes":15}
+{"kind":"textbox","id":"sh/yhojutg3","slide":22,"text":"CARELOOP · APPENDIX","textPreview":"CARELOOP · APPENDIX","textChars":19,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/lkf2pofu","slide":22,"name":"title-22","text":"A. 技术与数据架构","textPreview":"A. 技术与数据架构","textChars":10,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/0j61w3y9","slide":22,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/bed0jehs","slide":22,"text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/qt4jq9g7","slide":22,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/dgfilozi","slide":22,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/cf61sjyd","slide":22,"text":"VALIDATED / DEMO / TO VALIDATE","textPreview":"VALIDATED / DEMO / TO VALIDATE","textChars":30,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/vahkvixw","slide":22,"text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/ap8j2dgb","slide":22,"bbox":[130,190,1020,67]}
+{"kind":"textbox","id":"sh/cja5sjyh","slide":22,"text":"CHANNELS","textPreview":"CHANNELS","textChars":8,"textLines":1,"bbox":[158,208,180,26]}
+{"kind":"textbox","id":"sh/dkj6lof2","slide":22,"text":"Elder UI · Family UI · Staff Queue · Ops Console","textPreview":"Elder UI · Family UI · Staff Queue · Ops Console","textChars":48,"textLines":1,"bbox":[350,207,760,30]}
+{"kind":"shape","id":"sh/qh8nq9gr","slide":22,"bbox":[130,282,1020,67]}
+{"kind":"textbox","id":"sh/bihojexw","slide":22,"text":"SERVICE","textPreview":"SERVICE","textChars":7,"textLines":1,"bbox":[158,300,180,26]}
+{"kind":"textbox","id":"sh/ofq5ozyl","slide":22,"text":"Intent · Confirmation · Order State · Human Assist","textPreview":"Intent · Confirmation · Order State · Human Assist","textChars":50,"textLines":1,"bbox":[350,299,760,30]}
+{"kind":"shape","id":"sh/pgz6h4f6","slide":22,"bbox":[130,374,1020,67]}
+{"kind":"textbox","id":"sh/2d8nmpgf","slide":22,"text":"ADAPTERS","textPreview":"ADAPTERS","textChars":8,"textLines":1,"bbox":[158,392,180,26]}
+{"kind":"textbox","id":"sh/3ehofuh0","slide":22,"text":"Payment · Kitchen · Conveyor · Notifications","textPreview":"Payment · Kitchen · Conveyor · Notifications","textChars":44,"textLines":1,"bbox":[350,391,760,30]}
+{"kind":"shape","id":"sh/gb65kzy9","slide":22,"bbox":[130,466,1020,67]}
+{"kind":"textbox","id":"sh/1cz6dkzu","slide":22,"text":"DATA","textPreview":"DATA","textChars":4,"textLines":1,"bbox":[158,484,180,26]}
+{"kind":"textbox","id":"sh/h8rmhgry","slide":22,"text":"Orders · Preferences · Exceptions · Device · Metrics","textPreview":"Orders · Preferences · Exceptions · Device · Metrics","textChars":52,"textLines":1,"bbox":[350,483,760,30]}
+{"kind":"textbox","id":"sh/w7ylobqd","slide":22,"text":"Security gates: consent · least privilege · retention · audit log · incident response","textPreview":"Security gates: consent · least privilege · retention · audit log · incident response","textChars":85,"textLines":1,"bbox":[190,585,900,30]}
+{"kind":"notes","id":"nt/q9r5qr","slide":22,"text":"附录技术图只展示职责边界。Channels和Order State属于当前Demo方向；Payment、Kitchen、Conveyor等仍是适配器假设；数据安全控制需要工程化实现。"}
+{"kind":"slide","id":"sl/58lsnk","slide":23,"title":"CARELOOP · APPENDIX","textShapes":11}
+{"kind":"textbox","id":"sh/7ud8fihw","slide":23,"text":"CARELOOP · APPENDIX","textPreview":"CARELOOP · APPENDIX","textChars":19,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/8fm98ny1","slide":23,"name":"title-23","text":"B. AICAN 能力与集成边界","textPreview":"B. AICAN 能力与集成边界","textChars":16,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/tgvqh8zm","slide":23,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/ypkr2tgz","slide":23,"text":"23","textPreview":"23","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/jqt8byhk","slide":23,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/krm943y5","slide":23,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/lsvqd8zq","slide":23,"text":"EXTERNAL SOURCE / INTEGRATION PLAN","textPreview":"EXTERNAL SOURCE / INTEGRATION PLAN","textChars":34,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/alk7ytg3","slide":23,"text":"23","textPreview":"23","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/bmt87yho","slide":23,"bbox":[62,200,520,380]}
+{"kind":"shape","id":"sh/32pgrqhw","slide":23,"bbox":[62,200,7,380]}
+{"kind":"textbox","id":"sh/i1gfil0r","slide":23,"text":"可引用的 AICAN 官方能力","textPreview":"可引用的 AICAN 官方能力","textChars":15,"textLines":1,"bbox":[86,218,478,34]}
+{"kind":"textbox","id":"sh/547yt0z2","slide":23,"text":"机器人烹饪硬件\n智能操作系统与 HMI\n菜谱 / 机器管理\nAican Cloud 多设备运营\n自动调味、烟气处理、自清洁\n部分产品公开国际认证信息","textPreview":"机器人烹饪硬件 | 智能操作系统与 HMI | 菜谱 / 机器管理 | Aican Cloud 多设备运营 | 自动调味、烟气处理、自清洁 | 部分产品公开国际认证信息","textChars":74,"textLines":6,"bbox":[86,263,478,300]}
+{"kind":"shape","id":"sh/43yxkvih","slide":23,"bbox":[698,200,520,380]}
+{"kind":"shape","id":"sh/r69gvah8","slide":23,"bbox":[698,200,7,380]}
+{"kind":"textbox","id":"sh/q50fm50n","slide":23,"text":"Careloop 必须自行验证","textPreview":"Careloop 必须自行验证","textChars":15,"textLines":1,"bbox":[722,218,478,34]}
+{"kind":"textbox","id":"sh/d8ryx0ze","slide":23,"text":"本项目正式设备选型与报价\n安装条件 / 消防 / 给排水 / 通风\n菜单与老年营养适配\n接口、SLA 与备件\n峰值稳定性与人工 Plan B\n知识产权与商业合作条款","textPreview":"本项目正式设备选型与报价 | 安装条件 / 消防 / 给排水 / 通风 | 菜单与老年营养适配 | 接口、SLA 与备件 | 峰值稳定性与人工 Plan B | 知识产权与商业合作条款","textChars":82,"textLines":6,"bbox":[722,263,478,300]}
+{"kind":"textbox","id":"sh/s7ihovit","slide":23,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[590,345,95,42]}
+{"kind":"notes","id":"nt/58lsnk","slide":23,"text":"左侧是官网可支持的能力，右侧是Careloop项目必须取得报价、测试或合同才能确认的事项。任何集成图都不等于已签合作。\n\n[Sources]\n- AICAN Global official overview, 2026, https://www.aicanglobal.com/\n- AICAN corporate profile, https://aicanwang.cn/index/aboutUs/company_profile"}
+{"kind":"slide","id":"sl/koh17o","slide":24,"title":"CARELOOP · APPENDIX","textShapes":34}
+{"kind":"textbox","id":"sh/3ap4rqd0","slide":24,"text":"CARELOOP · APPENDIX","textPreview":"CARELOOP · APPENDIX","textChars":19,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/4byl0vel","slide":24,"name":"title-24","text":"C. Site BOM 与正式报价状态","textPreview":"C. Site BOM 与正式报价状态","textChars":19,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/5c7mt0v6","slide":24,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/u5w3ulwj","slide":24,"text":"24","textPreview":"24","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/v65knqd4","slide":24,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/g7elwvep","slide":24,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/h8nmp0vu","slide":24,"text":"QUOTE REQUIRED","textPreview":"QUOTE REQUIRED","textChars":14,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/6hc3q1w7","slide":24,"text":"24","textPreview":"24","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/7i5kj6ds","slide":24,"bbox":[62,190,208,48]}
+{"kind":"textbox","id":"sh/3up87mh0","slide":24,"text":"模块","textPreview":"模块","textChars":2,"textLines":1,"bbox":[74,202,184,25]}
+{"kind":"shape","id":"sh/itg7eh0f","slide":24,"bbox":[270,190,340,48]}
+{"kind":"textbox","id":"sh/5w7q9wz6","slide":24,"text":"当前范围","textPreview":"当前范围","textChars":4,"textLines":1,"bbox":[282,202,316,25]}
+{"kind":"shape","id":"sh/4vyp0ril","slide":24,"bbox":[610,190,360,48]}
+{"kind":"textbox","id":"sh/ryp8bmhw","slide":24,"text":"锁定所需证据","textPreview":"锁定所需证据","textChars":6,"textLines":1,"bbox":[622,202,336,25]}
+{"kind":"shape","id":"sh/qxgr210r","slide":24,"bbox":[970,190,248,48]}
+{"kind":"textbox","id":"sh/dkrqdwz2","slide":24,"text":"状态","textPreview":"状态","textChars":2,"textLines":1,"bbox":[982,202,224,25]}
+{"kind":"shape","id":"sh/sjy94rih","slide":24,"bbox":[62,238,208,61]}
+{"kind":"textbox","id":"sh/7258z2hs","slide":24,"text":"烹饪核心","textPreview":"烹饪核心","textChars":4,"textLines":1,"bbox":[74,254,184,31]}
+{"kind":"shape","id":"sh/61w76x07","slide":24,"bbox":[270,238,340,61]}
+{"kind":"textbox","id":"sh/ahkbe5kv","slide":24,"text":"AICAN / 其他设备选型","textPreview":"AICAN / 其他设备选型","textChars":14,"textLines":1,"bbox":[282,254,316,31]}
+{"kind":"shape","id":"sh/bits7a1g","slide":24,"bbox":[610,238,360,61]}
+{"kind":"textbox","id":"sh/cjmtgf21","slide":24,"text":"供应商正式报价 + SLA","textPreview":"供应商正式报价 + SLA","textChars":13,"textLines":1,"bbox":[622,254,336,31]}
+{"kind":"shape","id":"sh/xkvu9kjm","slide":24,"bbox":[970,238,248,61]}
+{"kind":"textbox","id":"sh/2dkbalkz","slide":24,"text":"OPEN","textPreview":"OPEN","textChars":4,"textLines":1,"bbox":[982,254,224,31]}
+{"kind":"shape","id":"sh/nets3q1k","slide":24,"bbox":[62,299,208,61]}
+{"kind":"textbox","id":"sh/of2tcv2p","slide":24,"text":"辅助设备","textPreview":"辅助设备","textChars":4,"textLines":1,"bbox":[74,315,184,31]}
+{"kind":"shape","id":"sh/pgba50ja","slide":24,"bbox":[270,299,340,61]}
+{"kind":"textbox","id":"sh/ep0b6lkn","slide":24,"text":"煮饭、保温、储藏、清洗","textPreview":"煮饭、保温、储藏、清洗","textChars":11,"textLines":1,"bbox":[282,315,316,31]}
+{"kind":"shape","id":"sh/fq9szq18","slide":24,"bbox":[610,299,360,61]}
+{"kind":"textbox","id":"sh/hgjm1s72","slide":24,"text":"型号 / 数量 / 认证","textPreview":"型号 / 数量 / 认证","textChars":12,"textLines":1,"bbox":[622,315,336,31]}
+{"kind":"shape","id":"sh/gfq5snqh","slide":24,"bbox":[970,299,248,61]}
+{"kind":"textbox","id":"sh/feh4zipw","slide":24,"text":"OPEN","textPreview":"OPEN","textChars":4,"textLines":1,"bbox":[982,315,224,31]}
+{"kind":"shape","id":"sh/ut8nqd8b","slide":24,"bbox":[62,360,208,61]}
+{"kind":"textbox","id":"sh/tszmx87q","slide":24,"text":"站点工程","textPreview":"站点工程","textChars":4,"textLines":1,"bbox":[74,376,184,31]}
+{"kind":"shape","id":"sh/srq5o3ql","slide":24,"bbox":[270,360,340,61]}
+{"kind":"textbox","id":"sh/7qh4vyp0","slide":24,"text":"水电、消防、排烟、适老化","textPreview":"水电、消防、排烟、适老化","textChars":12,"textLines":1,"bbox":[282,376,316,31]}
+{"kind":"shape","id":"sh/6p8nmt8f","slide":24,"bbox":[610,360,360,61]}
+{"kind":"textbox","id":"sh/5ozmt87u","slide":24,"text":"现场勘察 + 工程报价","textPreview":"现场勘察 + 工程报价","textChars":11,"textLines":1,"bbox":[622,376,336,31]}
+{"kind":"shape","id":"sh/kn65k3q9","slide":24,"bbox":[970,360,248,61]}
+{"kind":"textbox","id":"sh/kfy54329","slide":24,"text":"OPEN","textPreview":"OPEN","textChars":4,"textLines":1,"bbox":[982,376,224,31]}
+{"kind":"shape","id":"sh/lg7md83u","slide":24,"bbox":[62,421,208,61]}
+{"kind":"textbox","id":"sh/ydwn2tk3","slide":24,"text":"软件接口","textPreview":"软件接口","textChars":4,"textLines":1,"bbox":[74,437,184,31]}
+{"kind":"shape","id":"sh/zep4bylo","slide":24,"bbox":[270,421,340,61]}
+{"kind":"textbox","id":"sh/8jy58n25","slide":24,"text":"设备、支付、通知、运营端","textPreview":"设备、支付、通知、运营端","textChars":12,"textLines":1,"bbox":[282,437,316,31]}
+{"kind":"shape","id":"sh/9k7mhs3q","slide":24,"bbox":[610,421,360,61]}
+{"kind":"textbox","id":"sh/mhgn6dkz","slide":24,"text":"接口文档 + 集成测试","textPreview":"接口文档 + 集成测试","textChars":11,"textLines":1,"bbox":[622,437,336,31]}
+{"kind":"shape","id":"sh/7ip4filk","slide":24,"bbox":[970,421,248,61]}
+{"kind":"textbox","id":"sh/onelwjm1","slide":24,"text":"OPEN","textPreview":"OPEN","textChars":4,"textLines":1,"bbox":[982,437,224,31]}
+{"kind":"shape","id":"sh/ponm5o3m","slide":24,"bbox":[62,482,208,61]}
+{"kind":"textbox","id":"sh/r2t8bm54","slide":24,"text":"维护备件","textPreview":"维护备件","textChars":4,"textLines":1,"bbox":[74,498,184,31]}
+{"kind":"shape","id":"sh/61k72h4j","slide":24,"bbox":[270,482,340,61]}
+{"kind":"textbox","id":"sh/t4bqdwnu","slide":24,"text":"关键备件、响应时间、Plan B","textPreview":"关键备件、响应时间、Plan B","textChars":16,"textLines":1,"bbox":[282,498,316,31]}
+{"kind":"shape","id":"sh/s32p4rmp","slide":24,"bbox":[610,482,360,61]}
+{"kind":"textbox","id":"sh/jeto7m5s","slide":24,"text":"SLA + 备件清单","textPreview":"SLA + 备件清单","textChars":10,"textLines":1,"bbox":[622,498,336,31]}
+{"kind":"shape","id":"sh/idk7yh47","slide":24,"bbox":[970,482,248,61]}
+{"kind":"textbox","id":"sh/50bq9wny","slide":24,"text":"OPEN","textPreview":"OPEN","textChars":4,"textLines":1,"bbox":[982,498,224,31]}
+{"kind":"shape","id":"sh/4f2p0rmd","slide":24,"bbox":[62,543,208,61]}
+{"kind":"textbox","id":"sh/va9o325w","slide":24,"text":"运营物料","textPreview":"运营物料","textChars":4,"textLines":1,"bbox":[74,559,184,31]}
+{"kind":"shape","id":"sh/u907uxob","slide":24,"bbox":[270,543,340,61]}
+{"kind":"textbox","id":"sh/y5g7mx83","slide":24,"text":"餐具、包装、清洁、网络","textPreview":"餐具、包装、清洁、网络","textChars":11,"textLines":1,"bbox":[282,559,316,31]}
+{"kind":"shape","id":"sh/z698f2po","slide":24,"bbox":[610,543,360,61]}
+{"kind":"textbox","id":"sh/k7i9o7q9","slide":24,"text":"试运营采购清单","textPreview":"试运营采购清单","textChars":7,"textLines":1,"bbox":[622,559,336,31]}
+{"kind":"shape","id":"sh/l8rqhc7u","slide":24,"bbox":[970,543,248,61]}
+{"kind":"textbox","id":"sh/m90rqh8f","slide":24,"text":"OPEN","textPreview":"OPEN","textChars":4,"textLines":1,"bbox":[982,559,224,31]}
+{"kind":"notes","id":"nt/koh17o","slide":24,"text":"这张BOM状态表故意不填设备单价。每一个OPEN项都要由正式报价、现场勘察或接口测试关闭。"}
+{"kind":"slide","id":"sl/q2i5hx","slide":25,"title":"CARELOOP · APPENDIX","textShapes":19}
+{"kind":"textbox","id":"sh/xo3upk76","slide":25,"text":"CARELOOP · APPENDIX","textPreview":"CARELOOP · APPENDIX","textChars":19,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/alcbe58v","slide":25,"name":"title-25","text":"D. 食品安全、数据隐私与责任边界","textPreview":"D. 食品安全、数据隐私与责任边界","textChars":17,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/bmlcnap0","slide":25,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/ojutsvqp","slide":25,"text":"25","textPreview":"25","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/9k3ul0ra","slide":25,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/2hsbql8j","slide":25,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/ni1sjq94","slide":25,"text":"EXTERNAL SOURCE / TO VALIDATE","textPreview":"EXTERNAL SOURCE / TO VALIDATE","textChars":29,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/8fetozqt","slide":25,"text":"25","textPreview":"25","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/tgnux47e","slide":25,"bbox":[62,200,1156,78]}
+{"kind":"textbox","id":"sh/18vix87q","slide":25,"text":"食品安全","textPreview":"食品安全","textChars":4,"textLines":1,"bbox":[88,222,170,30]}
+{"kind":"textbox","id":"sh/g7mhon65","slide":25,"text":"持证主体 · 供应链 · 温控 · 清洗 · 留样","textPreview":"持证主体 · 供应链 · 温控 · 清洗 · 留样","textChars":25,"textLines":1,"bbox":[280,219,650,36]}
+{"kind":"shape","id":"sh/f6t0vipk","slide":25,"bbox":[980,221,205,34]}
+{"kind":"textbox","id":"sh/u5kzmdoz","slide":25,"text":"合规通过","textPreview":"合规通过","textChars":4,"textLines":1,"bbox":[988,226,189,24]}
+{"kind":"shape","id":"sh/t4bit87e","slide":25,"bbox":[62,300,1156,78]}
+{"kind":"textbox","id":"sh/s32hk36t","slide":25,"text":"设备安全","textPreview":"设备安全","textChars":4,"textLines":1,"bbox":[88,322,170,30]}
+{"kind":"textbox","id":"sh/72t0ryp8","slide":25,"text":"安装验收 · 日检 · 备件 · SLA · 人工 Plan B","textPreview":"安装验收 · 日检 · 备件 · SLA · 人工 Plan B","textChars":32,"textLines":1,"bbox":[280,319,650,36]}
+{"kind":"shape","id":"sh/61kzito3","slide":25,"bbox":[980,321,205,34]}
+{"kind":"textbox","id":"sh/d0fi5c7y","slide":25,"text":"峰值稳定","textPreview":"峰值稳定","textChars":4,"textLines":1,"bbox":[988,326,189,24]}
+{"kind":"shape","id":"sh/cz61w76d","slide":25,"bbox":[62,400,1156,78]}
+{"kind":"textbox","id":"sh/w3elsbe9","slide":25,"text":"AI 识别","textPreview":"AI 识别","textChars":5,"textLines":1,"bbox":[88,422,170,30]}
+{"kind":"textbox","id":"sh/x4n21gvu","slide":25,"text":"预览确认 · 置信度 · 人工接管 · 复盘","textPreview":"预览确认 · 置信度 · 人工接管 · 复盘","textChars":22,"textLines":1,"bbox":[280,419,650,36]}
+{"kind":"shape","id":"sh/a1c3q1wj","slide":25,"bbox":[980,421,205,34]}
+{"kind":"textbox","id":"sh/b25kz6do","slide":25,"text":"介入可控","textPreview":"介入可控","textChars":4,"textLines":1,"bbox":[988,426,189,24]}
+{"kind":"shape","id":"sh/ofulored","slide":25,"bbox":[62,500,1156,78]}
+{"kind":"textbox","id":"sh/9032xwvy","slide":25,"text":"数据隐私","textPreview":"数据隐私","textChars":4,"textLines":1,"bbox":[88,522,170,30]}
+{"kind":"textbox","id":"sh/mdcjm1w7","slide":25,"text":"最小采集 · 授权 · 权限 · 留存 · 审计","textPreview":"最小采集 · 授权 · 权限 · 留存 · 审计","textChars":24,"textLines":1,"bbox":[280,519,650,36]}
+{"kind":"shape","id":"sh/nelkv6xs","slide":25,"bbox":[980,521,205,34]}
+{"kind":"textbox","id":"sh/0bu1kre1","slide":25,"text":"隐私评审","textPreview":"隐私评审","textChars":4,"textLines":1,"bbox":[988,526,189,24]}
+{"kind":"textbox","id":"sh/1c32twfm","slide":25,"text":"责任边界必须写入合同、SOP、培训和事故响应流程，而不是留在免责声明里。","textPreview":"责任边界必须写入合同、SOP、培训和事故响应流程，而不是留在免责声明里。","textChars":36,"textLines":1,"bbox":[205,600,870,30]}
+{"kind":"notes","id":"nt/q2i5hx","slide":25,"text":"南山办法明确要求食品安全证照、制度和公示。Careloop还要建立设备、AI和数据责任边界，并把它们落到合同、SOP、培训和事件响应。\n\n[Sources]\n- 南山区人民政府，《南山区长者助餐服务管理办法（试行）》，2024, https://www.szns.gov.cn/xxgk/qzfxxgkml/zfgb/2024/three/content/post_12585343.html"}
+{"kind":"slide","id":"sl/erpbp2","slide":26,"title":"CARELOOP · APPENDIX","textShapes":34}
+{"kind":"textbox","id":"sh/7yp4nq90","slide":26,"text":"CARELOOP · APPENDIX","textPreview":"CARELOOP · APPENDIX","textChars":19,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/szylgvq5","slide":26,"name":"title-26","text":"E. Unit Economics 三情景输入模型","textPreview":"E. Unit Economics 三情景输入模型","textChars":25,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/t07mpgrq","slide":26,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/u1g3il8b","slide":26,"text":"26","textPreview":"26","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/f294rq9w","slide":26,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/gnilkvqh","slide":26,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/hormt0r2","slide":26,"text":"PLANNING MODEL / TO VALIDATE","textPreview":"PLANNING MODEL / TO VALIDATE","textChars":28,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/2p03m58n","slide":26,"text":"26","textPreview":"26","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/3q94va9s","slide":26,"bbox":[445,190,230,50]}
+{"kind":"textbox","id":"sh/bu10zixc","slide":26,"text":"CONSERVATIVE","textPreview":"CONSERVATIVE","textChars":12,"textLines":1,"bbox":[455,203,210,25]}
+{"kind":"shape","id":"sh/atsz6dwr","slide":26,"bbox":[695,190,230,50]}
+{"kind":"textbox","id":"sh/xw3i1sfi","slide":26,"text":"BASE","textPreview":"BASE","textChars":4,"textLines":1,"bbox":[705,203,210,25]}
+{"kind":"shape","id":"sh/cvah8nex","slide":26,"bbox":[945,190,230,50]}
+{"kind":"textbox","id":"sh/nq10vixg","slide":26,"text":"UPSIDE","textPreview":"UPSIDE","textChars":6,"textLines":1,"bbox":[955,203,210,25]}
+{"kind":"shape","id":"sh/2psz2dwv","slide":26,"bbox":[62,240,383,58]}
+{"kind":"textbox","id":"sh/psjix8f6","slide":26,"text":"Paid orders / day","textPreview":"Paid orders / day","textChars":17,"textLines":1,"bbox":[82,257,340,27]}
+{"kind":"shape","id":"sh/orah43e1","slide":26,"bbox":[445,240,230,58]}
+{"kind":"textbox","id":"sh/7ml072dk","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[465,257,190,25]}
+{"kind":"shape","id":"sh/6lcjexwz","slide":26,"bbox":[695,240,230,58]}
+{"kind":"textbox","id":"sh/ihg361g7","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[715,257,190,25]}
+{"kind":"shape","id":"sh/3ipkz6xs","slide":26,"bbox":[945,240,230,58]}
+{"kind":"textbox","id":"sh/4jyl8byd","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[965,257,190,25]}
+{"kind":"shape","id":"sh/5k721gfy","slide":26,"bbox":[62,298,383,58]}
+{"kind":"textbox","id":"sh/qlg3algj","slide":26,"text":"Average ticket","textPreview":"Average ticket","textChars":14,"textLines":1,"bbox":[82,315,340,27]}
+{"kind":"shape","id":"sh/rmp436xo","slide":26,"bbox":[445,298,230,58]}
+{"kind":"textbox","id":"sh/snilcby9","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[465,315,190,25]}
+{"kind":"shape","id":"sh/dorm5gfu","slide":26,"bbox":[695,298,230,58]}
+{"kind":"textbox","id":"sh/6pw3yhgz","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[715,315,190,25]}
+{"kind":"shape","id":"sh/7q5krmhk","slide":26,"bbox":[945,298,230,58]}
+{"kind":"textbox","id":"sh/p4b6dkz2","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[965,315,190,25]}
+{"kind":"shape","id":"sh/o3254fih","slide":26,"bbox":[62,356,383,58]}
+{"kind":"textbox","id":"sh/nitobahw","slide":26,"text":"Food + packaging %","textPreview":"Food + packaging %","textChars":18,"textLines":1,"bbox":[82,373,340,27]}
+{"kind":"shape","id":"sh/2hkn250r","slide":26,"bbox":[445,356,230,58]}
+{"kind":"textbox","id":"sh/x8v614ze","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[465,373,190,25]}
+{"kind":"shape","id":"sh/c7m58zit","slide":26,"bbox":[695,356,230,58]}
+{"kind":"textbox","id":"sh/b6dofuh8","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[715,373,190,25]}
+{"kind":"shape","id":"sh/a5kn6p0n","slide":26,"bbox":[945,356,230,58]}
+{"kind":"textbox","id":"sh/dcr650ju","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[965,373,190,25]}
+{"kind":"shape","id":"sh/sbi5wvi9","slide":26,"bbox":[62,414,383,58]}
+{"kind":"textbox","id":"sh/g7q9432x","slide":26,"text":"Staff hours / order","textPreview":"Staff hours / order","textChars":19,"textLines":1,"bbox":[82,431,340,27]}
+{"kind":"shape","id":"sh/h8zqd8ji","slide":26,"bbox":[445,414,230,58]}
+{"kind":"textbox","id":"sh/u58r2tkr","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[465,431,190,25]}
+{"kind":"shape","id":"sh/v6h8by1c","slide":26,"bbox":[695,414,230,58]}
+{"kind":"textbox","id":"sh/83690321","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[715,431,190,25]}
+{"kind":"shape","id":"sh/t4fq98jm","slide":26,"bbox":[945,414,230,58]}
+{"kind":"textbox","id":"sh/m1orytkv","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[965,431,190,25]}
+{"kind":"shape","id":"sh/72x87y1g","slide":26,"bbox":[62,472,383,58]}
+{"kind":"textbox","id":"sh/kz69wj2p","slide":26,"text":"Utilities + maintenance","textPreview":"Utilities + maintenance","textChars":23,"textLines":1,"bbox":[82,489,340,27]}
+{"kind":"shape","id":"sh/l0fq5oja","slide":26,"bbox":[445,472,230,58]}
+{"kind":"textbox","id":"sh/nadsfe5c","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[465,489,190,25]}
+{"kind":"shape","id":"sh/294r694r","slide":26,"bbox":[695,472,230,58]}
+{"kind":"textbox","id":"sh/pwvahon2","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[715,489,190,25]}
+{"kind":"shape","id":"sh/ovm98jmx","slide":26,"bbox":[945,472,230,58]}
+{"kind":"textbox","id":"sh/byxsjy58","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[965,489,190,25]}
+{"kind":"shape","id":"sh/ax4rat4n","slide":26,"bbox":[62,530,383,58]}
+{"kind":"textbox","id":"sh/x0falone","slide":26,"text":"Net initial CapEx","textPreview":"Net initial CapEx","textChars":17,"textLines":1,"bbox":[82,547,340,27]}
+{"kind":"shape","id":"sh/cz69c3mt","slide":26,"bbox":[445,530,230,58]}
+{"kind":"textbox","id":"sh/z2xsny5k","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[465,547,190,25]}
+{"kind":"shape","id":"sh/y1oret4z","slide":26,"bbox":[695,530,230,58]}
+{"kind":"textbox","id":"sh/u9s321s3","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[715,547,190,25]}
+{"kind":"shape","id":"sh/fal4v6to","slide":26,"bbox":[945,530,230,58]}
+{"kind":"textbox","id":"sh/gbul4ra9","slide":26,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[965,547,190,25]}
+{"kind":"textbox","id":"sh/hw3mxwbu","slide":26,"text":"Outputs: contribution / order · site cash contribution / month · payback range","textPreview":"Outputs: contribution / order · site cash contribution / month · payback range","textChars":78,"textLines":1,"bbox":[240,612,800,27]}
+{"kind":"notes","id":"nt/erpbp2","slide":26,"text":"这是待填的三情景底稿。正式模型必须由真实支付订单、食材成本、每单人工分钟、维护成本和CapEx驱动。"}
+{"kind":"slide","id":"sl/ucqrgu","slide":27,"title":"CARELOOP · APPENDIX","textShapes":27}
+{"kind":"textbox","id":"sh/jadkna90","slide":27,"text":"CARELOOP · APPENDIX","textPreview":"CARELOOP · APPENDIX","textChars":19,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/kbm1gfql","slide":27,"name":"title-27","text":"F. Risk → Control → Gate","textPreview":"F. Risk → Control → Gate","textChars":24,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/5cv2pkr6","slide":27,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/6d4jip8b","slide":27,"text":"27","textPreview":"27","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/7edkru9w","slide":27,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/sf61kzqh","slide":27,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/tgf2t4r2","slide":27,"text":"PLANNING MODEL / TO VALIDATE","textPreview":"PLANNING MODEL / TO VALIDATE","textChars":28,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/mhkj6ls7","slide":27,"text":"27","textPreview":"27","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/nitkfq9s","slide":27,"bbox":[62,190,288,48]}
+{"kind":"textbox","id":"sh/7udsj698","slide":27,"text":"RISK","textPreview":"RISK","textChars":4,"textLines":1,"bbox":[77,202,258,24]}
+{"kind":"shape","id":"sh/6t4bq1sn","slide":27,"bbox":[350,190,580,48]}
+{"kind":"textbox","id":"sh/twvalgry","slide":27,"text":"CONTROL","textPreview":"CONTROL","textChars":7,"textLines":1,"bbox":[365,202,550,24]}
+{"kind":"shape","id":"sh/svmtsbqd","slide":27,"bbox":[930,190,288,48]}
+{"kind":"textbox","id":"sh/j6tsfm9w","slide":27,"text":"PASS GATE","textPreview":"PASS GATE","textChars":9,"textLines":1,"bbox":[945,202,258,24]}
+{"kind":"shape","id":"sh/y5krmhsb","slide":27,"bbox":[62,238,288,61]}
+{"kind":"textbox","id":"sh/lsvahwr2","slide":27,"text":"食品安全","textPreview":"食品安全","textChars":4,"textLines":1,"bbox":[76,254,260,30]}
+{"kind":"shape","id":"sh/krmtorah","slide":27,"bbox":[350,238,580,61]}
+{"kind":"textbox","id":"sh/b2tsbm90","slide":27,"text":"供应链 / 温控 / 清洗 / 责任","textPreview":"供应链 / 温控 / 清洗 / 责任","textChars":18,"textLines":1,"bbox":[364,254,552,30]}
+{"kind":"shape","id":"sh/a1krihsf","slide":27,"bbox":[930,238,288,61]}
+{"kind":"textbox","id":"sh/ex0buhc7","slide":27,"text":"合规通过","textPreview":"合规通过","textChars":4,"textLines":1,"bbox":[944,254,260,30]}
+{"kind":"shape","id":"sh/zy9cnmts","slide":27,"bbox":[62,299,288,61]}
+{"kind":"textbox","id":"sh/0zitwrud","slide":27,"text":"设备故障","textPreview":"设备故障","textChars":4,"textLines":1,"bbox":[76,315,260,30]}
+{"kind":"shape","id":"sh/10bupcby","slide":27,"bbox":[350,299,580,61]}
+{"kind":"textbox","id":"sh/m1kbyhc3","slide":27,"text":"冗余 / 备件 / SLA / 人工 Plan B","textPreview":"冗余 / 备件 / SLA / 人工 Plan B","textChars":25,"textLines":1,"bbox":[364,315,552,30]}
+{"kind":"shape","id":"sh/n2tcrmto","slide":27,"bbox":[930,299,288,61]}
+{"kind":"textbox","id":"sh/o32t0ru9","slide":27,"text":"峰值稳定","textPreview":"峰值稳定","textChars":4,"textLines":1,"bbox":[944,315,260,30]}
+{"kind":"shape","id":"sh/94butwbu","slide":27,"bbox":[62,360,288,61]}
+{"kind":"textbox","id":"sh/apkb21cf","slide":27,"text":"AI 误识别","textPreview":"AI 误识别","textChars":6,"textLines":1,"bbox":[76,376,260,30]}
+{"kind":"shape","id":"sh/bqtcv6t0","slide":27,"bbox":[350,360,580,61]}
+{"kind":"textbox","id":"sh/5wzmhkze","slide":27,"text":"预览确认 / 置信度 / 人工接管","textPreview":"预览确认 / 置信度 / 人工接管","textChars":17,"textLines":1,"bbox":[364,376,552,30]}
+{"kind":"shape","id":"sh/4v658zit","slide":27,"bbox":[930,360,288,61]}
+{"kind":"textbox","id":"sh/jax4fuh8","slide":27,"text":"介入可控","textPreview":"介入可控","textChars":4,"textLines":1,"bbox":[944,376,260,30]}
+{"kind":"shape","id":"sh/i9on6p0n","slide":27,"bbox":[62,421,288,61]}
+{"kind":"textbox","id":"sh/t0z6l4za","slide":27,"text":"用户不付费","textPreview":"用户不付费","textChars":5,"textLines":1,"bbox":[76,437,260,30]}
+{"kind":"shape","id":"sh/szq5czip","slide":27,"bbox":[350,421,580,61]}
+{"kind":"textbox","id":"sh/ryhojuhk","slide":27,"text":"真实支付 / 套餐测试","textPreview":"真实支付 / 套餐测试","textChars":11,"textLines":1,"bbox":[364,437,552,30]}
+{"kind":"shape","id":"sh/6x8nap0z","slide":27,"bbox":[930,421,288,61]}
+{"kind":"textbox","id":"sh/14j6p4zm","slide":27,"text":"复购","textPreview":"复购","textChars":2,"textLines":1,"bbox":[944,437,260,30]}
+{"kind":"shape","id":"sh/g3q5gji1","slide":27,"bbox":[62,482,288,61]}
+{"kind":"textbox","id":"sh/czup8329","slide":27,"text":"站点成本过高","textPreview":"站点成本过高","textChars":6,"textLines":1,"bbox":[76,498,260,30]}
+{"kind":"shape","id":"sh/dk3qh8ju","slide":27,"bbox":[350,482,580,61]}
+{"kind":"textbox","id":"sh/qxc7mdk3","slide":27,"text":"合作场地 / 租赁 / 供应商分担","textPreview":"合作场地 / 租赁 / 供应商分担","textChars":17,"textLines":1,"bbox":[364,498,552,30]}
+{"kind":"shape","id":"sh/byl8fi1o","slide":27,"bbox":[930,482,288,61]}
+{"kind":"textbox","id":"sh/ovupk32x","slide":27,"text":"单位经济","textPreview":"单位经济","textChars":4,"textLines":1,"bbox":[944,498,260,30]}
+{"kind":"shape","id":"sh/pw3qd8ji","slide":27,"bbox":[62,543,288,61]}
+{"kind":"textbox","id":"sh/2ts7itk7","slide":27,"text":"扩张过快","textPreview":"扩张过快","textChars":4,"textLines":1,"bbox":[76,559,260,30]}
+{"kind":"shape","id":"sh/3u18by1s","slide":27,"bbox":[350,543,580,61]}
+{"kind":"textbox","id":"sh/8re9gn2h","slide":27,"text":"1→3→10 分阶段扩张","textPreview":"1→3→10 分阶段扩张","textChars":12,"textLines":1,"bbox":[364,559,552,30]}
+{"kind":"shape","id":"sh/9snqpsj2","slide":27,"bbox":[930,543,288,61]}
+{"kind":"textbox","id":"sh/jm9sf6l4","slide":27,"text":"Gate 制","textPreview":"Gate 制","textChars":6,"textLines":1,"bbox":[944,559,260,30]}
+{"kind":"notes","id":"nt/ucqrgu","slide":27,"text":"风险不是免责声明，而是资本如何按Gate释放。每个主要风险都有控制机制和可观察的Pass Gate。"}
+{"kind":"slide","id":"sl/3na59i","slide":28,"title":"CARELOOP · APPENDIX","textShapes":33}
+{"kind":"textbox","id":"sh/9ofqtgru","slide":28,"text":"CARELOOP · APPENDIX","textPreview":"CARELOOP · APPENDIX","textChars":19,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/ml47yl83","slide":28,"name":"title-28","text":"G. 0–360 日南山 Pilot SOP 与指标","textPreview":"G. 0–360 日南山 Pilot SOP 与指标","textChars":26,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/nmd8769o","slide":28,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/wr694vq5","slide":28,"text":"28","textPreview":"28","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/xcfqx0rq","slide":28,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/apor2l8z","slide":28,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/vqx8vq9k","slide":28,"text":"PLANNING MODEL / TO VALIDATE","textPreview":"PLANNING MODEL / TO VALIDATE","textChars":28,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/cv2psrq1","slide":28,"text":"28","textPreview":"28","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"textbox","id":"sh/dgbq1wrm","slide":28,"text":"0–30 日","textPreview":"0–30 日","textChars":6,"textLines":1,"bbox":[62,190,260,28]}
+{"kind":"shape","id":"sh/l8bax8bq","slide":28,"bbox":[62,235,260,340]}
+{"kind":"textbox","id":"sh/0n2t43u5","slide":28,"text":"进入社区","textPreview":"进入社区","textChars":4,"textLines":1,"bbox":[86,265,212,36]}
+{"kind":"textbox","id":"sh/zmtsvyt0","slide":28,"text":"WORK","textPreview":"WORK","textChars":4,"textLines":1,"bbox":[87,330,210,20]}
+{"kind":"textbox","id":"sh/yl0r2tcf","slide":28,"text":"场地勘察 · 访谈 · 报价 · 责任边界","textPreview":"场地勘察 · 访谈 · 报价 · 责任边界","textChars":21,"textLines":1,"bbox":[88,365,208,80]}
+{"kind":"textbox","id":"sh/9cba18b2","slide":28,"text":"OUTPUT","textPreview":"OUTPUT","textChars":6,"textLines":1,"bbox":[87,470,210,20]}
+{"kind":"textbox","id":"sh/8b2t83uh","slide":28,"text":"候选点 / 报价 / 合规清单","textPreview":"候选点 / 报价 / 合规清单","textChars":15,"textLines":1,"bbox":[88,502,208,48]}
+{"kind":"textbox","id":"sh/natszytw","slide":28,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[320,380,37,42]}
+{"kind":"textbox","id":"sh/m9kb6dcb","slide":28,"text":"31–90 日","textPreview":"31–90 日","textChars":7,"textLines":1,"bbox":[357,190,260,28]}
+{"kind":"shape","id":"sh/xgva5sby","slide":28,"bbox":[357,235,260,340]}
+{"kind":"textbox","id":"sh/wfmtcnud","slide":28,"text":"工程 Pilot","textPreview":"工程 Pilot","textChars":8,"textLines":1,"bbox":[381,265,212,36]}
+{"kind":"textbox","id":"sh/gjud8rip","slide":28,"text":"WORK","textPreview":"WORK","textChars":4,"textLines":1,"bbox":[382,330,210,20]}
+{"kind":"textbox","id":"sh/hk3uhwja","slide":28,"text":"安装调试 · 状态接入 · SOP · 全流程测试","textPreview":"安装调试 · 状态接入 · SOP · 全流程测试","textChars":25,"textLines":1,"bbox":[383,365,208,80]}
+{"kind":"textbox","id":"sh/uhsv6h0j","slide":28,"text":"OUTPUT","textPreview":"OUTPUT","textChars":6,"textLines":1,"bbox":[382,470,210,20]}
+{"kind":"textbox","id":"sh/vilcfm14","slide":28,"text":"可运行闭环 / Plan B","textPreview":"可运行闭环 / Plan B","textChars":14,"textLines":1,"bbox":[383,502,208,48]}
+{"kind":"textbox","id":"sh/4nudcbil","slide":28,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[615,380,37,42]}
+{"kind":"textbox","id":"sh/5o3ulgj6","slide":28,"text":"91–180 日","textPreview":"91–180 日","textChars":8,"textLines":1,"bbox":[652,190,260,28]}
+{"kind":"shape","id":"sh/ilcva10v","slide":28,"bbox":[652,235,260,340]}
+{"kind":"textbox","id":"sh/3mlcj61g","slide":28,"text":"商业 Pilot","textPreview":"商业 Pilot","textChars":8,"textLines":1,"bbox":[676,265,212,36]}
+{"kind":"textbox","id":"sh/krat072h","slide":28,"text":"WORK","textPreview":"WORK","textChars":4,"textLines":1,"bbox":[677,330,210,20]}
+{"kind":"textbox","id":"sh/lsju9cj2","slide":28,"text":"真实支付 · 复购 · 每单人工 · 设备利用","textPreview":"真实支付 · 复购 · 每单人工 · 设备利用","textChars":23,"textLines":1,"bbox":[678,365,208,80]}
+{"kind":"textbox","id":"sh/ni9ovepw","slide":28,"text":"OUTPUT","textPreview":"OUTPUT","textChars":6,"textLines":1,"bbox":[677,470,210,20]}
+{"kind":"textbox","id":"sh/mh0729ob","slide":28,"text":"单位经济 / 续约意向","textPreview":"单位经济 / 续约意向","textChars":11,"textLines":1,"bbox":[678,502,208,48]}
+{"kind":"textbox","id":"sh/9kr6x47m","slide":28,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[910,380,37,42]}
+{"kind":"textbox","id":"sh/8jip4j6h","slide":28,"text":"180–360 日","textPreview":"180–360 日","textChars":9,"textLines":1,"bbox":[947,190,260,28]}
+{"kind":"shape","id":"sh/zu9orupk","slide":28,"bbox":[947,235,260,340]}
+{"kind":"textbox","id":"sh/ytg7ypoz","slide":28,"text":"标准化","textPreview":"标准化","textChars":3,"textLines":1,"bbox":[971,265,212,36]}
+{"kind":"textbox","id":"sh/lgr6t47q","slide":28,"text":"WORK","textPreview":"WORK","textChars":4,"textLines":1,"bbox":[972,330,210,20]}
+{"kind":"textbox","id":"sh/0vip0z65","slide":28,"text":"BOM · SOP · 合同 · 培训 · 数据指标","textPreview":"BOM · SOP · 合同 · 培训 · 数据指标","textChars":26,"textLines":1,"bbox":[973,365,208,80]}
+{"kind":"textbox","id":"sh/rqponupo","slide":28,"text":"OUTPUT","textPreview":"OUTPUT","textChars":6,"textLines":1,"bbox":[972,470,210,20]}
+{"kind":"textbox","id":"sh/qpgnup83","slide":28,"text":"Site-in-a-Box","textPreview":"Site-in-a-Box","textChars":13,"textLines":1,"bbox":[973,502,208,48]}
+{"kind":"notes","id":"nt/3na59i","slide":28,"text":"Pilot从场景进入、工程闭环、真实支付到标准化共四阶段。每阶段都有明确工作和输出，避免只描述时间、不描述证据。"}
+{"kind":"slide","id":"sl/wjudag","slide":29,"title":"CARELOOP · APPENDIX","textShapes":28}
+{"kind":"textbox","id":"sh/6h4jyh8r","slide":29,"text":"CARELOOP · APPENDIX","textPreview":"CARELOOP · APPENDIX","textChars":19,"textLines":1,"bbox":[62,34,400,20]}
+{"kind":"textbox","id":"sh/t4f2tw72","slide":29,"name":"title-29","text":"H. 团队能做什么，以及必须补齐谁","textPreview":"H. 团队能做什么，以及必须补齐谁","textChars":17,"textLines":1,"bbox":[62,65,1120,76]}
+{"kind":"shape","id":"sh/s3610rqx","slide":29,"bbox":[62,150,52,5]}
+{"kind":"textbox","id":"sh/f6xkvmp8","slide":29,"text":"29","textPreview":"29","textChars":2,"textLines":1,"bbox":[1190,37,30,22]}
+{"kind":"shape","id":"sh/e5oj218n","slide":29,"bbox":[62,674,1156,1]}
+{"kind":"textbox","id":"sh/18f2xw7e","slide":29,"text":"CARELOOP 暖桌","textPreview":"CARELOOP 暖桌","textChars":11,"textLines":1,"bbox":[62,684,220,18]}
+{"kind":"textbox","id":"sh/g7614r6t","slide":29,"text":"TEAM / PARTNER GAPS","textPreview":"TEAM / PARTNER GAPS","textChars":19,"textLines":1,"bbox":[720,682,470,20]}
+{"kind":"textbox","id":"sh/3ahkz6pk","slide":29,"text":"29","textPreview":"29","textChars":2,"textLines":1,"bbox":[1202,682,18,20]}
+{"kind":"shape","id":"sh/29oj61oz","slide":29,"bbox":[62,190,238,48]}
+{"kind":"textbox","id":"sh/4j6xorix","slide":29,"text":"能力","textPreview":"能力","textChars":2,"textLines":1,"bbox":[74,202,214,25]}
+{"kind":"shape","id":"sh/5kfyhwz2","slide":29,"bbox":[300,190,420,48]}
+{"kind":"textbox","id":"sh/ihofm10r","slide":29,"text":"现有团队","textPreview":"现有团队","textChars":4,"textLines":1,"bbox":[312,202,396,25]}
+{"kind":"shape","id":"sh/jixgf6hc","slide":29,"bbox":[720,190,498,48]}
+{"kind":"textbox","id":"sh/sn6xsbit","slide":29,"text":"必须补齐的产业伙伴","textPreview":"必须补齐的产业伙伴","textChars":9,"textLines":1,"bbox":[732,202,474,25]}
+{"kind":"shape","id":"sh/t8zylgze","slide":29,"bbox":[62,238,238,61]}
+{"kind":"textbox","id":"sh/6lofq10n","slide":29,"text":"产品 / 用户","textPreview":"产品 / 用户","textChars":7,"textLines":1,"bbox":[76,253,210,32]}
+{"kind":"shape","id":"sh/rmxgj6h8","slide":29,"bbox":[300,238,420,61]}
+{"kind":"textbox","id":"sh/gbqxwbip","slide":29,"text":"适老场景理解 · UI / 交互原型","textPreview":"适老场景理解 · UI / 交互原型","textChars":18,"textLines":1,"bbox":[314,253,392,32]}
+{"kind":"shape","id":"sh/1czypgza","slide":29,"bbox":[720,238,498,61]}
+{"kind":"textbox","id":"sh/psvy9gre","slide":29,"text":"社区运营 / 养老机构","textPreview":"社区运营 / 养老机构","textChars":11,"textLines":1,"bbox":[734,253,470,32]}
+{"kind":"shape","id":"sh/o7mx0bq9","slide":29,"bbox":[62,299,238,61]}
+{"kind":"textbox","id":"sh/n6dg769o","slide":29,"text":"营养 / 菜单","textPreview":"营养 / 菜单","textChars":7,"textLines":1,"bbox":[76,314,210,32]}
+{"kind":"shape","id":"sh/254fy1s3","slide":29,"bbox":[300,299,420,61]}
+{"kind":"textbox","id":"sh/xwfyd0rq","slide":29,"text":"应用生物与生物技术背景","textPreview":"应用生物与生物技术背景","textChars":11,"textLines":1,"bbox":[314,314,392,32]}
+{"kind":"shape","id":"sh/cv6x4vq5","slide":29,"bbox":[720,299,498,61]}
+{"kind":"textbox","id":"sh/buxgbq9k","slide":29,"text":"临床营养顾问 / 食品安全","textPreview":"临床营养顾问 / 食品安全","textChars":13,"textLines":1,"bbox":[734,314,470,32]}
+{"kind":"shape","id":"sh/at4f2l8z","slide":29,"bbox":[62,360,238,61]}
+{"kind":"textbox","id":"sh/d0be1wrm","slide":29,"text":"工业设计 / 硬件","textPreview":"工业设计 / 硬件","textChars":9,"textLines":1,"bbox":[76,375,210,32]}
+{"kind":"shape","id":"sh/sz2xsra1","slide":29,"bbox":[300,360,420,61]}
+{"kind":"textbox","id":"sh/i50v2x8j","slide":29,"text":"工业设计 · 3D 建模","textPreview":"工业设计 · 3D 建模","textChars":12,"textLines":1,"bbox":[314,375,392,32]}
+{"kind":"shape","id":"sh/369cb2p4","slide":29,"bbox":[720,360,498,61]}
+{"kind":"textbox","id":"sh/47id47qp","slide":29,"text":"AICAN / 机电工程 / 设备集成","textPreview":"AICAN / 机电工程 / 设备集成","textChars":19,"textLines":1,"bbox":[734,375,470,32]}
+{"kind":"shape","id":"sh/58rudc7a","slide":29,"bbox":[62,421,238,61]}
+{"kind":"textbox","id":"sh/q90v6hov","slide":29,"text":"软件 / AI","textPreview":"软件 / AI","textChars":7,"textLines":1,"bbox":[76,436,210,32]}
+{"kind":"shape","id":"sh/ra9cf2pg","slide":29,"bbox":[300,421,420,61]}
+{"kind":"textbox","id":"sh/sb2d8761","slide":29,"text":"语音 · UI · 订单状态 · 人工协作","textPreview":"语音 · UI · 订单状态 · 人工协作","textChars":21,"textLines":1,"bbox":[314,436,392,32]}
+{"kind":"shape","id":"sh/dcbuhc76","slide":29,"bbox":[720,421,498,61]}
+{"kind":"textbox","id":"sh/mdgbud8b","slide":29,"text":"数据安全 / 云运维","textPreview":"数据安全 / 云运维","textChars":10,"textLines":1,"bbox":[734,436,470,32]}
+{"kind":"shape","id":"sh/7epc3ipw","slide":29,"bbox":[62,482,238,61]}
+{"kind":"textbox","id":"sh/nyx0bado","slide":29,"text":"商业化","textPreview":"商业化","textChars":3,"textLines":1,"bbox":[76,497,210,32]}
+{"kind":"shape","id":"sh/2xoji5w3","slide":29,"bbox":[300,482,420,61]}
+{"kind":"textbox","id":"sh/pkf2dkvu","slide":29,"text":"商业模型 · 比赛叙事","textPreview":"商业模型 · 比赛叙事","textChars":11,"textLines":1,"bbox":[314,497,392,32]}
+{"kind":"shape","id":"sh/oz61kfe9","slide":29,"bbox":[720,482,498,61]}
+{"kind":"textbox","id":"sh/bmhkfudk","slide":29,"text":"物业集团 / 政府项目 / 投资人","textPreview":"物业集团 / 政府项目 / 投资人","textChars":17,"textLines":1,"bbox":[734,497,470,32]}
+{"kind":"shape","id":"sh/alojmpwf","slide":29,"bbox":[62,543,238,61]}
+{"kind":"textbox","id":"sh/xoz2hkvq","slide":29,"text":"站点运营","textPreview":"站点运营","textChars":4,"textLines":1,"bbox":[76,558,210,32]}
+{"kind":"shape","id":"sh/cnq1ofe5","slide":29,"bbox":[300,543,420,61]}
+{"kind":"textbox","id":"sh/zqhkjudw","slide":29,"text":"概念运营模型","textPreview":"概念运营模型","textChars":6,"textLines":1,"bbox":[314,558,392,32]}
+{"kind":"shape","id":"sh/yp8jqpwb","slide":29,"bbox":[720,543,498,61]}
+{"kind":"textbox","id":"sh/wva1gza9","slide":29,"text":"真实站点运营负责人","textPreview":"真实站点运营负责人","textChars":9,"textLines":1,"bbox":[734,558,470,32]}
+{"kind":"textbox","id":"sh/hwji94bu","slide":29,"text":"Phase I 资本必须同时购买工程化能力、站点运营能力与产业协作能力。","textPreview":"Phase I 资本必须同时购买工程化能力、站点运营能力与产业协作能力。","textChars":36,"textLines":1,"bbox":[240,618,800,28]}
+{"kind":"notes","id":"nt/wjudag","slide":29,"text":"团队页不展示谁讲哪一页，而是说明当前能做什么，以及商业化必须补齐哪些专业伙伴。团队姓名和正式履历尚未提供，因此没有虚构。\n\n[Sources]\n- Careloop_Maker_in_China_HK_2026_PPT_Optimization_Guide_v3.docx (team capability framework)"}

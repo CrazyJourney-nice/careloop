@@ -1,0 +1,1003 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/t1h4lm",
+    "id": "t1h4lm",
+    "slide": 6,
+    "layoutId": "7b81945c-1008-46ac-89d0-f2116e843098",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "3aaceaaf-07fb-4e09-87a4-cec6793d6d5b",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F4EF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "7b81945c-1008-46ac-89d0-f2116e843098",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "3aaceaaf-07fb-4e09-87a4-cec6793d6d5b",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "3aaceaaf-07fb-4e09-87a4-cec6793d6d5b",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qx43mdw3",
+      "id": "1",
+      "name": "section",
+      "bbox": [
+        56,
+        24,
+        540,
+        22
+      ],
+      "geometry": "rect",
+      "text": "CARELOOP · MICHK 2026",
+      "textPreview": "CARELOOP · MICHK 2026",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#0F8B7A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CARELOOP · MICHK 2026"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CARELOOP · MICHK 2026",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#0F8B7A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CARELOOP · MICHK 2026",
+              "fontSize": 12,
+              "color": "#0F8B7A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dkfmhsve",
+      "id": "2",
+      "name": "page",
+      "bbox": [
+        1180,
+        24,
+        44,
+        22
+      ],
+      "geometry": "rect",
+      "text": "06",
+      "textPreview": "06",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#65727E",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "06"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "06",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#65727E",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "06",
+              "fontSize": 12,
+              "color": "#65727E",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sjmlone9",
+      "id": "3",
+      "name": "title",
+      "bbox": [
+        56,
+        60,
+        1168,
+        68
+      ],
+      "geometry": "rect",
+      "text": "硬件、软件、人与数据组成一个 Community Care Station",
+      "textPreview": "硬件、软件、人与数据组成一个 Community Care Station",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "color": "#173A5E",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "硬件、软件、人与数据组成一个 Community Care Station"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "硬件、软件、人与数据组成一个 Community Care Station",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "color": "#173A5E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "硬件、软件、人与数据组成一个 Community Care Station",
+              "fontSize": 36,
+              "color": "#173A5E",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fmx4j2dk",
+      "id": "4",
+      "name": "title-rule",
+      "bbox": [
+        56,
+        132,
+        1168,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#173A5E",
+      "lineColor": "#173A5E",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/elonqxwz",
+      "id": "5",
+      "name": "box",
+      "bbox": [
+        92,
+        174,
+        1096,
+        78
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#DCE8EF",
+      "lineColor": "#DCE8EF",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1ofmlsvq",
+      "id": "6",
+      "name": "text",
+      "bbox": [
+        118,
+        188,
+        340,
+        46
+      ],
+      "geometry": "rect",
+      "text": "01  HARDWARE",
+      "textPreview": "01  HARDWARE",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#173A5E",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01  HARDWARE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01  HARDWARE",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#173A5E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01  HARDWARE",
+              "fontSize": 21,
+              "color": "#173A5E",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0n65sne5",
+      "id": "7",
+      "name": "text",
+      "bbox": [
+        458,
+        188,
+        700,
+        46
+      ],
+      "geometry": "rect",
+      "text": "AICAN 数字烹饪设备 · 必要辅助设备",
+      "textPreview": "AICAN 数字烹饪设备 · 必要辅助设备",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#173A5E",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AICAN 数字烹饪设备 · 必要辅助设备"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AICAN 数字烹饪设备 · 必要辅助设备",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#173A5E",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AICAN 数字烹饪设备 · 必要辅助设备",
+              "fontSize": 19,
+              "color": "#173A5E",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nqx4n2dw",
+      "id": "8",
+      "name": "box",
+      "bbox": [
+        92,
+        274,
+        1096,
+        78
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#D9EEE9",
+      "lineColor": "#D9EEE9",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2ponuxwb",
+      "id": "9",
+      "name": "text",
+      "bbox": [
+        118,
+        288,
+        340,
+        46
+      ],
+      "geometry": "rect",
+      "text": "02  SERVICE SOFTWARE",
+      "textPreview": "02  SERVICE SOFTWARE",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#0F8B7A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02  SERVICE SOFTWARE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02  SERVICE SOFTWARE",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#0F8B7A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02  SERVICE SOFTWARE",
+              "fontSize": 21,
+              "color": "#0F8B7A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svelwnux",
+      "id": "10",
+      "name": "text",
+      "bbox": [
+        458,
+        288,
+        700,
+        46
+      ],
+      "geometry": "rect",
+      "text": "Kitchen Control · Order State Engine · 四角色终端",
+      "textPreview": "Kitchen Control · Order State Engine · 四角色终端",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#0F8B7A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Kitchen Control · Order State Engine · 四角色终端"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Kitchen Control · Order State Engine · 四角色终端",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#0F8B7A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Kitchen Control · Order State Engine · 四角色终端",
+              "fontSize": 19,
+              "color": "#0F8B7A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twnmpsbi",
+      "id": "11",
+      "name": "box",
+      "bbox": [
+        92,
+        374,
+        1096,
+        78
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F9DEE1",
+      "lineColor": "#F9DEE1",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tw3udcr",
+      "id": "12",
+      "name": "text",
+      "bbox": [
+        118,
+        388,
+        340,
+        46
+      ],
+      "geometry": "rect",
+      "text": "03  INTERACTION & PEOPLE",
+      "textPreview": "03  INTERACTION & PEOPLE",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#EF4B5A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03  INTERACTION & PEOPLE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03  INTERACTION & PEOPLE",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#EF4B5A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03  INTERACTION & PEOPLE",
+              "fontSize": 21,
+              "color": "#EF4B5A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7u54nidc",
+      "id": "13",
+      "name": "text",
+      "bbox": [
+        458,
+        388,
+        700,
+        46
+      ],
+      "geometry": "rect",
+      "text": "语音 · 大按钮 · 代点 · 工作人员协作",
+      "textPreview": "语音 · 大按钮 · 代点 · 工作人员协作",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#EF4B5A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "语音 · 大按钮 · 代点 · 工作人员协作"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "语音 · 大按钮 · 代点 · 工作人员协作",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#EF4B5A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "语音 · 大按钮 · 代点 · 工作人员协作",
+              "fontSize": 19,
+              "color": "#EF4B5A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gzyl0nu9",
+      "id": "14",
+      "name": "box",
+      "bbox": [
+        92,
+        474,
+        1096,
+        78
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#173A5E",
+      "lineColor": "#173A5E",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h07mtsbe",
+      "id": "15",
+      "name": "text",
+      "bbox": [
+        118,
+        488,
+        340,
+        46
+      ],
+      "geometry": "rect",
+      "text": "04  DATA & OPERATIONS",
+      "textPreview": "04  DATA & OPERATIONS",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04  DATA & OPERATIONS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04  DATA & OPERATIONS",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04  DATA & OPERATIONS",
+              "fontSize": 21,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxw3ydc3",
+      "id": "16",
+      "name": "text",
+      "bbox": [
+        458,
+        488,
+        700,
+        46
+      ],
+      "geometry": "rect",
+      "text": "订单 · 偏好 · 营养标签 · 异常 · 设备与运营指标",
+      "textPreview": "订单 · 偏好 · 营养标签 · 异常 · 设备与运营指标",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "订单 · 偏好 · 营养标签 · 异常 · 设备与运营指标"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "订单 · 偏好 · 营养标签 · 异常 · 设备与运营指标",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "订单 · 偏好 · 营养标签 · 异常 · 设备与运营指标",
+              "fontSize": 19,
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fyp4rito",
+      "id": "17",
+      "name": "text",
+      "bbox": [
+        296,
+        602,
+        688,
+        36
+      ],
+      "geometry": "rect",
+      "text": "组合后的社区服务能力，才是产品。",
+      "textPreview": "组合后的社区服务能力，才是产品。",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 27,
+        "typeface": "+mn-lt",
+        "color": "#173A5E",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "组合后的社区服务能力，才是产品。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "组合后的社区服务能力，才是产品。",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "color": "#173A5E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "组合后的社区服务能力，才是产品。",
+              "fontSize": 27,
+              "color": "#173A5E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4ny547u5",
+      "id": "18",
+      "name": "evidence-tag",
+      "bbox": [
+        914,
+        678,
+        302,
+        24
+      ],
+      "geometry": "roundRect",
+      "text": "CURRENT DEMO + EXTERNAL SOURCE",
+      "textPreview": "CURRENT DEMO + EXTERNAL SOURCE",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CURRENT DEMO + EXTERNAL SOURCE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CURRENT DEMO + EXTERNAL SOURCE",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CURRENT DEMO + EXTERNAL SOURCE",
+              "fontSize": 11,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#0F8B7A",
+      "lineColor": "#0F8B7A",
+      "lineWidth": 1
+    }
+  ],
+  "composeRuns": []
+}

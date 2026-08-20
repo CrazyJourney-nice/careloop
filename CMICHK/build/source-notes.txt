@@ -1,0 +1,33 @@
+Careloop MICHK 2026 deck source register
+
+Primary content authority
+- /Users/cj/careloop/michk/Careloop_Maker_in_China_HK_2026_PPT_Optimization_Guide_v3.docx
+- /Users/cj/careloop/michk/Careloop_Maker_in_China_HK_2026_ChatGPT_Slides_Usage_Guide_v3.md
+
+User-provided visual/content references
+- /Users/cj/careloop/slides/Group 5-暖桌Careloop.pdf
+- /Users/cj/careloop/slides/TeaVita AI--Maker in China.pdf
+
+Official external sources used in speaker notes
+- National Bureau of Statistics of China, 2025 economic and population release:
+  https://www.stats.gov.cn/sj/zxfb/202601/t20260119_1962330.html
+- Shenzhen Basic Elderly Care Service List (2026):
+  https://www.sz.gov.cn/attachment/1/1734/1734727/12779745.pdf
+- Nanshan District Elderly Meal Assistance Measures (trial):
+  https://www.szns.gov.cn/xxgk/qzfxxgkml/zfgb/2024/three/content/post_12585343.html
+- Shenzhen Civil Affairs list of elderly canteens and meal-assistance points:
+  https://mzj.sz.gov.cn/szmz/pc/bmxx/cyfwzy/content/mpost_2948869.html
+- Shenzhen Government, Gaofa community embedded service complex:
+  https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_11559674.html
+- Nanshan Civil Affairs 2025 work summary / 2026 plan:
+  https://www.szns.gov.cn/xxgk/bmxxgk/qmzj/xxgk/ghjh/gzjhjzj/content/post_12672014.html
+- AICAN Global official product and system overview:
+  https://www.aicanglobal.com/
+- AICAN corporate profile (China):
+  https://aicanwang.cn/index/aboutUs/company_profile
+
+Evidence boundaries
+- RMB 20M is a planning envelope, not raised capital and not a supplier quotation.
+- All real-site deployment, payments, retention, partnerships and economics are TO VALIDATE.
+- AICAN technology is external partner capability and an integration plan, not Careloop IP.
+- UI imagery is extracted from the user-provided prior Careloop deck and treated as current demo evidence.

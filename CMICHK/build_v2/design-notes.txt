@@ -1,0 +1,7 @@
+Careloop MICHK 2026 Final v2 — design notes
+
+- Visual direction follows the latest Careloop UI: warm ivory canvas, deep green-black typography, jade accents, coral action states, restrained rounded cards.
+- Competition narrative: policy need → system distinction → runnable product evidence → human handoff → operating model → stage-gated commercialization → ask.
+- UI screenshots are used as product evidence, not decoration; each screenshot appears only once.
+- Main deck remains exactly 21 slides, followed by 8 working appendices.
+- Slides are 16:9, editable, and use speaker notes with a [Sources] section where relevant.

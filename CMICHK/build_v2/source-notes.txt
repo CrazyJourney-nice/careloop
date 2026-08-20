@@ -1,0 +1,8 @@
+Careloop MICHK 2026 Final v2 — source notes
+
+- Latest runnable UI: /Users/cj/careloop/src/ui/index.html
+- Adaptive visual prototype: /Users/cj/careloop/careloop-ui-preview.html
+- UI captures produced 2026-08-20 from the local runnable application and local prototype.
+- Real demo states used in the deck include a 25% low-confidence response and the resulting staff handoff queue.
+- Existing evidence boundaries, external citations, planning labels, and 21-slide main deck + 8-slide appendix structure are retained from the audited v1 deck.
+- Hardware deployment, supplier quotation, payment, conveyor integration, signed partnerships, and commercial revenue remain explicitly unvalidated unless stated otherwise.

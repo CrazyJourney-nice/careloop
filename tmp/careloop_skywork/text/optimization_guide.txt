@@ -1,0 +1,522 @@
+[P001 | Normal] CARELOOP 暖桌
+[P002 | Normal] Maker in China Hong Kong 2026 · PPT优化指导书 v3.0
+[P003 | Normal] 20页左右主路演：产品硬件 × 软件闭环 × 深圳南山试点 × 商业模式 × 2,000万元级落地资金
+[P005 | Normal] 这版严格沿用第一版指导书的思路：先确定比赛任务 → 总体改造方向 → 逐页改稿 → UI/Demo → 无线下试点如何表达 → 路演节奏 → 视觉规范 → 最终检查。
+[P006 | List Bullet] 第一版要求主线清楚、诚实区分 VALIDATED / EXTERNAL SOURCE / DEMO ASSUMPTION / TO VALIDATE；本版保留这套证据规则，但允许主PPT扩展到约20页，因为本次用户明确要求增加产品硬件与软件结构、商业模型和落地资金逻辑。fileciteturn2file0L31-L47
+[P007 | List Bullet] 不要把2,000万元写成“已经融资”或“确定成本”；写成“Phase I commercialization / pilot funding target（规划资金目标）”，并用底层成本桶说明为什么规模级资金合理。
+[P008 | List Bullet] AICAN官网目前能支持的是产品能力与系统架构信息，不公开具体采购价格，因此本指南不会虚构设备单价；成本必须由正式报价替换。citeturn0search0turn0search1
+[P010 | Title] 第一部分｜先确定新版PPT的比赛任务
+[P011 | Normal] 延续第一版指导书的创建逻辑，但把“产品证明”进一步升级为“产品+商业证明”。
+[P012 | Heading 1] 一、新版PPT唯一任务
+[P013 | Normal] 让评委看完后相信：Careloop不是一个“老人食堂概念”，而是一套可以嵌入真实社区、连接硬件与软件、形成持续运营收入，并值得投入2,000万元级资金做商业化验证的社区养老餐饮基础设施。
+[P014 | Heading 1] 二、评委必须记住的五件事
+[P016 | Heading 1] 三、主PPT建议
+[P017 | List Bullet] 主PPT：20–21页；建议8–10分钟。每页平均20–30秒，其中产品硬件/软件页允许快速视觉翻页。
+[P018 | List Bullet] 附录：技术架构、AICAN详细参数、完整BOM/报价、食品安全、数据隐私、财务模型、风险矩阵、试点SOP。
+[P019 | List Bullet] 第一版“14页、7分钟”的限制来自当时的香港站版本；本次明确需求已经改变，因此不要机械遵守14页，但仍保持“每页一个结论”的原则。fileciteturn2file0L45-L47
+[P020 | Heading 1] 四、叙事弧线
+[P021 | Normal] DATA → PAIN → OPPORTUNITY/SHARE → GAP → PRODUCT SYSTEM → HARDWARE → SOFTWARE → FOUR TERMINALS → DEMO → OPERATION → BUSINESS MODEL → NANSHA PILOT → MARKET ENTRY → FUND → UNIT ECONOMICS → VALUE → MOAT/RISK → ROADMAP → ASK
+[P023 | Title] 第二部分｜旧版25页的总体改造方向
+[P024 | Normal] 保留原来的“SHARE、生态、三层系统、温度”资产，但重新排序。
+[P026 | Heading 1] 页面证据标签
+[P029 | Normal] SLIDE 01  Careloop：把社区助餐升级成“可持续照护服务节点”
+[P030 | Normal] 本页任务：10秒说清楚项目是什么、不是普通食堂也不是单一机器人。
+[P031 | Heading 2] A. 页面必须表达什么
+[P032 | List Bullet] 定位：社区共享厨房 + 适老交互 + 家属协作 + 工作人员调度 + 数据闭环。
+[P033 | List Bullet] 一句话：机器负责重复劳动，Careloop负责让社区照护持续发生。
+[P034 | List Bullet] 当前状态明确：软件/交互原型可展示；真实社区硬件部署和商业收入属于下一阶段。
+[P035 | Heading 2] B. 视觉与版式
+[P036 | List Bullet] 左侧一句话+3个关键词；右侧使用现有新版UI Hero。
+[P037 | List Bullet] 不要用大木板模型做封面。3D模型放第6/7页。
+[P038 | List Bullet] 页脚写“Concept → Engineering Pilot”。
+[P039 | Heading 2] C. 路演讲法
+[P040 | List Bullet] “我们不是再开一家食堂，而是在做一个可以被复制到不同社区的服务节点。”
+[P041 | Normal] 页脚证据标签：VALIDATED / DEMO
+[P043 | Normal] SLIDE 02  老龄化不是未来问题：深圳已经在为“社区养老”搭基础设施
+[P044 | Normal] 本页任务：建立数据与政策Opportunity，不夸大未验证痛点。
+[P045 | Heading 2] A. 页面必须表达什么
+[P046 | List Bullet] 中国2025年60岁以上人口3.23亿，占23.0%。
+[P047 | List Bullet] 深圳2026年版基本养老服务清单明确提供长者助餐服务，并对符合条件的户籍老人给予5或15元不等助餐补助。citeturn2search16turn2search9
+[P048 | List Bullet] 南山区已有长者助餐管理办法、社区站点和小区服务点，说明Careloop进入的是“已有需求与政策体系”，不是从零教育市场。citeturn1search1turn2search0
+[P049 | Heading 2] B. 视觉与版式
+[P050 | List Bullet] 只放3个数字：23.0% / 5–15元 / 南山已有网络。
+[P051 | List Bullet] 深圳数据比全国数据大；避免堆人口数字。
+[P052 | List Bullet] 政策来源放页脚，正文只保留结论。
+[P053 | Heading 2] C. 路演讲法
+[P054 | List Bullet] “我们的机会不是证明老人需要吃饭，而是证明现有助餐体系还能被自动化、数字化和协作化。”
+[P055 | Normal] 页脚证据标签：EXTERNAL SOURCE
+[P057 | Normal] SLIDE 03  南山已经有“助餐”，但还有一个新的机会：让助餐变成可协作的社区服务
+[P058 | Normal] 本页任务：把南山从“市场”变成“验证场”。
+[P059 | Heading 2] A. 页面必须表达什么
+[P060 | List Bullet] 南山区2024/25工作材料显示：街道长者服务中心7个、老龄化社区长者服务站点覆盖率85%、小而精养老服务驿站303个，并持续推进长者助餐和独居老人智能看护。citeturn1search1
+[P061 | List Bullet] 深圳市公开长者饭堂/助餐点名录目前包含南山区多个街道和大量社区点位，说明已有明确场景网络。citeturn1search2
+[P062 | List Bullet] 2025年南山高发社区被作为深圳“党建+智慧养老社区”试点范本，2200㎡党群服务中心整合幸福食堂、社康、长者服务站等。citeturn0search5turn0search6
+[P063 | Heading 2] B. 视觉与版式
+[P064 | List Bullet] 左边：现有助餐网络；右边：Careloop新增的“智能服务层”。
+[P065 | List Bullet] 可用南山区地图+3个候选场景点，不要声称已获得合作。
+[P066 | List Bullet] 高发社区标“benchmark / potential pilot conversation”，而非“我们的试点”。
+[P067 | Heading 2] C. 路演讲法
+[P068 | List Bullet] “南山最适合我们，因为这里已经存在需求、场景、政策和数字养老基础设施；我们不是从零建市场，而是在现有体系上增加一层智能协作能力。”
+[P069 | Normal] 页脚证据标签：EXTERNAL SOURCE / TO VALIDATE
+[P071 | Normal] SLIDE 04  Opportunity：SHARE——共享的不是厨房，而是整个社区的照护能力
+[P072 | Normal] 本页任务：保留第一版SHARE概念，但把它商业化。
+[P073 | Heading 2] A. 页面必须表达什么
+[P074 | List Bullet] Share Hardware：自动化设备共享。
+[P075 | List Bullet] Share Space：社区闲置空间共享。
+[P076 | List Bullet] Share People：工作人员从“做饭”转向“协作与陪伴”。
+[P077 | List Bullet] Share Data：订单、偏好、异常和服务结果共享给授权角色。
+[P078 | Heading 2] B. 视觉与版式
+[P079 | List Bullet] 四象限/四叶结构；中心=Community Care Station。
+[P080 | List Bullet] 不要写长定义，每象限只放一个动词。
+[P081 | Heading 2] C. 路演讲法
+[P082 | List Bullet] “一台设备服务一个家庭很贵；一套能力服务一个社区，才有规模经济。”
+[P083 | Normal] 页脚证据标签：CONCEPT / BUSINESS MODEL
+[P085 | Normal] SLIDE 05  现有方案解决的是“吃饭”，Careloop解决的是“谁来帮我把这顿饭完成”
+[P086 | Normal] 本页任务：竞争差异必须围绕服务连续性。
+[P087 | Heading 2] A. 页面必须表达什么
+[P088 | List Bullet] 传统助餐：有供给，但人工流程重。
+[P089 | List Bullet] 复杂App：有数字化，但老人操作成本高。
+[P090 | List Bullet] 家属代点：有支付，但无法持续看到现场履约。
+[P091 | List Bullet] 单一机器人：有自动化，但没有社区协作和家庭连接。
+[P092 | List Bullet] Careloop：把用户、工作人员、厨房、家属放进同一订单闭环。
+[P093 | Heading 2] B. 视觉与版式
+[P094 | List Bullet] 四列对比+最后一列Careloop。
+[P095 | List Bullet] 每列不超过3行文字。
+[P096 | Heading 2] C. 路演讲法
+[P097 | List Bullet] 不说“别人做不到”，说“现有方案往往只覆盖一段链路。”
+[P098 | Normal] 页脚证据标签：EXTERNAL SOURCE / ASSUMPTION
+[P100 | Normal] SLIDE 06  Careloop产品总览：硬件、软件、人与数据组成一个Community Care Station
+[P101 | Normal] 本页任务：第一次完整展示系统架构。
+[P102 | Heading 2] A. 页面必须表达什么
+[P103 | List Bullet] 底层：AICAN数字烹饪设备/辅助设备。
+[P104 | List Bullet] 中层：Careloop Kitchen Control + Order State Engine + Family/Elder/Staff UI。
+[P105 | List Bullet] 前层：语音/大按钮/代点/人工协作。
+[P106 | List Bullet] 数据层：订单、偏好、营养标签、异常、设备状态、运营指标。
+[P107 | Heading 2] B. 视觉与版式
+[P108 | List Bullet] 用四层架构图，不超过4层。
+[P109 | List Bullet] 硬件用真实/供应商产品图；软件用当前UI；人用人物icon。
+[P110 | List Bullet] 不要把所有API/技术栈放图里。
+[P111 | Heading 2] C. 路演讲法
+[P112 | List Bullet] “硬件不是产品本身，软件也不是产品本身；产品是四层组合之后形成的服务能力。”
+[P113 | Normal] 页脚证据标签：AICAN EXTERNAL SOURCE + CURRENT DEMO
+[P115 | Normal] SLIDE 07  硬件层：把“重复、危险、标准化”工作交给机器
+[P116 | Normal] 本页任务：详细介绍硬件，但每个模块都要有商业理由。
+[P117 | Heading 2] A. 页面必须表达什么
+[P118 | List Bullet] 烹饪核心：AICAN数字厨电/机器人，强调温控、调料量、动作流程控制；官网同时强调自动调味、油烟处理、自动洗锅、菜谱编程。citeturn0search0
+[P119 | List Bullet] 辅助设备：煮饭、储藏/保温、清洗等。
+[P120 | List Bullet] 出餐：轻量装盘/传送/取餐。
+[P121 | List Bullet] 清洁：桌面/餐具清洁模块——当前为设计目标，未部署部分必须标TO VALIDATE。
+[P122 | Heading 2] B. 视觉与版式
+[P123 | List Bullet] 用“厨房工作流”而不是产品目录：备餐→烹饪→装盘→交付→清洁。
+[P124 | List Bullet] AICAN产品照片只在烹饪节点出现。
+[P125 | List Bullet] 每个硬件旁边只写“减少哪一种人工”。
+[P126 | Heading 2] C. 路演讲法
+[P127 | List Bullet] “我们不需要证明机器人很酷；我们需要证明它能把社区工作人员从重复劳动里释放出来。”
+[P128 | Normal] 页脚证据标签：AICAN EXTERNAL SOURCE / TO VALIDATE
+[P130 | Normal] SLIDE 08  AICAN不是孤立设备：它提供“硬件 + 智能控制 + 云管理”的基础能力
+[P131 | Normal] 本页任务：展示软硬结合，引用官网而非自创参数。
+[P132 | Heading 2] A. 页面必须表达什么
+[P133 | List Bullet] AICAN Global公开资料显示其方案结合烹饪硬件、智能操作系统与云端厨房管理；包括AICMOS OS、Aican Cloud、智能HMI、菜谱/设备管理。citeturn0search1
+[P134 | List Bullet] AICAN官网强调精确温控、调料和动作流程控制，并展示自动清洗、油烟处理等功能。citeturn0search0
+[P135 | List Bullet] Careloop不重复造“厨房OS”，而是在其上增加社区服务层：老人/家属/工作人员/社区运营。
+[P136 | Heading 2] B. 视觉与版式
+[P137 | List Bullet] 左：AICAN能力；右：Careloop新增能力；中间用API/订单状态连接。
+[P138 | List Bullet] 把“合作集成”画出来，比“我们自己开发所有硬件”更可信。
+[P139 | Heading 2] C. 路演讲法
+[P140 | List Bullet] “我们的技术策略不是从零造一台厨房机器人，而是把成熟的烹饪自动化能力接进社区照护业务流程。”
+[P141 | Normal] 页脚证据标签：EXTERNAL SOURCE / INTEGRATION PLAN
+[P143 | Normal] SLIDE 09  软件层：Careloop真正的核心，是一笔订单如何被不同的人接力完成
+[P144 | Normal] 本页任务：把软件从App变成“订单操作系统”。
+[P145 | Heading 2] A. 页面必须表达什么
+[P146 | List Bullet] Order ID：一笔订单贯穿所有终端。
+[P147 | List Bullet] Intent/Preference：理解菜品、数量、软硬、少盐等需求。
+[P148 | List Bullet] Confirmation：高风险/不确定内容先让老人确认。
+[P149 | List Bullet] State Machine：Created→Confirmed→Preparing→Ready→Collected→Completed/Assisted。
+[P150 | List Bullet] Human Assist：低置信度或异常直接进入工作人员任务队列。
+[P151 | Heading 2] B. 视觉与版式
+[P152 | List Bullet] 用一条订单状态机+三个角色视图。
+[P153 | List Bullet] 不要放代码；放状态和动作。
+[P154 | Heading 2] C. 路演讲法
+[P155 | List Bullet] “我们最重要的软件能力不是聊天，而是把聊天变成可执行、可追踪、可接管的任务。”
+[P156 | Normal] 页脚证据标签：VALIDATED / DEMO / TO VALIDATE
+[P158 | Normal] SLIDE 10  四个终端：自己点、帮他点、帮他处理、产生数据
+[P159 | Normal] 本页任务：把用户体验和商业价值同时讲出来。
+[P160 | Heading 2] A. 页面必须表达什么
+[P161 | List Bullet] 老人端：语音/大按钮，预览后确认。
+[P162 | List Bullet] 家属端：远程代点、套餐、查看状态和服务记录。
+[P163 | List Bullet] 工作人员端：订单队列、异常、偏好、协作任务。
+[P164 | List Bullet] 运营端：订单趋势、设备状态、菜单反馈、人工介入数据。
+[P165 | Heading 2] B. 视觉与版式
+[P166 | List Bullet] 四张卡片，每张只有一个UI截图+一个动作词。
+[P167 | List Bullet] 数据端只展示3–4个运营字段。
+[P168 | Heading 2] C. 路演讲法
+[P169 | List Bullet] “同一笔订单，四个人看到的是四种信息；这就是我们适配社区的核心。”
+[P170 | Normal] 页脚证据标签：VALIDATED / DEMO
+[P172 | Normal] SLIDE 11  一笔订单的完整旅程：从一句粤语/普通话到一次可被照顾的用餐
+[P173 | Normal] 本页任务：用Demo证明系统闭环。
+[P174 | Heading 2] A. 页面必须表达什么
+[P175 | List Bullet] 说：老人发起需求。
+[P176 | List Bullet] 看：系统生成订单预览。
+[P177 | List Bullet] 确认：老人确认/家属代点。
+[P178 | List Bullet] 做：厨房/工作人员接任务。
+[P179 | List Bullet] 异常：AI不确定→人工接管。
+[P180 | List Bullet] 完成：订单和服务记录写入数据层。
+[P181 | Heading 2] B. 视觉与版式
+[P182 | List Bullet] 90秒视频或连续6张截图。
+[P183 | List Bullet] 必须演示一次正常路径+一次失败转人工。
+[P184 | List Bullet] 不要展示尚未接入的真实传送带为已部署。第一版指导书也明确要求把支付/AICAN/传送带等Demo adapter与真实部署分开。fileciteturn2file0L180-L193
+[P185 | Heading 2] C. 路演讲法
+[P186 | List Bullet] “真正体现Care的，不是AI答对，而是AI答不确定时有人接住。”
+[P187 | Normal] 页脚证据标签：DEMO / VALIDATED / ASSUMPTION
+[P189 | Normal] SLIDE 12  从一张订单，到一套社区运营数据：Careloop为什么越运营越有价值
+[P190 | Normal] 本页任务：开始从产品过渡到商业护城河。
+[P191 | Heading 2] A. 页面必须表达什么
+[P192 | List Bullet] 用户数据：偏好、频次、菜单选择。
+[P193 | List Bullet] 服务数据：人工介入、异常类型、响应时间。
+[P194 | List Bullet] 厨房数据：设备利用、菜品耗时、失败率。
+[P195 | List Bullet] 社区数据：高峰、需求结构、服务覆盖。
+[P196 | List Bullet] 长期：形成站点运营SOP、菜单模型、人员排班和设备维护经验。
+[P197 | Heading 2] B. 视觉与版式
+[P198 | List Bullet] 数据流向四个结果：Menu / Staffing / Equipment / Care。
+[P199 | List Bullet] 不要现在写“Data Moat”；写“Operational Learning”。
+[P200 | Heading 2] C. 路演讲法
+[P201 | List Bullet] “我们今天卖的是服务，长期积累的是一套越来越懂社区的运营系统。”
+[P202 | Normal] 页脚证据标签：ROADMAP / TO VALIDATE
+[P204 | Normal] SLIDE 13  运营模型：一个小站点如何每天真正跑起来
+[P205 | Normal] 本页任务：解决评委最关心的“谁来干活”。
+[P206 | Heading 2] A. 页面必须表达什么
+[P207 | List Bullet] 中央/区域净菜供应→站点储存→自动烹饪→出餐→工作人员协作→清洁。
+[P208 | List Bullet] 人员不是厨师团队：核心角色是设备巡检/运营+社区情感服务/协作。
+[P209 | List Bullet] 异常由工作人员接管；设备维护由供应商SLA支持。
+[P210 | List Bullet] 食品安全、清洗、温控、证照和责任边界必须在试点前完成。
+[P211 | Heading 2] B. 视觉与版式
+[P212 | List Bullet] 画一天运营时间轴：备餐→午餐峰值→清洁→下午→晚餐/收档。
+[P213 | List Bullet] 右侧放人员角色，不放大段SOP。
+[P214 | Heading 2] C. 路演讲法
+[P215 | List Bullet] “我们要把人从厨房劳动者变成社区服务者；但这不等于无人化。”
+[P216 | Normal] 页脚证据标签：TO VALIDATE / OPERATING MODEL
+[P218 | Normal] SLIDE 14  Business Model：政府、物业、家庭与Careloop分别为什么愿意付钱
+[P219 | Normal] 本页任务：商业模式必须一页讲透。
+[P220 | Heading 2] A. 页面必须表达什么
+[P221 | List Bullet] G端：政策/项目/服务购买/试点资金，降低进入门槛。
+[P222 | List Bullet] B端：物业/社区运营方提供场地、居民触达和服务合作；可采用站点服务费、管理费、分成等结构。
+[P223 | List Bullet] C端：老人/家属支付单餐、套餐、健康膳食订阅。
+[P224 | List Bullet] Careloop收入：站点建设/设备集成服务 + 软件/运营服务费 + 订单/服务分成 + 后续数据运营能力（合规前提）。
+[P225 | Heading 2] B. 视觉与版式
+[P226 | List Bullet] Payer / Beneficiary / Operator三角图。
+[P227 | List Bullet] 收入流用箭头，价值流用另一种线型。
+[P228 | Heading 2] C. 路演讲法
+[P229 | List Bullet] “补贴不是我们的长期商业模式，而是降低第一站进入成本；长期收入必须来自持续服务价值。”
+[P230 | Normal] 页脚证据标签：BUSINESS MODEL / PLANNING MODEL
+[P232 | Normal] SLIDE 15  南山Pilot：不是另建一个食堂，而是在现有长者助餐网络上插入Careloop
+[P233 | Normal] 本页任务：把深圳南山变成可执行的试点。
+[P234 | Heading 2] A. 页面必须表达什么
+[P235 | List Bullet] 优先研究场景：南山区现有长者助餐点/长者餐桌/长者饭堂；公开名录已列出科技园、桂湾、风华、白石洲、高发、蛇口、粤海、桃源等多类社区点位。citeturn1search2
+[P236 | List Bullet] 高发社区/深云村幸福邻里可作为Benchmark场景：2200㎡综合体已整合幸福食堂、社康、长者服务站等。citeturn0search5
+[P237 | List Bullet] 第二类候选：已有社区食堂但人工运营较重的点位，例如科技园社区曾公开招标长者助餐服务。citeturn0search8
+[P238 | List Bullet] 注意：以上均为公开场景，不代表Careloop已获得合作。
+[P239 | Heading 2] B. 视觉与版式
+[P240 | List Bullet] 地图+3个候选点：Benchmark / Food-service site / Property-led site。
+[P241 | List Bullet] 每个点只写为什么适合测试。
+[P242 | Heading 2] C. 路演讲法
+[P243 | List Bullet] “我们的第一站不是‘找一个空地开店’，而是找到一个已有助餐需求、已有管理者、已有老人流量的节点。”
+[P244 | Normal] 页脚证据标签：EXTERNAL SOURCE / TO VALIDATE
+[P246 | Normal] SLIDE 16  为什么南山现在适合做：政策、补贴、场景和智慧养老正在同一条线上
+[P247 | Normal] 本页任务：把市场进入从“想法”变成政策对接。
+[P248 | Heading 2] A. 页面必须表达什么
+[P249 | List Bullet] 南山区助餐政策允许长者饭堂、助餐点、长者餐桌等多种形式，并规定相关设施和食品安全要求。citeturn2search0
+[P250 | List Bullet] 南山政策对符合条件的老人提供每餐不超过5元或15元补贴；部分运营场景还有运营补贴/服务奖励。citeturn2search0turn2search2
+[P251 | List Bullet] 深圳2026年基本养老服务清单继续把长者助餐纳入基本养老服务，并保留5/15元补助机制。citeturn2search16
+[P252 | List Bullet] Careloop应争取进入既有政策体系，而不是假设能获得一笔“创新补贴”。
+[P253 | Heading 2] B. 视觉与版式
+[P254 | List Bullet] 政策→场景→运营→数据→复制的五步箭头。
+[P255 | List Bullet] 补贴画成降低用户价格/运营成本的流，而不是Careloop收入。
+[P256 | Heading 2] C. 路演讲法
+[P257 | List Bullet] “南山给我们的不是一张空白画布，而是一套已经存在的需求、规则和服务网络。”
+[P258 | Normal] 页脚证据标签：EXTERNAL SOURCE
+[P260 | Normal] SLIDE 17  Market Entry：深圳南山1–3个Anchor Sites → 标准化 → 大湾区复制
+[P261 | Normal] 本页任务：学习TeaVita的分阶段进入逻辑，但不照搬轻资产模式。
+[P262 | Heading 2] A. 页面必须表达什么
+[P263 | List Bullet] Phase 1 0–6月：完成政策/场地/供应商/合规，建设1个Engineering Pilot。
+[P264 | List Bullet] Phase 2 6–12月：扩至2–3个Anchor Sites，验证订单密度、人工介入、设备稳定、真实支付、合作方续约。
+[P265 | List Bullet] Phase 3 12–18月：形成Site-in-a-Box，复制到更多南山/深圳社区。
+[P266 | List Bullet] Phase 4 18–36月：物业集团/养老机构/政府服务采购/大湾区复制。
+[P267 | Heading 2] B. 视觉与版式
+[P268 | List Bullet] 四阶段路线图；每阶段只有一个Pass Gate。
+[P269 | List Bullet] TeaVita值得借鉴的是“先验证、再扩张、合作伙伴降低基础设施资本占用”的结构。fileciteturn2file1L475-L506
+[P270 | Heading 2] C. 路演讲法
+[P271 | List Bullet] “2,000万元不是为了今天开20家店，而是为了把第一套系统工程化，并把3个站点跑成可复制模板。”
+[P272 | Normal] 页脚证据标签：PLANNING MODEL / TO VALIDATE
+[P274 | Normal] SLIDE 18  为什么资金需求可能从50万升级到2,000万元：我们现在做的是“商业化工程”，不是软件Demo
+[P275 | Normal] 本页任务：正面解释资本需求，不回避。
+[P276 | Heading 2] A. 页面必须表达什么
+[P277 | List Bullet] 50万元适合：软件Demo、研究、概念验证；不适合覆盖真实站点的硬件采购/集成、场地改造、食品合规、人员、供应链、维护、备用件、运营现金流和多站点验证。
+[P278 | List Bullet] AICAN公开资料显示其方案包含机器人烹饪、智能HMI、云管理、自动清洗/调味等系统能力；但官网没有公开Careloop项目的采购报价，因此不能直接从官网推出真实CapEx。citeturn0search0turn0search1
+[P279 | List Bullet] 因此2,000万元必须表述为“Phase I commercialization funding target / planning envelope”，而不是“已经算出的精确成本”。
+[P280 | Heading 2] B. 视觉与版式
+[P281 | List Bullet] 左边：50万=Prototype；右边：2000万=Engineering + Pilot + Operations + Standardization。
+[P282 | List Bullet] 中间画成本来源：Hardware / Site / People / Software / Compliance / Working Capital。
+[P283 | Heading 2] C. 路演讲法
+[P284 | List Bullet] “资金不是为了把PPT变成现实，而是为了把一个已经证明可运行的产品变成可以在真实社区安全运行的系统。”
+[P285 | Normal] 页脚证据标签：PLANNING MODEL
+[P287 | Normal] SLIDE 19  2,000万元Fund Allocation：先把“可复制能力”做出来，再扩张
+[P288 | Normal] 本页任务：详细展示资金如何花，但不要伪装成供应商报价。
+[P289 | Heading 2] A. 页面必须表达什么
+[P290 | List Bullet] 建议Phase I规划分配：硬件采购与工程集成30%=600万；试点场地/水电/消防/适老化改造15%=300万；软件平台与数据安全12.5%=250万；人员与运营15%=300万；供应链/物流/试运营7.5%=150万；合规/检测/保险5%=100万；维护备件5%=100万；风险准备金10%=200万。合计2,000万。
+[P291 | List Bullet] 以上是团队Planning Model，不是AICAN报价；第一阶段拿到正式报价后必须重算。
+[P292 | List Bullet] 可进一步拆成“可资本化资产/运营费用/可申请政策资金/必须股权资金”。
+[P293 | Heading 2] B. 视觉与版式
+[P294 | List Bullet] 用资金瀑布/堆叠条，不用密集饼图。
+[P295 | List Bullet] 每个桶旁边写“产生什么证据”：设备→稳定性；站点→用户；软件→协作；运营→单位经济。
+[P296 | Heading 2] C. 路演讲法
+[P297 | List Bullet] “每一块钱都必须对应一个下一阶段的证据；如果一笔钱不能帮助我们通过Gate，就不应该花。”
+[P298 | Normal] 页脚证据标签：PLANNING MODEL / QUOTE REQUIRED
+[P300 | Normal] SLIDE 20  Unit Economics：我们不先承诺回本时间，而是把回本由真实变量决定
+[P301 | Normal] 本页任务：替换旧版8个月回本。
+[P302 | Heading 2] A. 页面必须表达什么
+[P303 | List Bullet] Revenue/site/month = paid orders × average ticket × operating days + eligible policy support/operating subsidy where applicable。
+[P304 | List Bullet] Contribution = revenue − food/packaging − payment/logistics variable cost。
+[P305 | List Bullet] Site cash contribution = contribution − staff − utilities − maintenance − software allocation − site fee/management。
+[P306 | List Bullet] Payback = net initial CapEx / monthly site cash contribution。
+[P307 | List Bullet] 必须跑Conservative / Base / Upside三种情景；真实订单、AOV、食品成本、设备维护、人工介入和CapEx拿到后再锁定。
+[P308 | Heading 2] B. 视觉与版式
+[P309 | List Bullet] 一张单位经济瀑布：订单→收入→变动成本→毛贡献→固定成本→现金贡献。
+[P310 | List Bullet] 右侧放三个情景，而不是一个“8个月”。
+[P311 | Heading 2] C. 路演讲法
+[P312 | List Bullet] “我们不想用一个漂亮的8个月骗评委；我们要让评委看到8个月是怎么被订单密度、设备成本和人工效率算出来的。”
+[P313 | Normal] 页脚证据标签：PLANNING MODEL / TO VALIDATE
+[P315 | Normal] SLIDE 21  商业价值 + Moat + Ask：从一个社区节点，变成可复制的养老服务基础设施
+[P316 | Normal] 本页任务：最终把商业价值完整收束。
+[P317 | Heading 2] A. 页面必须表达什么
+[P318 | List Bullet] 商业价值：站点服务收入、软件/运营费、设备集成、订单/服务分成。
+[P319 | List Bullet] 物业价值：闲置空间利用、适老化配套、居民粘性和社区服务差异化。
+[P320 | List Bullet] 政府价值：助餐效率、服务覆盖、智慧养老、数据化监管。
+[P321 | List Bullet] 家庭价值：远程代点、用餐记录、安心。
+[P322 | List Bullet] 长期壁垒：软硬件集成、社区SOP、人工协作流程、菜单/运营数据、供应链和物业网络。
+[P323 | List Bullet] Ask：政策入口 + 1–3个南山Anchor Sites + AICAN/供应链合作 + 2,000万元级Phase I资金 + 战略投资/产业伙伴。
+[P324 | Heading 2] B. 视觉与版式
+[P325 | List Bullet] 五层价值同心圆；最后一个大数字“2,000万 Phase I Funding Target”。
+[P326 | List Bullet] 结尾只留一句：Machines handle the labor. Careloop makes care continuous.
+[P327 | Heading 2] C. 路演讲法
+[P328 | List Bullet] “我们现在寻找的不是一笔钱把概念铺开，而是一个真实社区、一套产业伙伴和一笔能够把工程化、试点和标准化跑通的Phase I资本。”
+[P329 | Normal] 页脚证据标签：PLANNING MODEL / TO VALIDATE
+[P331 | Title] 第三部分｜UI / Demo / 硬件软件结合：必须这样进入PPT
+[P332 | Normal] 第一版指导书把UI与Demo作为核心证据；新版增加硬件，但仍然坚持“技术服务商业”。
+[P333 | Heading 1] 1. Demo必须有三层
+[P335 | Heading 1] 2. Hardware演示不要做成“机器人展览”
+[P336 | List Bullet] 展示AICAN的温控、调料、动作控制、自动清洗/云管理等能力，但每个能力都绑定一个运营结果。AICAN官方资料明确将其定位为软硬结合、机电一体的数字厨电，并公开了AICMOS OS和Aican Cloud等能力。citeturn0search0turn0search1
+[P337 | List Bullet] 例如：自动调料→减少人工重复；标准菜谱→减少口味波动；云端设备管理→支持多站点；自动清洗→降低收档劳动。
+[P338 | List Bullet] 不要在主PPT放“±1g、±1秒、±3秒”等参数，除非团队准备好回答这些参数与Careloop菜单/食品安全的关系；可以放附录。
+[P339 | Heading 1] 3. 必须准备的三种现场备份
+[P340 | List Bullet] 在线Demo
+[P341 | List Bullet] 预录视频
+[P342 | List Bullet] 本地截图/文字输入备用
+[P343 | Normal] 第一版指导书要求演示正常路径+失败转人工，并且明确不能把真实支付、真实机器人、真实传送带作为当前部署成果；新版继续执行。fileciteturn2file0L275-L280
+[P345 | Title] 第四部分｜目前没有真实落地时，如何同时讲清“我们已经做了很多”和“我们还没有做”
+[P346 | Heading 1] 四栏证据表
+[P348 | Normal] 第一版指导书的原则是：没有线下试点不等于PPT为空，而是用产品证据、可复现Demo、明确未知项和路线图替代虚构traction。新版必须继续保持这条底线。fileciteturn2file0L197-L218
+[P350 | Title] 第五部分｜2,000万元财务工作底稿：PPT只展示结论，Excel必须把底层算清楚
+[P351 | Heading 1] 1. 建议建立四张表
+[P353 | Heading 1] 2. 2,000万元必须拆成“资产+验证+现金流”
+[P354 | List Bullet] 硬件工程化不是单纯买机器：设备、接口、安装、调试、备件、维修、软件连接都需要预算。
+[P355 | List Bullet] 社区试点不是单纯租房：水电/消防/食品经营/适老化/桌椅/储藏/保温/清洁等均需要核算。
+[P356 | List Bullet] 真正容易被低估的是Working Capital：食品采购、工资、维护、试运营损耗、供应链波动。
+[P357 | List Bullet] 建议保留10%风险准备金，直到第一批真实报价出来后再调整。
+[P358 | Heading 1] 3. 资金来源结构
+[P360 | Normal] 南山区和深圳现行助餐政策已经存在就餐、送餐、运营补贴等机制，但Careloop是否符合某一具体资格必须以项目实际主体、设施类型和申请条件核验，不能在PPT写成已获批资金。citeturn2search0turn2search5
+[P362 | Title] 第六部分｜深圳南山落地执行清单：PPT背后的真实工作
+[P363 | Heading 1] 0–30日：进入社区
+[P364 | List Bullet] 确定1个Benchmark + 2个备选点
+[P365 | List Bullet] 完成社区管理者/物业/老人访谈
+[P366 | List Bullet] 确认场地面积、给排水、供电、消防、无障碍
+[P367 | List Bullet] 取得AICAN/其他设备正式报价和SLA
+[P368 | List Bullet] 明确食品经营主体、食品安全责任和数据责任
+[P369 | Heading 1] 31–90日：工程Pilot
+[P370 | List Bullet] 安装/调试硬件
+[P371 | List Bullet] 接入Careloop订单状态
+[P372 | List Bullet] 建立工作人员SOP
+[P373 | List Bullet] 小批量菜单测试
+[P374 | List Bullet] 完成正常/异常/清洁/收档全流程测试
+[P375 | Heading 1] 91–180日：商业Pilot
+[P376 | List Bullet] 真实支付
+[P377 | List Bullet] 验证复购
+[P378 | List Bullet] 测量每单人工分钟
+[P379 | List Bullet] 测量设备利用率与维护成本
+[P380 | List Bullet] 测量政策补贴对现金贡献的影响
+[P381 | List Bullet] 获得合作方续约/扩站意向
+[P382 | Heading 1] 180–360日：标准化
+[P383 | List Bullet] Site-in-a-Box
+[P384 | List Bullet] 标准设备BOM
+[P385 | List Bullet] 标准SOP
+[P386 | List Bullet] 标准合同
+[P387 | List Bullet] 标准培训
+[P388 | List Bullet] 标准数据指标
+[P390 | Title] 第七部分｜风险不是一页“免责声明”，而是投资人判断2,000万元是否值得的核心
+[P393 | Title] 第八部分｜团队页：不再展示“谁讲哪一页”，而是证明谁能把2,000万元变成真实站点
+[P395 | Normal] 团队页的核心不是“我们都很厉害”，而是明确：现有团队能做什么、2,000万元投下去后还缺什么、为什么需要产业伙伴。TeaVita的样本也把学术平台、真实产业和AI技术的整合能力放在团队叙事中心。fileciteturn2file1L555-L568
+[P397 | Title] 第九部分｜20页路演节奏：页数增加，但每页更轻
+[P399 | Heading 1] 一句话原则
+[P400 | Normal] 20页不等于20页都要“讲满”。硬件页可以10秒扫过；Demo页可以60–90秒；商业和资金页必须讲清楚。
+[P402 | Title] 第十部分｜视觉与排版规范：保持第一版的“少字、证据、UI优先”，但允许更强的商业图表
+[P404 | Heading 1] 必须删除
+[P405 | List Bullet] 重复Visual Reference/AICAN标签
+[P406 | List Bullet] 与当前产品无关的机器人图库
+[P407 | List Bullet] 大段英文口号
+[P408 | List Bullet] 无来源KPI
+[P409 | List Bullet] 把Demo adapter写成真实部署
+[P410 | List Bullet] 把2,000万写成已获融资
+[P412 | Title] 第十一部分｜旧25页 → 新21页迁移表：尽量少做无谓返工
+[P414 | Normal] 第一版指导书本身已经建议保留SHARE、B-B-C、三层系统、视频、风险等资产；新版不是推翻，而是把这些模块放进“产品→商业→资金”的正确顺序。fileciteturn2file0L118-L168
+[P416 | Title] 第十二部分｜最终提交检查表：完成这18项才算新版PPT真正完成
+[P417 | Normal] □ 第2–3页所有深圳/南山数字均有政府来源。
+[P418 | Normal] □ 第6页能在30秒内解释硬件+软件+人的整体架构。
+[P419 | Normal] □ 第7–8页明确AICAN是设备/集成伙伴能力，不把供应商能力冒充Careloop自主研发。
+[P420 | Normal] □ 第9页有订单状态机和人工兜底。
+[P421 | Normal] □ 第10页四终端明确对应：自己点、帮他点、帮他处理、产生数据。
+[P422 | Normal] □ 第11页Demo有正常路径+失败转人工。
+[P423 | Normal] □ 第12页说明数据如何产生商业价值，但不提前宣称Data Moat。
+[P424 | Normal] □ 第13页能回答“每天谁来做饭、谁来维护、谁来处理异常”。
+[P425 | Normal] □ 第14页一页讲透谁付钱、谁获益、Careloop如何收费。
+[P426 | Normal] □ 第15–16页明确南山是Pilot场景，并且没有虚构合作。
+[P427 | Normal] □ 第17页明确1→3→10的扩张Gate。
+[P428 | Normal] □ 第18页解释为什么50万不够，并把2,000万定义为Phase I funding target。
+[P429 | Normal] □ 第19页资金分配合计100%，并标PLANNING MODEL。
+[P430 | Normal] □ 第20页不用8个月回本，而用Unit Economics公式+三情景。
+[P431 | Normal] □ 第21页同时讲商业ROI、物业价值、政府价值、家庭价值和长期壁垒。
+[P432 | Normal] □ 所有“已验证/假设/待验证”标签统一。
+[P433 | Normal] □ 主PPT没有任何一页文字拥挤；所有复杂财务、AICAN报价、SOP进入附录。
+[P435 | Title] 附录A｜本版指导书的证据与来源
+[P436 | Heading 1] 一、第一版指导书必须保留的原则
+[P437 | List Bullet] 第一版明确要求：新版PPT应该先讲真实问题、具体用户、新版UI、语音点餐闭环、人工兜底、工程验证，再进入赛后验证；本版保留这一证据链。fileciteturn2file0L63-L73
+[P438 | List Bullet] 第一版明确要求：没有线下试点时不能用未来复购率、收入、回本期填空白；新版虽然增加2,000万元资金模型，但仍将其标为Planning Model。fileciteturn2file0L197-L218
+[P439 | Heading 1] 二、TeaVita参考逻辑
+[P440 | List Bullet] TeaVita的样本把Business Model、Market Entry Strategy、Financial Projections & Budget、Risk Analysis和Team按连续商业叙事排列；其Business Model强调合作伙伴、轻资产和可扩张结构。fileciteturn2file1L376-L397
+[P441 | List Bullet] Careloop不能照搬TeaVita的轻资产逻辑，因为Careloop需要真实厨房硬件与社区站点；因此本版借鉴的是“分阶段进入、伙伴降低资本锁定、先验证再扩张”的结构。fileciteturn2file1L475-L530
+[P442 | Heading 1] 三、AICAN公开资料
+[P443 | List Bullet] AICAN中国官网：软硬结合、机电一体，强调温控、调料量、动作流程控制，并展示自动调味、油烟处理、自动洗锅、智能菜谱等。citeturn0search0
+[P444 | List Bullet] AICAN Global：公开介绍AICMOS OS、Aican Cloud、智能HMI、设备/菜谱管理，以及硬件与云端厨房管理结合。citeturn0search1
+[P445 | List Bullet] 本指南没有从官网虚构采购价格；正式财务模型必须用AICAN正式报价替换。
+[P446 | Heading 1] 四、深圳南山/深圳政策资料
+[P447 | List Bullet] 南山区《长者助餐服务管理办法（试行）》明确长者饭堂、助餐点、长者餐桌，并规定设施、食品安全、补贴与运营要求。citeturn2search0turn2search2
+[P448 | List Bullet] 2026年深圳民政资料显示，长者助餐仍属于现行基本养老服务，并保留5元/15元等助餐补助。citeturn2search16turn2search9
+[P449 | List Bullet] 深圳公开名录可用于寻找南山候选试点点位；公开名单包含多个南山街道和社区。citeturn1search2
+[P450 | List Bullet] 南山高发社区/深云村幸福邻里被深圳市作为“党建+智慧养老社区”试点范本，适合作为Careloop场景研究Benchmark，但不能在PPT写成已签约。citeturn0search5turn0search6
+[P451 | Heading 1] 五、财务声明
+[P452 | Normal] 2,000万元是本版根据用户提出的商业化落地目标设计的“Phase I funding target / planning envelope”，不是外部来源证明的成本数字。正式金额必须在取得AICAN及其他供应商报价、站点工程报价、人员成本和试点运营数据后重新计算。
+
+[TABLE 1]
+记忆点 | 最终要让评委记住 | PPT证据
+WHY | 南山已经存在成熟长者助餐体系，但仍需要更低人工、更高协作、更连续的数据服务。 | 政策+社区真实场景
+WHAT | Careloop=社区共享厨房硬件 + 四角色终端 + 人工协作 + 数据闭环。 | 产品总览/架构图
+HOW | 硬件负责标准化劳动；软件负责理解、确认、调度、记录；工作人员负责温度与异常。 | 硬件/软件/人员闭环
+BUSINESS | G端政策降低进入门槛，B端物业/社区提供场景，C端/家属形成真实支付，Careloop通过站点服务与平台能力获得收入。 | 商业模型
+WHY NOW / FUND | 深圳南山已有长者助餐政策、点位和智慧养老试点环境；2,000万元是“工程化+试点+运营+标准化”资金目标，而非50万元Demo预算。 | 南山试点+资金瀑布
+
+[TABLE 2]
+旧版内容 | 问题 | 新版处理
+25页概念生态 | 信息很多，但商业价值后置。 | 仍保留约20页，但把产品→运营→商业连续排列。
+广州/GBA 10社区 | 与现在深圳南山落地想法不一致。 | 改为深圳南山Anchor Pilot；香港是比赛/融资窗口。
+自动化厨房大量技术 | 技术容易压过商业。 | 保留硬件4–5页，但每页只讲一个商业价值。
+软件UI | 第一版已经强调UI是核心证据。 | 继续作为主视觉，并加入工作人员协作和数据产出。fileciteturn2file0L172-L193
+50万/10社区 | 无法支撑真实硬件+工程+运营。 | 升级为2,000万元级Phase I资金规划，并明确资金用途。
+8个月回本 | 没有真实成本/订单基线。 | 改成Unit Economics公式+情景模型。
+护城河 | 过早宣称Data Moat。 | 改成“社区运营数据资产 + SOP + 硬件软件集成 + 合作网络”的逐步形成。
+Ask | 以前偏比赛资源。 | 升级为政策、场景、供应链、2,000万元资金与战略伙伴五类Ask。
+
+[TABLE 3]
+标签 | 含义 | 使用规则
+VALIDATED | 当前代码/UI/真实测试支持 | 可以说“我们已经做成”
+EXTERNAL SOURCE | 政府/供应商/行业数据 | 必须在页脚标来源
+DEMO ASSUMPTION | 为了演示而模拟 | 不能说成已部署
+TO VALIDATE | 必须通过真实社区/报价验证 | 不要回避，反而显示商业成熟度
+PLANNING MODEL | 团队规划模型 | 尤其用于2,000万资金分配；不是历史事实
+
+[TABLE 4]
+层级 | 演示 | 评委应该看到
+User layer | 老人说一句话/家属远程代点 | 低门槛
+Service layer | 工作人员收到异常任务 | AI不是黑箱
+Kitchen layer | 订单变成厨房任务 | 软件真的能连接后端
+
+[TABLE 5]
+领域 | 现在可以说 | 不能说 | 下一步验证
+软件 | 可运行UI/订单状态/人工协作 | 真实社区使用量 | 1–3个站点
+硬件 | AICAN能力与集成方案可论证 | 已部署/已稳定运行 | 报价、SLA、安装测试
+市场 | 南山存在成熟助餐政策/场景 | 已有用户/收入 | 社区访谈+试点
+财务 | 2,000万规划资金模型 | 已经算出回本期 | 真实成本+订单
+商业 | Payer/Beneficiary/Operator逻辑 | 已签合同/已续约 | LOI/试点协议
+数据 | 数据字段与运营价值 | 已经形成Data Moat | 真实运营数据
+
+[TABLE 6]
+表 | 核心变量 | 输出
+A. Site CapEx | AICAN设备/辅助设备/安装/改造/消防/水电/桌椅/网络 | 每站点初始投入
+B. Site Opex | 人员/食品/包装/水电/维护/软件/管理 | 每单/每月成本
+C. Revenue | 订单量/AOV/政策补助/订阅/服务费 | 月收入
+D. Rollout | 1站→3站→10站→30站的新增CapEx/Opex | 扩张现金需求
+
+[TABLE 7]
+来源 | 建议角色 | PPT表达
+Subsidies / Policy | 降低CapEx与公益服务成本 | 第一优先级
+Strategic Partner | 物业场地、设备、供应链、联合试点 | 第二优先级
+Equity / Impact Capital | 覆盖工程化、平台和扩张现金流 | 第三优先级
+Customer Revenue | 验证长期商业可持续性 | 不是前期唯一资金来源
+
+[TABLE 8]
+风险 | 为什么重要 | 控制机制 | Gate
+食品安全 | 社区养老场景容错率低 | 持证主体、供应链、温控、清洗、责任边界 | 合规通过
+设备故障 | 一个设备故障会影响整个站点 | 冗余设备、备件、SLA、人工Plan B | 峰值稳定
+AI误识别 | 老人需求可能被错误理解 | 预览确认+置信度+人工接管 | 人工介入可控
+用户不付费 | 补贴≠商业需求 | 真实支付/套餐测试 | 复购
+站点成本过高 | 2,000万可能被CapEx吞掉 | 合作场地/租赁/供应商分担 | 单位经济
+人员成本 | 无人化过度会伤害服务质量 | AI减负而不是替代陪伴 | 每单人工分钟
+数据隐私 | 涉及健康/家庭数据 | 最小化采集、授权、权限、留存周期 | 合规
+扩张过快 | 多个站点放大故障 | 1→3→10分阶段扩张 | Gate制
+
+[TABLE 9]
+能力 | 现有团队 | 必须补齐的伙伴
+产品/用户 | 理工×广工交叉，适老场景理解 | 社区运营/养老机构
+营养/菜单 | 应用生物与生物技术 | 临床/营养顾问、食品安全
+工业设计/硬件 | GDUT工业设计/3D建模 | AICAN/设备集成/机电工程
+软件/AI | UI/语音/订单状态 | 数据安全/云运维
+商业化 | 商业模型/比赛 | 物业集团、政府项目、投资人
+运营 | 当前概念方案 | 真实站点运营负责人
+
+[TABLE 10]
+时间 | 页 | 内容 | 评委心理
+0:00–0:45 | 1–3 | Careloop是什么+老龄/南山Opportunity | 为什么现在？
+0:45–1:30 | 4–5 | SHARE+现有方案缺口 | 为什么是你？
+1:30–3:30 | 6–12 | 硬件+软件+四终端+Demo+数据 | 你真的做得出来吗？
+3:30–4:30 | 13–14 | 运营+Business Model | 谁付钱？怎么跑？
+4:30–5:30 | 15–17 | 南山Pilot+Market Entry | 从哪里开始？怎么扩？
+5:30–6:45 | 18–20 | 2,000万+资金分配+Unit Economics | 钱为什么这么多？回报怎么来？
+6:45–8:00 | 21 | 价值+Moat+Ask | 为什么值得投？
+
+[TABLE 11]
+项目 | 新版规则
+颜色 | 珊瑚红/深蓝/青绿色三色体系；每页最多2个强调色。
+标题 | 一页一个结论；例如“南山已经有助餐，但还缺协作层”，不要写“Market Opportunity”。
+产品页 | UI/硬件照片大图，文字少。
+架构页 | 最多4层、6节点；每个节点用动作/结果表达。
+商业页 | 优先用Payer–Value–Revenue流图。
+资金页 | 用资金桶+Gate，不用满页文字。
+财务页 | 公式+三情景；不要一个大号回本数字。
+来源 | 政府/AICAN数据必须页脚注明；Planning Model必须标PLANNING MODEL。
+3D模型 | 保留，但只在第6/7页作为产品空间解释，不再作为主要“技术证明”。
+
+[TABLE 12]
+旧版 | 新版去向 | 处理
+1封面 | 1 | 保留情感，换产品定位
+2–3痛点/机会 | 2–3 | 加入深圳政策/南山场景
+4 Decision Preview | 4–5 | SHARE+Gap
+5 Customer Opportunity | 3–4/14 | 价值重组
+6 Gap | 5 | 保留
+7 B-B-C | 14 | 升级Payer/Beneficiary/Operator
+8–10 Video | 11 | 升级为完整订单Demo
+11 Three-Layer System | 6–9 | 拆成硬件/软件/终端
+12 Moat | 12/21 | 改为Operational Learning
+13–15场景 | 10/15 | 四终端+南山场景
+17–18 Metrics/Gates | 17/20 | Market Entry + Unit Economics
+19 Financial | 18–20 | 彻底重做
+20 Risk | 附录/风险页 | 保留
+21 Ask/Fund | 18/19/21 | 升级为2,000万资金+战略伙伴
+22–23 Summary/Close | 21 | 商业价值收束
+24–25 Appendix | 附录 | 技术、报价、财务、SOP

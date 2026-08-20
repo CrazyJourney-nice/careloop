@@ -1,0 +1,24 @@
+Communication job: By the end, Maker in China Hong Kong 2026 judges should believe Careloop is a credible Community Care Station worth a disciplined RMB 20M Phase I commercialization validation, because it connects automation, an order operating system, Human Assist, community operations, and an evidence-gated rollout.
+
+Content priority:
+1. Careloop_Maker_in_China_HK_2026_PPT_Optimization_Guide_v3.docx — original optimization strategy and factual boundary source
+2. Careloop_Maker_in_China_HK_2026_Skywork_Slides_Generation_Guide_v3.md — 21-slide execution specification derived from the DOCX
+3. Current real assets (none found in workspace beyond the supplied PDFs)
+4. Group 5-暖桌Careloop.pdf: SHARE, B-B-C, three-layer framing, emotional tone, old model imagery only
+5. TeaVita AI--Maker in China.pdf: validation-to-business-to-market-entry-to-budget-to-risk narrative only
+
+Official research sources:
+- National Bureau of Statistics, Statistical Communiqué / 2025 year-end population: https://www.stats.gov.cn/xxgk/sjfb/tjgb2020/202602/t20260228_1962662.html
+- Shenzhen Municipal Civil Affairs Bureau, Basic Elderly Care Service List (2026): https://www.sz.gov.cn/ztfw/shbz/wyk_183996/content/post_12779745.html
+- Shenzhen Municipal Civil Affairs Bureau, elderly canteens and meal-assistance sites list (2026-07-14): https://www.sz.gov.cn/szzt2010/szyl/ylfw/ylzcdcx/
+- Nanshan District Civil Affairs Bureau, definition of elderly meal-assistance facilities (2025-01-16): https://www.szns.gov.cn/ztzl/nsqzcwdk/shbz/content/post_11961801.html
+- Nanshan District three-year elderly-care action plan PDF: https://www.szns.gov.cn/attachment/1/1666/1666561/12585438.pdf
+- AICAN public English product manual located through public web search: https://img.ach18.com/office/product/L3-5A0004306-%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88%E8%8B%B1%E6%96%87%EF%BC%89.pdf
+- AICAN Global official product / platform page: https://www.aicanglobal.com/
+- Shenzhen official example of Gaofa Community embedded public-service complex: https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_11559674.html
+- Nanshan Street 2025 work summary: 1 street elderly service center, 6 standardized stations, 17 neighborhood points, and average 20,000 monthly meal-assistance visits: https://www.szns.gov.cn/xxgk/jdxxgk/nsjdb/xxgk/ghjh/gzjhjzj/content/post_12630450.html
+
+Evidence boundaries:
+- No signed Nanshan pilot, AICAN partnership, real revenue, users, order density, payback, formal quotation, or deployed adapter is claimed.
+- RMB 20M is a PLANNING MODEL / Phase I funding target, not a confirmed supplier quote.
+- Missing real UI, hardware photos, formal quotations, team roster/photos, signed agreements, and current demo media remain explicitly marked as assets to replace before submission.

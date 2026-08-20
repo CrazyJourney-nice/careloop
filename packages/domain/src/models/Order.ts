@@ -1,4 +1,5 @@
 import { OrderStatus } from './OrderStatus';
+import type { ModifierProfile } from '../voice/index';
 
 export class Order {
   id: string;
@@ -119,7 +120,7 @@ export class OrderItem {
   dishNameSnapshot: string;
   unitPriceCents: number;
   quantity: number;
-  modifiers: any = {};
+  modifiers: ModifierProfile | string[] = {} as ModifierProfile;
   allergenWarnings: any = {};
   specialInstructions?: string;
 
@@ -129,7 +130,7 @@ export class OrderItem {
     this.dishNameSnapshot = data.dishNameSnapshot!;
     this.unitPriceCents = data.unitPriceCents!;
     this.quantity = data.quantity || 1;
-    this.modifiers = data.modifiers || {};
+    this.modifiers = data.modifiers || {} as ModifierProfile;
     this.allergenWarnings = data.allergenWarnings || {};
     this.specialInstructions = data.specialInstructions;
   }

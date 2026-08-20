@@ -1,0 +1,584 @@
+CONVENIENCE                      CONNECTION                     CARE   VISUAL REFERENCE
+       极致便利                           深度连结                      深度关怀            视觉参考
+                                                                            AICAN
+
+
+
+
+Team Introduction
+曾采骐  Alicia – Part 1 · Hook + Decision Preview
+许富博  Jerry – Part 2 · Solution + Business Model
+刘懿萱  Cynthia – Part 3 · Execution (Narrator)
+刘行 Kodak – Part 3 · Execution (Elderly) + Part 5 · Financial
+陈舒琳
+                                                                                Group 5
+     Selina – Part 3 · Execution (Daughter) + Part 6 · Ask & Close
+李绮琳  Mickey – Part 4 · MVP + Metrics
+                                                                                                                      视觉参考 AICAN
+The Unspoken Problem
+                                                                                                 Visual Reference /
+
+
+
+
+真实的衰老痛点
+
+The Daily Physical Strain                                     The Solitude Trap
+体力⽀出的“最后⼏公⾥”                                                  社交孤立的“沉默陷阱”
+对于75岁的老人，一顿热饭意味着：负重买菜、关节疼痛中切配、                                当备餐成为负担，老人更容易少吃、凑合吃、独自吃。失去对餐桌
+弯腰洗锅；做饭不再是享受，而是⽇复⼀⽇的体⼒透⽀。                                     的期待，也意味着营养、尊严与日常社交同时流失。
+For a 75-year-old, one hot meal can mean buying               When meal prep becomes a burden, they skip meals, eat
+groceries, chopping with aching joints and bending over to    poorly, and eat alone—losing nutrition, dignity and
+scrub pots—daily work that drains the energy meant for        everyday social connection.
+living.
+
+ Heavy shopping        Painful prep         Pot scrubbing        Eating alone       Poor nutrition                Isolation
+
+
+
+
+   负重采购                  关节切配                 弯腰清理                 孤独进食                营养下降                           社交孤立
+
+    Asking a family to spend about HKD 25,512 / RMB 22,000 on a home smart-cooking appliance is not the
+    answer either.
+    让家庭花约港币25,512元／⼈⺠币22,000元购买家⽤智能厨电，也不是答案。
+                                                                                                          视觉参考 AICAN
+The Opportunity: SHARE
+                                                                                     Visual Reference /
+
+
+
+
+破局点：共享生态
+
+             Shifting from "Individual Burden" to "Community Sharing"
+             从“独自承担”转为“社区共享”
+
+
+Shared Technology                    Shared Space                         Shared Connection
+共享技术                                 共享空间                                 共享关系
+自动化流程旨在降低重复性人工负担                     激活社区闲置空间，打造共享食堂                      重塑邻里纽带，告别孤独进食
+Automation is designed to reduce     Activating idle community areas as   Reshaping neighborhood bonds,
+repetitive manual workload           dining hubs                          ending solo dining
+
+
+精准温控与调味，确保持续高品质                      无需昂贵家用电器，下楼即享服务                      机器负责重活，人负责传递温度
+Precise control ensures consistent   No expensive home appliances         Machines handle the work; humans
+quality                              needed for elderlies                 provide the warmth
+                                                                                                      视觉参考 AICAN
+Decision Preview
+                                                                                 Visual Reference /
+
+
+
+
+决策预告
+
+      Zero-Barrier App            Automated Cooking Reference              Self-Cleaning Table
+          零障碍适老APP                           自动化烹饪参考                             自清洁感应餐桌
+
+
+
+      语音唤醒 / 一键下单                         精准营养 / 自动化出餐                       自动回收 / 深度消杀
+Voice Control & One-Click Order    Nutritional Precision & Automation   Auto-Recycling & Sanitization
+
+
+
+
+Are you ready to co-build the benchmark community with us?                     立即开启
+您是否准备好，与我们共建标杆社区？                                                              START THE JOURNEY
+                                                                                                            视觉参考 AICAN
+ Customer Opportunity
+                                                                                       Visual Reference /
+
+
+
+
+ 客户机会
+
+Dignity through Convenience            Social Health via Shared Tables     Sustainable Community ROI
+            便利带来的尊严                            共享餐桌的社交健康                              可持续社区回报
+
+
+                                                                           70%           自动化⽐例
+                                                                                                            Automation
+                                                                                                            Rate
+
+
+
+消除家电安置负担，下楼即享。                          给老⼈⼀个⾛出家⻔的理由。                      自动化承载基础⼯作，降低成本。
+Removing home appliance burdens         Providing a meaningful reason to   Automation handles base labor, reducing
+with local accessibility.               step outside daily.                operational costs.
+
+
+
+点餐取餐低摩擦，维护老⼈⾃尊。                         让用餐成为⾃然的邻⾥互动。                      提升社区配套价值与居民粘性。
+Low-friction service flow preserving    Transforming meals into natural    Enhancing property value and resident
+elderly self-esteem.                    neighborhood bonding.              loyalty.
+                                                                                              视觉参考 AICAN
+Expose the Gap
+                                                                         Visual Reference /
+
+
+
+
+现有方案的缺⼝
+
+        Traditional Canteen             Single-unit Robot           Careloop Ecosystem
+              传统人⼯⻝堂                          单机机器人                       暖桌共享生态
+
+
+
+High Labor & Overhead Costs    High Purchase & Space Cost   Shared Hardware & Ingredients
+ 运营成本重                           购买门槛⾼                        共享降成本
+Long Queues & Crowded Spaces   Complex for Seniors to Use   Zero-barrier Voice/One-click UI
+ 排队体验差                           操作门槛⾼                        适老极简UI
+Inconsistent Food Quality      Still Eating Alone at Home   Social Connection & Interaction
+ 口味波动⼤                           孤独的晚餐                        社区社交连结
+
+
+A machine can cook. An ecosystem can care.
+机器会做饭，生态才会照顾⼈
+                                                                                                                                    视觉参考
+Our Wedge: The B-B-C Ecosystem Model
+                                                                                                               Visual Reference /            AICAN
+
+
+
+我们的切入点：B-B-C模式
+
+       Suppliers (B)                                                                                                    End Users (C)
+       技术与供应方                                                Careloop & Property (B)                                    终端用⼾
+                                                             暖桌与物业运营
+Automated cooking hardware                                                                                     Nutrition, dignity & social
+reference                                             On-site facility management &                            connection
+自动化烹饪硬件参考                                             maintenance
+                                                                                                               独居老⼈
+                                                      社区站点管理                                                   Peace of mind & remote ordering
+Standardized pre-cut supply chain
+                                      赋能 / ENABLE                                                 触达 / REACH   care
+标准化净菜供应链                                              Senior-friendly UI & human-touch service                 忙碌子⼥
+                                                      适老UI与社区⼤使
+                                                      Family connection & community trust
+                                                      家属沟通与信任背书
+
+
+
+                       Enabling low-friction, high-trust community reach via the B-B-C pathway.
+                                                     通过B-B-C路径实现低摩擦、高信任的社区⾼效触达
+                                                                 Visual Reference /   视觉参考 AICAN
+    Value Bridge & Ecosystem Video
+    价值桥梁与实机运行
+                                                  End-to-End Loop /       全链路闭环
+                                                  From one-tap ordering to plate return, one
+                                                  connected service flow.
+                                                  从一键点餐到餐后回收，串联完整服务流程。
+
+                                                  Automated Cooking Reference /                   自动
+                                                  烹饪参考
+                                                  Precision control and standardized cooking
+                                                  support consistent output.
+                                                  以精准温控与标准化烹饪支持稳定出餐。
+
+                                                  Community Warmth /            社区温度
+                                                  Machines handle heavy tasks; people focus on
+                                                  care and connection.
+                                                  机器处理繁重厨务，社区人员专注关怀与社交组织。
+
+
+OPERATIONAL WORKFLOW /   运行流程逻辑                                                        Replay /   重播演示
+
+
+
+                                     Live Demo: 1:10 Scale 3D Model /   现场演示：1:10⽐例3D打印模型
+                                                                 Visual Reference /   视觉参考 AICAN
+    Value Bridge & Ecosystem Video
+    价值桥梁与实机运行
+                                                  End-to-End Loop /       全链路闭环
+                                                  From one-tap ordering to plate return, one
+                                                  connected service flow.
+                                                  从一键点餐到餐后回收，串联完整服务流程。
+
+                                                  Automated Cooking Reference /                   自动
+                                                  烹饪参考
+                                                  Precision control and standardized cooking
+                                                  support consistent output.
+                                                  以精准温控与标准化烹饪支持稳定出餐。
+
+                                                  Community Warmth /            社区温度
+                                                  Machines handle heavy tasks; people focus on
+                                                  care and connection.
+                                                  机器处理繁重厨务，社区人员专注关怀与社交组织。
+
+
+OPERATIONAL WORKFLOW /   运行流程逻辑                                                        Replay /   重播演示
+
+
+
+                                     Live Demo: 1:10 Scale 3D Model /   现场演示：1:10⽐例3D打印模型
+                                                                                    视觉参考 AICAN
+    Value Bridge & Ecosystem Video
+                                                               Visual Reference /
+
+
+
+    价值桥梁与实机运行
+                                                  End-to-End Loop /       全链路闭环
+                                                  From one-tap ordering to plate return, one
+                                                  connected service flow.
+                                                  从一键点餐到餐后回收，串联完整服务流程。
+
+                                                  Automated Cooking Reference /                  自动
+                                                  烹饪参考
+                                                  Precision control and standardized cooking
+                                                  support consistent output.
+                                                  以精准温控与标准化烹饪支持稳定出餐。
+
+                                                  Community Warmth /            社区温度
+                                                  Machines handle heavy tasks; people focus on
+                                                  care and connection.
+                                                  机器处理繁重厨务，社区人员专注关怀与社交组织。
+
+
+OPERATIONAL WORKFLOW /   运行流程逻辑                                                       Replay /   重播演示
+
+
+
+                                     Live Demo: 1:10 Scale 3D Model /   现场演示：1:10⽐例3D打印模型
+The Three-Layer Operating System                                                                                         Visual Reference /   视觉参考   AICAN
+
+
+三层运营系统
+
+                   Supply Chain & Central Kitchen
+                   中央厨房与净菜供应
+01       Standardized Prep /          标准化备菜
+         统一采购、洗切与配⽐，⽀持⻝品安全与营养均衡。 / Unified sourcing, prep and
+         portions support food safety and balanced nutrition.
+                                                                               Cold Chain Logistics /       冷链物流
+                                                                               每日配送⾄社区站点，减少站点存储压⼒。 / Daily delivery reduces on-site storage
+                                                                               pressure.
+
+           EFFICIENCY      后端标准化：解决“食材从哪来”的安全与规模化问题
+
+                   Community Station & Hardware
+                   社区站点与智能硬件
+02       Automated Cooking Reference /                自动化烹饪参考
+         精准温控与标准化烹饪，支持稳定出餐。 / Precision control and standardized
+         cooking support consistent output.
+                                                                               Conveying & Return /         传送与回收
+                                                                               传送带衔接餐桌与回收流程，降低人⼯负担。 / Conveying connects dining and
+                                                                               return flows to reduce manual workload.
+
+           PRECISION      中端自动化：机器负责“重活”，实现低成本⾼质量产出
+
+                   User Experience & Social Hub
+                   适老UI与社交空间
+03       Accessible UI /      零障碍交互
+         大⽂字、语⾳点餐、家属代点，降低数字⻔槛。 / Large text, voice ordering and
+         family ordering reduce digital barriers.
+                                                                               Community Bond /          社区社交营建
+                                                                               拼桌活动与健康打卡，将用餐转化为邻⾥情感连结。 / Shared tables and wellness
+                                                                               check-ins turn meals into neighborhood connection.
+
+           WARMTH        前端人性化：⼈传递“温度”，让社区厨房成为精神寄托
+               * Workflow and automation level are project assumptions to validate during the pilot /     运营流程与自动化程度为项⽬⽅案，需在试点中验证
+                                                                                                         视觉 AICAN
+Why Careloop Wins / Careloop’s Value-Creation
+                                                                                    Visual Reference /
+                                                                                    参考
+
+Moat
+Careloop  为何胜出／价值创造护城河
+                                                             Novelty
+                                                             创新性
+Lock-in                                                      A shared AI-enabled community dining ecosystem
+                                                             —not a standalone appliance.
+锁定效应（重点）                                                     共享式AI社区餐饮生态，⽽⾮单⼀家⽤设备。
+ Data — taste, health preferences and order history
+ 数据——口味、健康偏好与点餐历史
+ Habit — voice/one-tap ordering and daily station routines
+                                                             Efficiency
+ 习惯——语音∕⼀键点餐与每⽇到站节奏                                          效率
+ Trust — property teams, ambassadors and neighbor bonds      Automation + pre-cut supply + accessible UI
+ 信任——物业、社区大使与邻⾥情感连结                                          streamline the service flow.
+                                                             自动化＋净菜供应链＋适⽼UI共同提升流程效率。
+
+                                                             Complementarity
+                                                             互补性
+                                                             Hardware + UI + operations + supply chain +
+                                                             community connection reinforce one another.
+                                                             硬件＋UI＋运营＋供应链＋社区社交彼此增强。
+
+The moat is not the machine—it is the daily ecosystem.                                     CORE DEFENSE
+护城河不只是机器，而是嵌⼊⽇常的⽣态。
+Scene 1: Bridging the Digital Divide                                                          Visual Reference /   视觉参考 AICAN
+场景 1：数字鸿沟的跨越
+
+          Uncle Chen /       陈伯
+          75yo, declining vision, fearful of complex   The Tech Barrier   技术壁垒:
+          tech.                                        Complex apps isolate seniors.
+            岁，视力衰退，对复杂科技感到畏惧。
+          75
+                                                       复杂的屏幕交互让老⼈产⽣科技畏惧。
+          Auntie Li /    李姨
+          72yo, mobility impaired, wheelchair user.
+          72岁，腿脚不便，需依靠轮椅出行。
+                                                            Voice-First Interface      语音优先交互:
+                                                            No downloads, no screens. Powered by NLP.
+                                                            免下载免触屏，自然语⾔处理驱动。
+   Core Insight        核心洞察
+Tech should be a bridge, not a barrier,                Digital Empowerment      数字赋能:
+turning “Cold Tech” into “Warm Service”.               Rebuilding confidence and independence.
+技术不应成为障碍，而应通过适老设计与人工辅助，将“冷                             重建老⼈的点餐⾃信与独⽴性。
+科技”转化为“暖服务”。
+
+
+                                                                                                  Project Assumption /   适老交互试点假设
+    Scene 2: Accessible UI                                                                                                              Visual Reference /   视觉参考   AICAN
+
+
+    场景2：UI互动界面
+                                                                                            https://careloop-dining.skywork.website/
+Voice & One-tap Ordering
+语音 & ⼀键点餐                                                                                 Careloop Dining · Real UI Evidence /   真实界面
+Designed for low vision; large buttons & NLP interaction eliminate digital
+barriers.
+专为视力减退⽼⼈设计，超⼤按键与⾃然语⾔交互，消除数字鸿沟。
+
+Service Progress Tracking
+服务进度实时追踪
+Transparent 5-step workflow reduces waiting anxiety and enhances control.
+
+从备餐到送餐全流程透明化，减少等待焦虑，提升掌控感。
+
+Family Remote Ordering
+子⼥远程代点
+Family members can schedule weekly meals remotely, bridging the care gap.
+
+家属可通过手机代为安排⼀周膳⻝，实现跨时空的数字关怀。
+
+ Real Careloop Dining website screenshot shown at full clarity / Careloop Dining   网站真实界⾯截图（清晰原图）
+                                                                                                  视觉参考 AICAN
+Scene 3: The Connection
+                                                                             Visual Reference /
+
+
+
+
+场景3：连结
+Tech Solves "What to Eat"                        Careloop Solves "Who to Eat With"
+技术解决“吃什么”                                        暖桌解决“和谁吃”
+
+
+ Automated Cooking System Reference               Shared Table Social Dining
+ 自动化烹饪系统参考                                        暖桌拼桌社交
+ Precision Nutrition & Menu Tracking              Community Interest Groups
+ 精准营养配餐                                           社区兴趣小组
+ Seamless Delivery & Auto-Recycling               Neighborhood Gathering Events
+ 无感传送与回收                                          邻里欢聚活动
+                                                  Concept Feature /   概念功能
+
+
+               Machines handle the labor; Careloop provides the warmth.
+                                       机器负责重活，暖桌负责温度
+ Core Validation Metrics
+ 核心验证指标
+Will elderly people pay for easy,healthy meals, and keep using it regularly?                       老⼈是否真的会为便捷、健康的⻝物付费并持续使⽤？
+
+
+
+Demand Reality Validation                Operating Metrics                          Financial Baseline                         User Adoption Strategy
+需求真实验证                                   运营指标                                       财务基线                                       用⼾采纳策略
+ Visits   社区到访量                            Types of customer complaints               Daily income of each site                  7-day repurchase
+                                            投诉类型分类                                                                               7   日复购
+ How many elderly people come to                                                      单站点每日营收
+ learn about our service?                                                                                                        30-day repurchase
+                                           Orders per machine/day
+                                           单机日订单
+                                                                                      Incremental net benefit
+                                                                                      增量净收益                                      30  日复购
+Order conversion     下单转化率
+How many visitors place orders                                                        Daily running cost                         Costomer recommendation rate
+aftter asking questions?
+                                           Waiting time during busy hours
+                                           高峰期排队时⻓                                     运维成本                                      口碑推荐率
+Solo-senior share   独居老⼈占⽐                                                          The minimum daily orders we                  How well sales activities work
+Can we seve enough elderly
+                                           Service time / turnaround
+                                           服务时间／周转时效                                need to make no less.
+                                                                                                                                 优惠活动撬动效果
+people who live alone?
+
+
+
+   What we will do : run a six-month test program with 10 service sites all over Guangzhou+2/site+250.000 yuan total test budget+three months for trial
+   operation and three months for improvements
+  Decision Gates from Four Priorities
+    成功判定标准
+
+
+
+            Green: Scale Up                                              Yellow: Optimize                                  Red: Stop Loss
+               绿灯：规模化扩展                                                      黄灯：策略性优化                                         红灯：及时止损
+   P1 Demand Reality /      需求真实验证                                 Priority Diagnosis /   优先级诊断                  Critical Failure /   关键失败
+   Visits, conversion & persona meet pilot                         One or more of P1–P4 is promising but below   P1 demand fails persistently, or P2
+   thresholds /        到访、转化与画像达标                                  threshold; isolate the weak link.             operations cannot deliver safely and
+    Pilot Target /   试点目标                                          P1–P4   中部分指标有潜力但未达标，需定位薄弱环                   reliably.
+   P2 Operating Metrics /    运营指标                                  节。                                            P1需求持续不成立，或P2运营⽆法安全可靠履约。
+   >15 orders per machine/day + reliable
+   fulfillment /       单机日订单与履约达标
+    Pilot Target /   试点目标
+   P3 Financial Baseline + P4 Adoption /   财务基线＋用⼾采纳
+                                                                   We change menus, prices or daily work
+   Economics tracked; 7/30-day                                     plans, and test for another 90 days.          Our idea about target users is wrong.
+   repurchase and assisted usage                                                                                 We stop the test and rethink our plan.
+   improve /         跟踪经济性，复购与辅助使用改
+   善
+   Pilot Target /   试点目标
+
+
+
+   Accelerate GuangDong 10-community rollout                                 90-day optimization window           Terminate project or redesign model
+                      加速广东10个社区落地                                                   开启90天优化窗口期                                        项目终⽌或模式重构
+* Decisions use evidence across Priorities 1–4 during the 180-day pilot. /   决策基于180天试点中Priority 1–4的证据。
+                                                                                                                                                                     视觉参考 AICAN
+    Financial Baseline & Subsidies
+                                                                                                                                                Visual Reference /
+
+
+
+    财务基线与补贴红利
+
+             6-Month Incremental Net Benefit                                                           Subsidies & Policy Support
+             六个月增量净收益                                                                                  补贴与政策支持
+
+   ¥250,000                                                                                                   Construction Subsidies
+                                                                                                              建设补贴
+     Project Financial Assumption /   项目财务假设
+                                                                                                              Operation Subsidies
+                                                                                                              运营补贴
+
+             Payback Period                                                                                   Elderly Pricing Subsidies
+             投资回收期                                                                                            老年价格补贴
+
+   ~8 Months /         月
+                                                                                                       Potential support only; subject to local eligibility, ratings and
+                                                                                                       application results.
+     Project Financial Assumption /   项目财务假设                                                           ※   以当地资格、评级与申报结果为准
+
+
+* Financial assumptions based on an average GBA pilot-community model; not validated results. /   财务假设基于大湾区试         Internal planning basis: Careloop Pilot Plan 2026 /   内部规划依据：
+点社区平均模型估算，并⾮已验证成果。                                                                                                                                             Careloop Pilot Plan 2026
+                                                                                                                                                      视觉参考 AICAN
+ Risk Mitigation
+                                                                                                                                 Visual Reference /
+
+
+
+ 风险控制
+
+     Low Adoption Risk                                        Supply Chain Stability                                 System Integration Risk
+     用⼾接纳⻛险                                                   供应链稳定性                                                 系统集成风险
+ Resistance to digital interfaces among seniors           Disruptions in pre-prepared ingredient supply          Connectivity & compatibility of robotic
+ 老年⼈对数字化界⾯存在畏难情绪                                          净菜供应中断影响每日正常营运                                         hardware
+                                                                                                                 机器人与社区⽹络环境兼容性问题
+  Community Ambassadors & First-Month                       Pre-vetted Local Backup Suppliers
+  Free Trials                                               Network                                               Remote Diagnostics & Response Protocol
+  社区大使与⾸⽉免费                                                 预审本地备用供应商                                             远程诊断与响应机制
+  Voice-First Interaction & Remote                          Emergency Semi-finished Inventory                     Manual Backup Operational Protocols
+  Ordering by Children                                      Management                                            人⼯兜底操作协议
+  语音优先与⼦⼥代点                                                 应急半成品库存管理
+
+
+
+
+Project Assumption /   项目假设: Risk mitigation is designed for a 10-community GBA pilot; actual implementation depends on local infrastructure. / 风险应对按⼤湾区10个社区试点
+                                                                  设计，实际执⾏受当地基础设施条件影响。
+                                                                                                                                                                        视觉参考 AICAN
+The Ask & Fund Allocation
+                                                                                                                                                   Visual Reference /
+
+
+
+资金诉求与分配
+
+Total Funding Ask
+资金总额
+
+RMB 500,000
+人⺠币50万元
+
+
+Pilot Scope
+试点范围
+10 Communities /               社区
+  10 GBA pilot communities / 大湾区10个试点社区
+  Validate demand, retention & operations / 验证需求、留存
+  与运营模型
+  180-day pilot cycle / 180天试点周期
+
+
+
+
+                                         * Fund allocation is the project budget plan. Government subsidies, if any, remain subject to local eligibility, ratings and application results.
+                                                                                                   资金分配为项⽬预算⽅案；如涉及政府补贴，均以当地资格、评级与申报结果为准。
+                                                                                                                                                  视觉参考 AICAN
+Executive Summary
+                                                                                                                             Visual Reference /
+
+
+
+全局总结
+                             The Unspoken Problem
+                                                 真实的衰老痛点
+        Physical exhaustion and social isolation of solo-living
+                                                      seniors.
+                   体力消耗与社交孤⽴：75岁⽼⼈独⾃做饭的隐形负担。
+                                                                                       Three-Layer Solution
+                                                                                       三层共享生态
+                                                                                       Automation handles labor; humans provide heart-
+                                                                                       centered care.
+                                                                                       机器负责重活，人传递温度：以⾃动化烹饪硬件为参考的社区厨房。
+                                 Strategic Validation
+                                                 高价值试点验证
+     Targeting 10 GBA communities with high-retention pilot
+                                                    goals.
+                     10个大湾区社区试点，聚焦复购率与独居⽼⼈留存。
+                                                                                       Growth & ROI
+                                                                                       增长潜⼒与回报
+                                                                                       RMB 500k launches a 10-community pilot; ~8-month
+                                                                                       payback is a project financial assumption.
+                                                                                        万元启动10社区试点；约8个月回收期为项⽬财务假设。
+                                                                                       50
+
+
+
+
+                       A machine can cook. An ecosystem can care.
+                                                      机器会做饭，生态才会照顾⼈。
+                                                    * Project Financial Assumption /   项目财务假设
+                                                                                               视觉参考 AICAN
+     Vision & Close
+                                                                          Visual Reference /
+
+
+
+     愿景与致谢
+
+Share a Meal, Share a
+Life
+共享一餐，共享⼈⽣
+ "A machine can cook. An ecosystem can
+ care."
+ “   机器会做饭，生态才会照顾⼈。”
+
+
+Thank You for Building a Warmer
+                                         Ensuring no senior ever has to eat alone again.
+Community Together                       让每一位⽼⼈，都不再孤单进餐
+感谢聆听，共建温暖社区
+                                                       CARELOOP   暖桌 | 2026 ROADSHOW / 2026 商业路演
+Appendix
+Appendix
+
