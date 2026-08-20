@@ -1,0 +1,32 @@
+{
+  "name": "careloop-core-codes",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Standalone CareLoop core application",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node --import tsx src/api/index.ts",
+    "dev": "tsx watch src/api/index.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc && vite build src/ui"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "tsx": "^4.19.4",
+    "uuid": "^10.0.0",
+    "ws": "^8.18.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.0.0",
+    "@types/uuid": "^10.0.0",
+    "@types/ws": "^8.5.12",
+    "typescript": "^5.5.4",
+    "vite": "^6.0.0"
+  }
+}
