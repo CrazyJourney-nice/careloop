@@ -1,4 +1,4 @@
-# CareLoop Skywork Demo
+# CareLoop 静态比赛 Demo
 
 这是从主项目独立出来的比赛演示版本。它是纯前端应用，不连接 Express、数据库、`/api` 或 `/ws`。
 
@@ -32,7 +32,13 @@ npm run build
 
 构建输出目录为 `dist`。
 
-## 部署到 Skywork
+## 推荐部署：GitHub Pages
+
+本仓库已经提供 `.github/workflows/deploy-careloop-demo.yml`，会自动构建本目录并发布 `dist`。
+
+完整操作见 [GITHUB_PAGES.md](./GITHUB_PAGES.md)。
+
+## 备选部署：Skywork
 
 1. 登录 Skywork，选择 `Websites`，或输入 `@Websites`。
 2. 通过 `+` → `Local Upload` 上传整个 `2skywork` 文件夹；如果界面不接受文件夹，则压缩后上传，或逐个上传这里的文件。
